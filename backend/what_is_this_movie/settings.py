@@ -129,9 +129,9 @@ AUTH_USER_MODEL = 'accounts.User'
 
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': [
-        'rest_framework.authentication.TokenAuthentication',
+        # 'rest_framework.authentication.TokenAuthentication',
     ],
     'DEFAULT_PERMISSION_CLASSES': [
-        'rest_framework.permissions.IsAuthenticated',  # 인증된 사용자만 허용하는 기본 권한 클래스
+        # 'rest_framework.permissions.IsAuthenticated',  # 인증된 사용자만 허용하는 기본 권한 클래스
     ],
 }

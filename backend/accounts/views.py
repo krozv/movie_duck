@@ -1,4 +1,4 @@
-from django.contrib.auth import authenticate
+from django.contrib.auth import authenticate, get_user_model
 from rest_framework.response import Response
 from rest_framework.authtoken.models import Token
 from rest_framework import status
@@ -21,9 +21,12 @@ def user_signup(request):
 def user_login(request):
     username = request.data.get('username')
     password = request.data.get('password')
-    user = authenticate(username=username, password=password)
-    token, created = Token.objects.get_or_create(user=user)
-    return Response({'message': 'login 성공'}, status=status.HTTP_200_OK)
+    user = get_user_model().objects.get(username=username, password=password)
+    if user:
+        token, created = Token.objects.get_or_create(user=user)
+        return Response({'message': 'login 성공'}, status=status.HTTP_200_OK)
+    else:
+        return Response({'message': '로그인 불가'}, status=status.HTTP_400_BAD_REQUEST)
 
 @api_view(['POST'])
 @permission_classes([])
@@ -32,6 +35,6 @@ def user_logout(request):
     token, created = Token.objects.get_or_create(key=key)
     if token:
         token.delete()
-        return Response({'message':'logout 성공'}, statue=status.HTTP_200_OK)
+        return Response({'message':'logout 성공'}, status=status.HTTP_200_OK)
     else:
         return Response({'message': '토큰 없음'}, status=status.HTTP_204_NO_CONTENT)

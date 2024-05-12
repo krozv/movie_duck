@@ -38,3 +38,6 @@ def user_logout(request):
         return Response({'message':'logout 성공'}, status=status.HTTP_200_OK)
     else:
         return Response({'message': '토큰 없음'}, status=status.HTTP_204_NO_CONTENT)
+    
+def user_signout(request):
+    pass

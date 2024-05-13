@@ -1,0 +1,32 @@
+{
+    "articles": [
+      {
+        "title": "첫 번째 글",
+        "content": "첫 번째 글 내용입니다.",
+        "author": "user1",
+        "created_at": "2024-05-13T08:00:00Z",
+        "comments": [
+          {
+            "author": "user2",
+            "content": "첫 번째 글에 대한 댓글입니다.",
+            "created_at": "2024-05-13T09:00:00Z",
+            "replies": [
+              {
+                "author": "user1",
+                "content": "댓글에 대한 대댓글입니다.",
+                "created_at": "2024-05-13T10:00:00Z"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "두 번째 글",
+        "content": "두 번째 글 내용입니다.",
+        "author": "user3",
+        "created_at": "2024-05-14T08:00:00Z",
+        "comments": []
+      }
+    ]
+  }
+  

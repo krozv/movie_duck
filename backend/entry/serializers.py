@@ -1,12 +1,12 @@
 from rest_framework import serializers
-from .models import Article, Comment, Reply
+from .models import Entry, Comment, Reply
 
-class ArticleListSerializer(serializers.ModelSerializer):
+class EntryListSerializer(serializers.ModelSerializer):
     class Meta:
-        model = Article
+        model = Entry
         fields = '__all__'
 
-class ArticleSerializer(serializers.ModelSerializer):
+class EntrySerializer(serializers.ModelSerializer):
     class Meta:
-        model = Article
+        model = Entry
         fields = '__all__'

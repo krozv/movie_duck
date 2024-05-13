@@ -38,6 +38,15 @@ def user_logout(request):
         return Response({'message':'logout 성공'}, status=status.HTTP_200_OK)
     else:
         return Response({'message': '토큰 없음'}, status=status.HTTP_204_NO_CONTENT)
-    
+
+@api_view(['POST'])
 def user_signout(request):
-    pass
+    username = request.data.get('username')
+    password = request.data.get('password')
+    user = get_user_model().objects.get(username=username, password=password)
+    user.delete()
+    return Response({'message': '회원 탈퇴 성공'}, status=status.HTTP_200_OK)
+
+    # if not user.is_authenticated:
+    #     return Response({'error': '인증되지 않은 사용자'}, status=status.HTTP_401_UNAUTHORIZED)
+    

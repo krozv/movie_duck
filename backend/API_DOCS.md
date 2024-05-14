@@ -12,20 +12,17 @@
 ### 영화 API
 | URL | Method | Description |
 | --- | --- | --- |
-| api/movie/ | GET | 메인 페이지 | 
-| api/movie/search/{search_query}/ | GET | 영화 검색 페이지 | 
-
-### 게시글 API
-| URL | Method | Description |
-| --- | --- | --- |
-| api/entry/ | GET | 메인 페이지 | 
-| api/entry/ | POST | 게시글 작성 | 
-| api/entry/{article_pk}/ | GET | 게시글 상세 정보 | 
-| api/entry/{article_pk}/ | PUT | 게시글 수정 | 
-| api/entry/{article_pk}/ | DELETE | 게시글 삭제 | 
-| api/entry/{article_pk}/comment/ | POST | 댓글 작성 | 
-| api/entry/{article_pk}/comment/{comment_pk} | PUT | 댓글 수정 | 
-| api/entry/{article_pk}/comment/{comment_pk} | DELETE | 댓글 삭제 | 
+| api/movie/ | GET | 메인 페이지 |
+| api/movie/boxoffice/ | GET | 현재 상영 중 영화 |
+| api/movie/popular/ | GET | 인기 영화 |
+| api/movie/search/{search_query}/ | GET | 영화 검색 | 
+| api/movie/{movie_pk}/ | GET | 상세 페이지 |
+| api/movie/{movie_pk}/comment/ | POST | 댓글 작성
+| api/movie/{movie_pk}/comment/{comment_pk} | PUT | 댓글 수정 |
+| api/movie/{movie_pk}/comment/{comment_pk} | DELETE | 댓글 수정 |
+| api/movie/{movie_pk}/comment/{comment_pk} | POST | 대댓글 작성 |
+| api/movie/{movie_pk}/comment/{comment_pk}/{reply_pk} | PUT | 대댓글 수정 |
+| api/movie/{movie_pk}/comment/{comment_pk}/{reply_pk} | DELETE | 대댓글 삭제 |
 
 ### WhatIsThisMovie API
 | URL | Method | Description |

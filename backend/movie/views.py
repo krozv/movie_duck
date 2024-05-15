@@ -16,23 +16,3 @@ def movie_detail(request, movie_pk):
   pass
 
 
-# dump data 만드는 기능
-def request(request):
-  return render(request, 'request.html')
-
-def save(request):
-  if request.method == 'POST':
-    movies = json.loads(request.body)['movies']
-    pprint(movies)
-    for data in movies:
-      movie = Movie(
-        title = data['title'],
-        overview = data['overview'],
-        movie_id = data['id'],
-        adult = data['adult'],
-        genre_id = data['genre_ids'],
-        popularity = data['popularity']
-      )
-      movie.save()
-    return HttpResponse({'message': '성공'})
-    # movies = json.loads(request.body)

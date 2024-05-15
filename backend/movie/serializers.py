@@ -12,9 +12,19 @@ class CommentSerializer(serializers.ModelSerializer):
         model = Comment
         fields = '__all__'
 
+class ReplySerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Reply
+        fields = '__all__'
 
 class MovieSerializer(serializers.ModelSerializer):
     comments = CommentSerializer(many=True, read_only=True)
     class Meta:
         model = Movie
         fields = ['title', 'overview', 'adult', 'comments']
+
+class CommentReplySerializer(serializers.ModelSerializer):
+    replies = ReplySerializer(many=True, read_only=True)
+    class Meta:
+        model = Comment
+        fields = '__all__'

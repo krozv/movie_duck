@@ -98,6 +98,16 @@ def similar(movie_id):
   file_name = 'similar.json'
   save_data(url, params, file_name)
 
+# vidoes
+def videos(movie_id):
+  url = f'https://api.themoviedb.org/3/movie/{movie_id}/videos'
+  params = {
+    'language': 'ko',
+    'api_key': API_KEY,
+  }
+  file_name = 'videos.json'
+  save_data(url, params, file_name)
+
 # 해당 영화를 볼 수 있는 provider 정보 제공
 # appleTV, amazon 등
 def watch_providers(movie_id):
@@ -121,8 +131,9 @@ def person_details(person_id):
 
 movie_id = 693134
 # watch_providers(movie_id)
+videos(movie_id)
 
 person_id = 1586047
-person_details(person_id)
+# person_details(person_id)
 
 # popular(1)

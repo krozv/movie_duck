@@ -9822,7 +9822,7 @@
     "vote_average": 6.788,
     "vote_count": 1164
 }
-],{
+,{
     "adult": false,
     "backdrop_path": "/lLh39Th5plbrQgbQ4zyIULsd0Pp.jpg",
     "genre_ids": [
@@ -19641,4 +19641,4 @@
     "video": false,
     "vote_average": 6.788,
     "vote_count": 1164
-}
+}]

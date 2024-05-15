@@ -5,9 +5,10 @@
 ### 유저 API
 | URL | Method | Description |
 | --- | --- | --- |
-| api/accounts/signup/ | POST | 회원가입 기능 | 
-| api/accounts/login/ | POST | 로그인 기능 | 
-| api/accounts/logout/ | POST | 로그아웃 기능 | 
+| accounts/signup/ | POST | 회원가입 기능 | 
+| accounts/login/ | POST | 로그인 기능 | 
+| accounts/logout/ | POST | 로그아웃 기능 | 
+| accounts/signout/ | DELETE | 회원탈퇴 기능 |
 
 ### 영화 API
 | URL | Method | Description |

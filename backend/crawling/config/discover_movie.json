@@ -1,0 +1,406 @@
+{
+    "page": 1,
+    "results": [
+        {
+            "adult": false,
+            "backdrop_path": "/x1Ex090BNIXcmaBYB2US0j3hBUF.jpg",
+            "genre_ids": [
+                28,
+                53,
+                18
+            ],
+            "id": 1057001,
+            "original_language": "ko",
+            "original_title": "The Childe",
+            "overview": "Desperate to secure funds for his mother's surgery, an amateur boxer searches for the wealthy father he's never met. Traveling from the Philippines to Korea, he is relentlessly pursued and forced to confront a shocking truth.",
+            "popularity": 693.894,
+            "poster_path": "/ydC8ubFXQfkPJDhkduMhbE9mTz7.jpg",
+            "release_date": "2023-06-21",
+            "title": "The Childe",
+            "video": false,
+            "vote_average": 7.052,
+            "vote_count": 77
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/7ZP8HtgOIDaBs12krXgUIygqEsy.jpg",
+            "genre_ids": [
+                878,
+                28,
+                14,
+                12
+            ],
+            "id": 601796,
+            "original_language": "ko",
+            "original_title": "외계+인 1부",
+            "overview": "Gurus in the late Goryeo dynasty try to obtain a fabled, holy sword, and humans in 2022 hunt down an alien prisoner that is locked in a human's body. The two parties cross paths when a time-traveling portal opens up.",
+            "popularity": 459.609,
+            "poster_path": "/8QVDXDiOGHRcAD4oM6MXjE0osSj.jpg",
+            "release_date": "2022-07-20",
+            "title": "Alienoid",
+            "video": false,
+            "vote_average": 6.835,
+            "vote_count": 324
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/atPlFdUrQl2U9MtUwujrrjnQHBA.jpg",
+            "genre_ids": [
+                28,
+                80,
+                18,
+                53
+            ],
+            "id": 654739,
+            "original_language": "ko",
+            "original_title": "발신제한",
+            "overview": "On his way to work, a bank manager receives an anonymous call claiming there's a bomb under his car seat, and if anyone exits the car, it will explode unless he can pay a ransom.",
+            "popularity": 217.952,
+            "poster_path": "/y2Aimt8isimtigec3e4kB2G9FMR.jpg",
+            "release_date": "2021-06-23",
+            "title": "Hard Hit",
+            "video": false,
+            "vote_average": 7.692,
+            "vote_count": 177
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/aINel9503ompOlGKn4sIVMg09Un.jpg",
+            "genre_ids": [
+                9648,
+                27,
+                53
+            ],
+            "id": 838209,
+            "original_language": "ko",
+            "original_title": "파묘",
+            "overview": "After tracing the origin of a disturbing supernatural affliction to a wealthy family's ancestral gravesite, a team of paranormal experts relocates the remains—and soon discovers what happens to those who dare to mess with the wrong grave.",
+            "popularity": 235.869,
+            "poster_path": "/pQYHouPsDw32FhDLr7E3jmw0WTk.jpg",
+            "release_date": "2024-02-22",
+            "title": "Exhuma",
+            "video": false,
+            "vote_average": 7.495,
+            "vote_count": 100
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/pWsD91G2R1Da3AKM3ymr3UoIfRb.jpg",
+            "genre_ids": [
+                878,
+                28
+            ],
+            "id": 933131,
+            "original_language": "ko",
+            "original_title": "황야",
+            "overview": "After a deadly earthquake turns Seoul into a lawless badland, a fearless huntsman springs into action to rescue a teenager abducted by a mad doctor.",
+            "popularity": 147.584,
+            "poster_path": "/sdI9ufheNPAKnWLl2hnsZKVk0EG.jpg",
+            "release_date": "2024-01-25",
+            "title": "Badland Hunters",
+            "video": false,
+            "vote_average": 6.79,
+            "vote_count": 601
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/lLsJRHjwHUdg8VoJsgcJLnewRxN.jpg",
+            "genre_ids": [
+                10749,
+                18
+            ],
+            "id": 851644,
+            "original_language": "ko",
+            "original_title": "20세기 소녀",
+            "overview": "In 1999, a teen girl keeps close tabs on a boy in school on behalf of her deeply smitten best friend – then she gets swept up in a love story of her own.",
+            "popularity": 107.874,
+            "poster_path": "/od22ftNnyag0TTxcnJhlsu3aLoU.jpg",
+            "release_date": "2022-10-06",
+            "title": "20th Century Girl",
+            "video": false,
+            "vote_average": 8.181,
+            "vote_count": 626
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/fI6X3Hd8KvtAuOKVdmxckdNzrx.jpg",
+            "genre_ids": [
+                80,
+                28,
+                53
+            ],
+            "id": 581528,
+            "original_language": "ko",
+            "original_title": "악인전",
+            "overview": "After barely surviving a violent attack by an elusive serial killer, crime boss Jang Dong-su finds himself forming an unlikely partnership with local detective Jung Tae-seok to catch the sadistic killer simply known as K.",
+            "popularity": 95.007,
+            "poster_path": "/oHlM4abRm6BzrRcz9Nup1uidw9H.jpg",
+            "release_date": "2019-05-15",
+            "title": "The Gangster, the Cop, the Devil",
+            "video": false,
+            "vote_average": 7.808,
+            "vote_count": 1011
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/TU9NIjwzjoKPwQHoHshkFcQUCG.jpg",
+            "genre_ids": [
+                35,
+                53,
+                18
+            ],
+            "id": 496243,
+            "original_language": "ko",
+            "original_title": "기생충",
+            "overview": "All unemployed, Ki-taek's family takes peculiar interest in the wealthy and glamorous Parks for their livelihood until they get entangled in an unexpected incident.",
+            "popularity": 113.089,
+            "poster_path": "/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg",
+            "release_date": "2019-05-30",
+            "title": "Parasite",
+            "video": false,
+            "vote_average": 8.51,
+            "vote_count": 17521
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/brnfCYyz8EMbBrHgmh8sCwBi5i1.jpg",
+            "genre_ids": [
+                27,
+                53,
+                28,
+                12
+            ],
+            "id": 396535,
+            "original_language": "ko",
+            "original_title": "부산행",
+            "overview": "When a zombie virus pushes Korea into a state of emergency, those trapped on an express train to Busan must fight for their own survival.",
+            "popularity": 102.617,
+            "poster_path": "/vNVFt6dtcqnI7hqa6LFBUibuFiw.jpg",
+            "release_date": "2016-07-20",
+            "title": "Train to Busan",
+            "video": false,
+            "vote_average": 7.752,
+            "vote_count": 7094
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/xNXKpsY1Rxq9Ncbw8WVs7j4ijZU.jpg",
+            "genre_ids": [
+                18,
+                10749
+            ],
+            "id": 716263,
+            "original_language": "ko",
+            "original_title": "시누이의 맛",
+            "overview": "Ha-ni who was on a honeymoon with her husband, Jae-ho, seems to be uncomfortable with her sister-in-law, Ye-ji. She is a freeloader who lives in her brother's house without any other job. When the close brother and sister's affection was being expressed boldly and the sister's obsession with her brother gets stronger day by day, Ha-ni got tired of her sister-in-law's behavior of entering their bedroom in her sexy underwear. Ha-ni goes to Ik-tae, the manager of the cabin and had a physical relationship. What could the real purpose of their trip to the mountain be, and what could be the fate of the married couple that is tangled like a thread around Ha-ni and her sister-in-law's relationship?",
+            "popularity": 107.372,
+            "poster_path": "/rQkCN5ozUpzXnaK9Sn0qsrqPMw6.jpg",
+            "release_date": "2020-06-10",
+            "title": "Sister-in-law's Taste",
+            "video": false,
+            "vote_average": 6.8,
+            "vote_count": 14
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/kZbTOcTrEGyroQMWQSGIRlNSkwP.jpg",
+            "genre_ids": [
+                878,
+                28,
+                14,
+                12
+            ],
+            "id": 626412,
+            "original_language": "ko",
+            "original_title": "외계+인 2부",
+            "overview": "Ean has a critical missionto return to the future to save everyone. However, she becomes trapped in the distant past while trying to prevent the escape of alien prisoners who are locked upin the bodies of humans. Meanwhile, Muruk, who helps Ean escape various predicaments, is unnerved when he begins sensing the presence of a strange being in his body. Traveling through the centuries, they are trying to prevent the explosion of the haava.",
+            "popularity": 89.702,
+            "poster_path": "/4RClncz0GTKPZzSAcAalHCw0h3g.jpg",
+            "release_date": "2024-01-10",
+            "title": "Alienoid: Return to the Future",
+            "video": false,
+            "vote_average": 6.679,
+            "vote_count": 159
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                10749
+            ],
+            "id": 766836,
+            "original_language": "ko",
+            "original_title": "아들의 여친 아빠의 여친",
+            "overview": "Dong-gook, who is thinking of remarrying, introduces his stepmother Kyeong-sook to his son Jin-yeong. At the family gathering, Jin-yeong is surprised to see his stepmother's younger brother Hyeon-sook who was his one-night stand just a few days ago! Jin-yeong and his stepmother is lying down, drunk. Meanwhile, there is a strange atmosphere between Dong-gook and Hyeon-sook, who were drinking alone, and at that moment Jin-yeong's girlfriend Joo-yeon appears drunk.",
+            "popularity": 105.731,
+            "poster_path": "/sDAiTv1YkOm6sLtUIhOTAPPQiQZ.jpg",
+            "release_date": "2020-11-13",
+            "title": "Son's Girlfriend, Daddy's Girlfriend",
+            "video": false,
+            "vote_average": 0.0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/9kVFEixUsH1d4pVfkcEJuMCJpL1.jpg",
+            "genre_ids": [
+                80,
+                28,
+                18
+            ],
+            "id": 1017163,
+            "original_language": "ko",
+            "original_title": "범죄도시 4",
+            "overview": "'Monster Cop' Ma Seok-do investigates an illegal online gambling business led by a former STS Baek and an IT genius CEO Chang. Ma proposes an unexpected alliance to Jang and begins hunting down the criminals.",
+            "popularity": 84.263,
+            "poster_path": "/yk38mNoJpsswmk9o7i7eLhO4mc.jpg",
+            "release_date": "2024-04-24",
+            "title": "The Roundup: Punishment",
+            "video": false,
+            "vote_average": 8.2,
+            "vote_count": 7
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/8cV7zcFvazfEY8uStId95FHXcwk.jpg",
+            "genre_ids": [
+                28,
+                9648,
+                53,
+                878,
+                12
+            ],
+            "id": 615173,
+            "original_language": "ko",
+            "original_title": "마녀 2",
+            "overview": "A girl wakes up in a huge secret laboratory, then accidentally meets another girl who is trying to protect her house from a gang. The mystery girl overthrows the gang with her unexpected powers, and laboratory staff set out to find her.",
+            "popularity": 69.723,
+            "poster_path": "/icQM4lMTEUVYPrSOV3BH9LZjvmY.jpg",
+            "release_date": "2022-06-15",
+            "title": "The Witch: Part 2. The Other One",
+            "video": false,
+            "vote_average": 7.11,
+            "vote_count": 242
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/iCcDTzw0tOH9XYUlrrTfGu9LzJ5.jpg",
+            "genre_ids": [
+                18,
+                10749
+            ],
+            "id": 504903,
+            "original_language": "ko",
+            "original_title": "불륜 동창회",
+            "overview": "Five college alumni gathered at a pension after a long time. We are happy to share our past memories, but do you really have a different purpose?! Yoon-jae visits Eugene, whom he had a crush on in college. A set meal enjoyed by two female classmates. The affair reunion is about to begin, with different ways of having fun...",
+            "popularity": 74.372,
+            "poster_path": "/oRcwpgqV7Wjt1xok8SztZWHcgn4.jpg",
+            "release_date": "2018-03-02",
+            "title": "Adultery Alumni Association",
+            "video": false,
+            "vote_average": 6.85,
+            "vote_count": 10
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/tnNDrsRMx2zMvVkbQMfGN3YBFxu.jpg",
+            "genre_ids": [
+                18,
+                10749
+            ],
+            "id": 474412,
+            "original_language": "ko",
+            "original_title": "사촌여동생",
+            "overview": "Gwang-ho is bored except for the time he's taking off his girlfriend's underwear. He visits his Seoul home at the news that his grandfather is dying. Amidst the awkwardness, he remembers something. Ji-yoon is his cousin who has grown up to be a young lady. Gwang-ho is attracted to the fully grown woman and the same is said for Ji-yoon.",
+            "popularity": 69.349,
+            "poster_path": "/rUt5SoQTvNc4pZXGUZFpoWaRtl6.jpg",
+            "release_date": "2017-02-28",
+            "title": "To Her",
+            "video": false,
+            "vote_average": 6.75,
+            "vote_count": 7
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/g8kCHQzfogy1t1dE9nPBtiFkz64.jpg",
+            "genre_ids": [
+                53,
+                878,
+                18
+            ],
+            "id": 729854,
+            "original_language": "ko",
+            "original_title": "콘크리트 유토피아",
+            "overview": "After a massive earthquake, only one apartment building is left standing in Seoul, South Korea. Outsiders flock to Hwang Gung Apartments, but residents can't cope with the increasing numbers.",
+            "popularity": 70.539,
+            "poster_path": "/4l68KHxnPSow8MvnGUpjqLzJtLJ.jpg",
+            "release_date": "2023-08-09",
+            "title": "Concrete Utopia",
+            "video": false,
+            "vote_average": 7.23,
+            "vote_count": 126
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/sdwjQEM869JFwMytTmvr6ggvaUl.jpg",
+            "genre_ids": [
+                18,
+                53,
+                9648,
+                28
+            ],
+            "id": 670,
+            "original_language": "ko",
+            "original_title": "올드보이",
+            "overview": "With no clue how he came to be imprisoned, drugged and tortured for 15 years, a desperate businessman seeks revenge on his captors.",
+            "popularity": 70.913,
+            "poster_path": "/pWDtjs568ZfOTMbURQBYuT4Qxka.jpg",
+            "release_date": "2003-11-21",
+            "title": "Oldboy",
+            "video": false,
+            "vote_average": 8.259,
+            "vote_count": 8296
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                10749
+            ],
+            "id": 892222,
+            "original_language": "ko",
+            "original_title": "새아빠와 모녀",
+            "overview": "Seo-ra, an elegant woman from Louisiana, U.S., marries businessman Kyeong-han who does anything to make money. Kyeong-hwan was in a relationship with Mi-yeon, who was a bar madam, but after his marriage to Seo-ra, he tells Mi-yeon that he will now live as an elegant businessman. For Kyeong-hwan, however, there was a problem of sexual desire and madness when he saw clothes with no underwear in sight. One day, Seo-ra's biological daughter Yoo-na, appeared at Kyeong-hwan's newlywed house in a short skirt.",
+            "popularity": 69.624,
+            "poster_path": "/49UMGEIEACXOU5PvwUswyVDmgJf.jpg",
+            "release_date": "2021-09-24",
+            "title": "Stepdad and Mother-Daughter",
+            "video": false,
+            "vote_average": 7.0,
+            "vote_count": 1
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/xkXsV1WOiKfAJ6dzXiavdwsZ3E2.jpg",
+            "genre_ids": [
+                28,
+                53,
+                27,
+                80
+            ],
+            "id": 799379,
+            "original_language": "ko",
+            "original_title": "늑대사냥",
+            "overview": "While under heavily armed guard, the dangerous convicts aboard a cargo ship unite in a coordinated escape attempt that soon escalates into a bloody, all-out riot. But as the fugitives continue their brutal campaign of terror, they soon discover that not even the most vicious among them is safe from the horror they unknowingly unleashed from the darkness below deck.",
+            "popularity": 57.538,
+            "poster_path": "/dniWicB6fa7NvpGbguxWlNPMc5f.jpg",
+            "release_date": "2022-09-21",
+            "title": "Project Wolf Hunting",
+            "video": false,
+            "vote_average": 6.395,
+            "vote_count": 310
+        }
+    ],
+    "total_pages": 585,
+    "total_results": 11685
+}

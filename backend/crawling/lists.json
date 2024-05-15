@@ -1,0 +1,19 @@
+{
+    "id": 653346,
+    "page": 1,
+    "results": [
+        {
+            "description": "시험",
+            "favorite_count": 0,
+            "id": 8299922,
+            "item_count": 1,
+            "iso_639_1": "ko",
+            "iso_3166_1": "KR",
+            "list_type": "movie",
+            "name": "시험",
+            "poster_path": null
+        }
+    ],
+    "total_pages": 1,
+    "total_results": 1
+}

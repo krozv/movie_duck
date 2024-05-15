@@ -20,7 +20,7 @@
 | api/movie/{movie_pk}/ | GET | 상세 페이지 |
 | api/movie/{movie_pk}/comment/ | POST | 댓글 작성
 | api/movie/{movie_pk}/comment/{comment_pk} | PUT | 댓글 수정 |
-| api/movie/{movie_pk}/comment/{comment_pk} | DELETE | 댓글 수정 |
+| api/movie/{movie_pk}/comment/{comment_pk} | DELETE | 댓글 삭제 |
 | api/movie/{movie_pk}/comment/{comment_pk} | POST | 대댓글 작성 |
 | api/movie/{movie_pk}/comment/{comment_pk}/{reply_pk} | PUT | 대댓글 수정 |
 | api/movie/{movie_pk}/comment/{comment_pk}/{reply_pk} | DELETE | 대댓글 삭제 |

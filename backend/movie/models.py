@@ -17,7 +17,7 @@ class Movie(models.Model):
     #     ordering = ['-created_at']  # 최신 글이 먼저 나오도록 정렬
 
 class Comment(models.Model):
-    article = models.ForeignKey(Movie, related_name='comments', on_delete=models.CASCADE)
+    movie = models.ForeignKey(Movie, related_name='comments', on_delete=models.CASCADE)
     author = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
     content = models.TextField()
     created_at = models.DateTimeField(auto_now_add=True)  # 작성 일시

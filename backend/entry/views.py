@@ -35,4 +35,8 @@ def entry_detail(request, entry_pk):
     
     # 단일 게시글 update
     if request.method == 'PUT':
-        pass
+        entry = get_object_or_404(Entry, pk=entry_pk)
+        serializer = EntrySerializer(entry, data=request.data, partial=True)
+        if serializer.is_valid(raise_exception=True):
+            serializer.save()
+            return Response(serializer.data)            

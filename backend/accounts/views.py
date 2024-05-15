@@ -1,52 +1,40 @@
-from django.contrib.auth import authenticate, get_user_model
-from rest_framework.response import Response
+from django.contrib.auth import get_user_model
+from django.http import JsonResponse
+from rest_framework.views import APIView
+from rest_framework.permissions import IsAuthenticated
 from rest_framework.authtoken.models import Token
-from rest_framework import status
-from .serializers import UserSerializer
-from rest_framework.decorators import api_view, permission_classes, authentication_classes
-from rest_framework.authentication import TokenAuthentication
 
-@api_view(['POST'])
-@permission_classes([])
-def user_signup(request):
-    serializer = UserSerializer(data=request.data)
-    if serializer.is_valid():
-        user = serializer.save()
-        return Response({'message': '회원가입 성공'}, status=status.HTTP_201_CREATED)
-    
-    return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
-    
-@api_view(['POST'])
-@permission_classes([])
-def user_login(request):
-    username = request.data.get('username')
-    password = request.data.get('password')
-    user = get_user_model().objects.get(username=username, password=password)
-    if user:
-        token, created = Token.objects.get_or_create(user=user)
-        return Response({'message': 'login 성공'}, status=status.HTTP_200_OK)
-    else:
-        return Response({'message': '로그인 불가'}, status=status.HTTP_400_BAD_REQUEST)
+User = get_user_model()
 
-@api_view(['POST'])
-@permission_classes([])
-def user_logout(request):
-    key = request.data['token']
-    token, created = Token.objects.get_or_create(key=key)
-    if token:
-        token.delete()
-        return Response({'message':'logout 성공'}, status=status.HTTP_200_OK)
-    else:
-        return Response({'message': '토큰 없음'}, status=status.HTTP_204_NO_CONTENT)
+class SignOutView(APIView):
+    permission_classes = [IsAuthenticated]
 
-@api_view(['POST'])
-def user_signout(request):
-    username = request.data.get('username')
-    password = request.data.get('password')
-    user = get_user_model().objects.get(username=username, password=password)
-    user.delete()
-    return Response({'message': '회원 탈퇴 성공'}, status=status.HTTP_200_OK)
+    def delete(self, request, *args, **kwargs):
+        print(request)
+        user = request.user
+        Token.objects.filter(user=user).delete()
+        user.delete()
+        request.session.flush()
+        return JsonResponse({"message": "회원탈퇴 성공"})
 
-    # if not user.is_authenticated:
-    #     return Response({'error': '인증되지 않은 사용자'}, status=status.HTTP_401_UNAUTHORIZED)
-    
+
+
+# from allauth.socialaccount.providers.google.views import GoogleOAuth2Adapter
+# from allauth.socialaccount.providers.oauth2.client import OAuth2Client
+# from dj_rest_auth.registration.views import SocialLoginView
+
+# class GoogleLogin(SocialLoginView): # if you want to use Authorization Code Grant, use this
+#     adapter_class = GoogleOAuth2Adapter
+#     callback_url = CALLBACK_URL_YOU_SET_ON_GOOGLE
+#     client_class = OAuth2Client
+
+# class GoogleLogin(SocialLoginView): # if you want to use Implicit Grant, use this
+#     adapter_class = GoogleOAuth2Adapter
+
+# from allauth.socialaccount.providers.github.views import GitHubOAuth2Adapter
+# from allauth.socialaccount.providers.oauth2.client import OAuth2Client
+
+# class GitHubLogin(SocialLoginView):
+#     adapter_class = GitHubOAuth2Adapter
+#     callback_url = CALLBACK_URL_YOU_SET_ON_GITHUB
+#     client_class = OAuth2Client

@@ -14,6 +14,23 @@ def popular(page):
   }
   save_data(url, params, 'movies.json')
 
+def genres():
+  url = 'https://api.themoviedb.org/3/genre/movie/list'
+  params = {
+    'language': 'ko',
+    'api_key': API_KEY,
+  }
+  save_data(url, params, 'genres.json')
+  
+def movie_providers():
+  url = 'https://api.themoviedb.org/3/watch/providers/movie'
+  params = {
+    'language': 'ko',
+    'watch_region' : 'KR',
+    'api_key': API_KEY,
+  }
+  save_data(url, params, 'movie_providers.json')
+  
 # json 파일로 저장하는 함수
 def save_data(url, params, file_name):
   response = requests.get(url, params=params)
@@ -46,7 +63,10 @@ def credits(movie_id):
     'api_key': API_KEY,
   }
   file_name = 'credits.json'
-  save_data(url, params, file_name)
+  response = requests.get(url, params=params)
+  if response.status_code == 200:
+    return response.json()
+  
 
 ### movie_id에 따른 해당 영화 keywords 확인 가능
 def keywords(movie_id):
@@ -106,18 +126,27 @@ def videos(movie_id):
     'api_key': API_KEY,
   }
   file_name = 'videos.json'
-  save_data(url, params, file_name)
+  response = requests.get(url, params=params)
+  if response.status_code == 200:
+    return response.json().get('results')
 
 # 해당 영화를 볼 수 있는 provider 정보 제공
 # appleTV, amazon 등
 def watch_providers(movie_id):
+  print(movie_id)
   url = f'https://api.themoviedb.org/3/movie/{movie_id}/watch/providers'
   params = {
     'language': 'ko',
     'api_key': API_KEY,
   }
   file_name = 'watch_providers.json'
-  save_data(url, params, file_name)
+  response = requests.get(url, params=params)
+  # print(response)
+
+  if response.status_code == 200:
+    return response.json().get('results').get('KR')
+  
+  # save_data(url, params, file_name)
 
 # person id에 따른 인물 정보
 def person_details(person_id):
@@ -131,9 +160,12 @@ def person_details(person_id):
 
 movie_id = 693134
 # watch_providers(movie_id)
-videos(movie_id)
+# videos(movie_id)
 
 person_id = 1586047
 # person_details(person_id)
 
 # popular(1)
+# genres()
+
+# movie_providers()

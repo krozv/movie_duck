@@ -1,4 +1,5 @@
 <template>
+    <h2>시대를 강타한 영화</h2>
     <div class="movie-slider">
       <button @click="moveLeft">&lt;</button>
         <div class="slider-container">
@@ -60,6 +61,7 @@ const moveRight = () => {
 .movie-slider {
   display: flex;
   align-items: center;
+  margin-bottom: 30px;
 }
 .slider-container {
   overflow: hidden;
@@ -74,7 +76,6 @@ const moveRight = () => {
   flex-shrink: 0;
   width: 300px; /* 각 슬라이드의 너비 */
   padding: 10px;
-  background-color: #f0f0f0;
   margin-right: 10px; /* 슬라이드 간격 */
   border-radius: 5px;
 }
@@ -85,5 +86,8 @@ button {
   padding: 5px 10px;
   border-radius: 3px;
   cursor: pointer;
+}
+h2 {
+    margin-left: 50px;
 }
 </style>

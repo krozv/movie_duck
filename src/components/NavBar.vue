@@ -28,5 +28,6 @@ div {
 a {
     color: rgba(255, 255, 255, 0.815);
     text-decoration-line: none;
+    align-items: center;
 }
 </style>

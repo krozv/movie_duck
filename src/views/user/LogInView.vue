@@ -1,14 +1,14 @@
 <template>
-  <div>
+  <div class="loginpage">
     <h1>로그인</h1>
     <form @submit.prevent="logIn">
       <div>
-        <label for="username">username : </label>
-        <input type="text" v-model.trim="username" id="username">
+        <label for="username">이메일 : </label>
+        <input type="text" v-model.trim="username" id="username" placeholder="Email을 입력해주세요.">
       </div>
       <div>
-        <label for="password">password : </label>
-        <input type="password" v-model.trim="password" id="password">
+        <label for="password">패스워드 : </label>
+        <input type="password" v-model.trim="password" id="password" placeholder="PW를 입력해주세요.">
       </div>
       <input type="submit">
     </form>
@@ -34,5 +34,16 @@ const logIn = function() {
 </script>
 
 <style>
+  .loginpage {
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 40%;
+    width: 300px;
+    height: 400px;
+    display: block;
+  }
 
+  input #password {
+    border: 1px solid black;
+  }
 </style>

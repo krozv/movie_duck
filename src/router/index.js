@@ -3,7 +3,7 @@ import HomeView from '@/views/HomeView.vue'
 import MovieDetailView from '@/views/movies/MovieDetailView.vue'
 import MovieListView from '@/views/movies/MovieListView.vue'
 import RecommendedView from '@/views/movies/RecommendedView.vue'
-import ReviewSearchView from '@/views/ReviewSearchView.vue'
+import MovieSearchView from '@/views/MovieSearchView.vue'
 import SignUpView from '@/views/user/SignUpView.vue'
 import LogInView from '@/views/user/LogInView.vue'
 import { useCounterStore } from '@/stores/userStore'
@@ -27,9 +27,9 @@ const router = createRouter({
       component: MovieDetailView
     },
     {
-      path:'/review-search',
-      name:'review-search',
-      component: ReviewSearchView
+      path:'/movie-search/:search',
+      name:'movie-search',
+      component: MovieSearchView
     },
     {
       path:'/recommended',

@@ -25,6 +25,13 @@
 | api/movie/{movie_pk}/comment/{comment_pk}/{reply_pk} | PUT | 대댓글 수정 |
 | api/movie/{movie_pk}/comment/{comment_pk}/{reply_pk} | DELETE | 대댓글 삭제 |
 
+### 추천 API
+| URL | Method | Description |
+| --- | --- | --- |
+| api/recommend/ | GET | 영화 추천 페이지 |
+| api/recommend/ | PUT | 영화 목록 reset |
+| api/recommend/ | POST | 추천 영화 목록 |
+
 ### WhatIsThisMovie API
 | URL | Method | Description |
 | --- | --- | --- |

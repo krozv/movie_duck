@@ -6,12 +6,19 @@ from .serializers import CommentSerializer, ReplySerializer
 from .serializers import CommentReplySerializer
 from .models import Movie, Comment, Reply
 from django.shortcuts import get_object_or_404
+from pprint import pprint
+from crawling import crawling
 
-@api_view(['GET'])
+@api_view(['GET', 'POST'])
 def movie_main(request):
-  movies = Movie.objects.all()
-  serializer = MovieListSerializer(movies, many=True)
-  return Response(serializer.data, status=status.HTTP_200_OK)
+  if request.method == 'GET':
+    movies = Movie.objects.all()
+    serializer = MovieListSerializer(movies, many=True)
+    return Response(serializer.data, status=status.HTTP_200_OK)
+  # 데이터 추출 및 저장용으로 사용할 예정
+  if request.method == 'POST':
+    pass
+    return Response({'message':'test'}, status=status.HTTP_200_OK)
 
 @api_view(['GET'])
 def movie_detail(request, movie_pk):

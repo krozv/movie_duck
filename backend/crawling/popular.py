@@ -2,7 +2,7 @@ import json
 import requests
 
 # TMDB api key
-API_KEY = '769830601abcc5047d5d1a90b40dc11c'
+API_KEY = 'api_key 넣으면 됨'
 
 # json 파일로 저장하는 함수
 def add_data(url, params, file_name):
@@ -33,6 +33,6 @@ def popular(page):
     file_name = 'top_rated_movie.json'
     add_data(url, params, file_name)
 
-for page in range(1, 1001):
+for page in range(1, 400):
     popular(page)
     print(page)

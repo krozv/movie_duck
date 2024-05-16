@@ -1,0 +1,3412 @@
+[
+{
+    "model": "movie.director",
+    "pk": 1,
+    "fields": {
+        "director_id": 17350,
+        "director_name": "케빈 맥도널드",
+        "director_original_name": "Kevin Macdonald",
+        "director_popularity": 9
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 2,
+    "fields": {
+        "director_id": 29922,
+        "director_name": "Marcus Nispel",
+        "director_original_name": "Marcus Nispel",
+        "director_popularity": 10
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 3,
+    "fields": {
+        "director_id": 893,
+        "director_name": "토니 스콧",
+        "director_original_name": "Tony Scott",
+        "director_popularity": 26
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 4,
+    "fields": {
+        "director_id": 7017,
+        "director_name": "로저 미첼",
+        "director_original_name": "Roger Michell",
+        "director_popularity": 10
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 5,
+    "fields": {
+        "director_id": 638,
+        "director_name": "마이클 만",
+        "director_original_name": "Michael Mann",
+        "director_popularity": 31
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 6,
+    "fields": {
+        "director_id": 17361,
+        "director_name": "Lars Kraume",
+        "director_original_name": "Lars Kraume",
+        "director_popularity": 16
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 7,
+    "fields": {
+        "director_id": 17386,
+        "director_name": "로랑 캉테",
+        "director_original_name": "Laurent Cantet",
+        "director_popularity": 15
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 8,
+    "fields": {
+        "director_id": 578,
+        "director_name": "리들리 스콧",
+        "director_original_name": "Ridley Scott",
+        "director_popularity": 39
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 9,
+    "fields": {
+        "director_id": 17403,
+        "director_name": "Mike Judge",
+        "director_original_name": "Mike Judge",
+        "director_popularity": 21
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 10,
+    "fields": {
+        "director_id": 17407,
+        "director_name": "Sven Taddicken",
+        "director_original_name": "Sven Taddicken",
+        "director_popularity": 8
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 11,
+    "fields": {
+        "director_id": 17510,
+        "director_name": "Ol Parker",
+        "director_original_name": "Ol Parker",
+        "director_popularity": 26
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 12,
+    "fields": {
+        "director_id": 17439,
+        "director_name": "마이크 밀스",
+        "director_original_name": "Mike Mills",
+        "director_popularity": 7
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 13,
+    "fields": {
+        "director_id": 5572,
+        "director_name": "조엘 슈마허",
+        "director_original_name": "Joel Schumacher",
+        "director_popularity": 14
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 14,
+    "fields": {
+        "director_id": 17447,
+        "director_name": "테리 즈위고프",
+        "director_original_name": "Terry Zwigoff",
+        "director_popularity": 9
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 15,
+    "fields": {
+        "director_id": 17458,
+        "director_name": "압델라티프 케시시",
+        "director_original_name": "Abdellatif Kechiche",
+        "director_popularity": 8
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 16,
+    "fields": {
+        "director_id": 3290,
+        "director_name": "Peter Hedges",
+        "director_original_name": "Peter Hedges",
+        "director_popularity": 14
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 17,
+    "fields": {
+        "director_id": 6159,
+        "director_name": "론 하워드",
+        "director_original_name": "Ron Howard",
+        "director_popularity": 34
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 18,
+    "fields": {
+        "director_id": 17496,
+        "director_name": "자크 오디아르",
+        "director_original_name": "Jacques Audiard",
+        "director_popularity": 9
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 19,
+    "fields": {
+        "director_id": 4429,
+        "director_name": "짐 자무시",
+        "director_original_name": "Jim Jarmusch",
+        "director_popularity": 7
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 20,
+    "fields": {
+        "director_id": 17520,
+        "director_name": "Cédric Klapisch",
+        "director_original_name": "Cédric Klapisch",
+        "director_popularity": 7
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 21,
+    "fields": {
+        "director_id": 17542,
+        "director_name": "Toshio Matsumoto",
+        "director_original_name": "Toshio Matsumoto",
+        "director_popularity": 4
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 22,
+    "fields": {
+        "director_id": 6094,
+        "director_name": "Hans-Christian Schmid",
+        "director_original_name": "Hans-Christian Schmid",
+        "director_popularity": 6
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 23,
+    "fields": {
+        "director_id": 17549,
+        "director_name": "Hendrik Handloegten",
+        "director_original_name": "Hendrik Handloegten",
+        "director_popularity": 10
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 24,
+    "fields": {
+        "director_id": 17554,
+        "director_name": "Dušan Makavejev",
+        "director_original_name": "Dušan Makavejev",
+        "director_popularity": 7
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 25,
+    "fields": {
+        "director_id": 17582,
+        "director_name": "Nikos Nikolaidis",
+        "director_original_name": "Nikos Nikolaidis",
+        "director_popularity": 4
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 26,
+    "fields": {
+        "director_id": 10346,
+        "director_name": "로베르 브레송",
+        "director_original_name": "Robert Bresson",
+        "director_popularity": 10
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 27,
+    "fields": {
+        "director_id": 17597,
+        "director_name": "Juan Carlos Fresnadillo",
+        "director_original_name": "Juan Carlos Fresnadillo",
+        "director_popularity": 16
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 28,
+    "fields": {
+        "director_id": 9956,
+        "director_name": "크리스 마커",
+        "director_original_name": "Chris Marker",
+        "director_popularity": 18
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 29,
+    "fields": {
+        "director_id": 21113,
+        "director_name": "D. A. Pennebaker",
+        "director_original_name": "D. A. Pennebaker",
+        "director_popularity": 5
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 30,
+    "fields": {
+        "director_id": 9894,
+        "director_name": "Bernhard Wicki",
+        "director_original_name": "Bernhard Wicki",
+        "director_popularity": 6
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 31,
+    "fields": {
+        "director_id": 14597,
+        "director_name": "가스파 노에",
+        "director_original_name": "Gaspar Noé",
+        "director_popularity": 14
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 32,
+    "fields": {
+        "director_id": 17620,
+        "director_name": "Nico B.",
+        "director_original_name": "Nico B.",
+        "director_popularity": 3
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 33,
+    "fields": {
+        "director_id": 17619,
+        "director_name": "Rozz Williams",
+        "director_original_name": "Rozz Williams",
+        "director_popularity": 3
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 34,
+    "fields": {
+        "director_id": 3950,
+        "director_name": "렌 와이즈먼",
+        "director_original_name": "Len Wiseman",
+        "director_popularity": 23
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 35,
+    "fields": {
+        "director_id": 1090,
+        "director_name": "존 맥티어난",
+        "director_original_name": "John McTiernan",
+        "director_popularity": 16
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 36,
+    "fields": {
+        "director_id": 16938,
+        "director_name": "레니 할린",
+        "director_original_name": "Renny Harlin",
+        "director_popularity": 28
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 37,
+    "fields": {
+        "director_id": 17633,
+        "director_name": "롭 마셜",
+        "director_original_name": "Rob Marshall",
+        "director_popularity": 7
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 38,
+    "fields": {
+        "director_id": 4014,
+        "director_name": "폴 W. S. 앤더슨",
+        "director_original_name": "Paul W. S. Anderson",
+        "director_popularity": 28
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 39,
+    "fields": {
+        "director_id": 17649,
+        "director_name": "Alexander Witt",
+        "director_original_name": "Alexander Witt",
+        "director_popularity": 6
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 40,
+    "fields": {
+        "director_id": 1032,
+        "director_name": "마틴 스코세이지",
+        "director_original_name": "Martin Scorsese",
+        "director_popularity": 45
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 41,
+    "fields": {
+        "director_id": 2461,
+        "director_name": "멜 깁슨",
+        "director_original_name": "Mel Gibson",
+        "director_popularity": 100
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 42,
+    "fields": {
+        "director_id": 2636,
+        "director_name": "알프레드 히치콕",
+        "director_original_name": "Alfred Hitchcock",
+        "director_popularity": 29
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 43,
+    "fields": {
+        "director_id": 17698,
+        "director_name": "낸시 마이어스",
+        "director_original_name": "Nancy Meyers",
+        "director_popularity": 17
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 44,
+    "fields": {
+        "director_id": 17700,
+        "director_name": "Christian Zübert",
+        "director_original_name": "Christian Zübert",
+        "director_popularity": 7
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 45,
+    "fields": {
+        "director_id": 564,
+        "director_name": "리처드 링클레이터",
+        "director_original_name": "Richard Linklater",
+        "director_popularity": 20
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 46,
+    "fields": {
+        "director_id": 2662,
+        "director_name": "프랭크 카프라",
+        "director_original_name": "Frank Capra",
+        "director_popularity": 14
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 47,
+    "fields": {
+        "director_id": 508,
+        "director_name": "David Koepp",
+        "director_original_name": "David Koepp",
+        "director_popularity": 18
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 48,
+    "fields": {
+        "director_id": 5306,
+        "director_name": "라세 할스트룀",
+        "director_original_name": "Lasse Hallström",
+        "director_popularity": 22
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 49,
+    "fields": {
+        "director_id": 59026,
+        "director_name": "페이턴 리드",
+        "director_original_name": "Peyton Reed",
+        "director_popularity": 14
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 50,
+    "fields": {
+        "director_id": 17784,
+        "director_name": "John Irvin",
+        "director_original_name": "John Irvin",
+        "director_popularity": 11
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 51,
+    "fields": {
+        "director_id": 1128,
+        "director_name": "아그네츠카 홀란드",
+        "director_original_name": "Agnieszka Holland",
+        "director_popularity": 5
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 52,
+    "fields": {
+        "director_id": 4522,
+        "director_name": "Caroline Link",
+        "director_original_name": "Caroline Link",
+        "director_popularity": 11
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 53,
+    "fields": {
+        "director_id": 17812,
+        "director_name": "그레고리 호블릿",
+        "director_original_name": "Gregory Hoblit",
+        "director_popularity": 7
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 54,
+    "fields": {
+        "director_id": 17825,
+        "director_name": "숀 레비",
+        "director_original_name": "Shawn Levy",
+        "director_popularity": 34
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 55,
+    "fields": {
+        "director_id": 1927,
+        "director_name": "블레이크 에드워즈",
+        "director_original_name": "Blake Edwards",
+        "director_popularity": 11
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 56,
+    "fields": {
+        "director_id": 2303,
+        "director_name": "빔 벤더스",
+        "director_original_name": "Wim Wenders",
+        "director_popularity": 28
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 57,
+    "fields": {
+        "director_id": 29779,
+        "director_name": "미셸 매클래런",
+        "director_original_name": "Michelle MacLaren",
+        "director_popularity": 10
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 58,
+    "fields": {
+        "director_id": 6737,
+        "director_name": "제이 로치",
+        "director_original_name": "Jay Roach",
+        "director_popularity": 18
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 59,
+    "fields": {
+        "director_id": 17883,
+        "director_name": "데이비드 O. 러셀",
+        "director_original_name": "David O. Russell",
+        "director_popularity": 10
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 60,
+    "fields": {
+        "director_id": 1126,
+        "director_name": "크쥐시토프 키에슬로프스키",
+        "director_original_name": "Krzysztof Kieślowski",
+        "director_popularity": 15
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 61,
+    "fields": {
+        "director_id": 380,
+        "director_name": "로버트 드 니로",
+        "director_original_name": "Robert De Niro",
+        "director_popularity": 96
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 62,
+    "fields": {
+        "director_id": 68800,
+        "director_name": "Maria Giese",
+        "director_original_name": "Maria Giese",
+        "director_popularity": 2
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 63,
+    "fields": {
+        "director_id": 18024,
+        "director_name": "John Hay",
+        "director_original_name": "John Hay",
+        "director_popularity": 5
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 64,
+    "fields": {
+        "director_id": 18030,
+        "director_name": "David Evans",
+        "director_original_name": "David Evans",
+        "director_popularity": 3
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 65,
+    "fields": {
+        "director_id": 1869,
+        "director_name": "Sönke Wortmann",
+        "director_original_name": "Sönke Wortmann",
+        "director_popularity": 5
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 66,
+    "fields": {
+        "director_id": 18039,
+        "director_name": "Tomy Wigand",
+        "director_original_name": "Tomy Wigand",
+        "director_popularity": 3
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 67,
+    "fields": {
+        "director_id": 17268,
+        "director_name": "우인태",
+        "director_original_name": "Ronny Yu",
+        "director_popularity": 9
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 68,
+    "fields": {
+        "director_id": 18090,
+        "director_name": "Axel Sand",
+        "director_original_name": "Axel Sand",
+        "director_popularity": 7
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 69,
+    "fields": {
+        "director_id": 18064,
+        "director_name": "Michael Karen",
+        "director_original_name": "Michael Karen",
+        "director_popularity": 4
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 70,
+    "fields": {
+        "director_id": 18069,
+        "director_name": "Brian Gibson",
+        "director_original_name": "Brian Gibson",
+        "director_popularity": 7
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 71,
+    "fields": {
+        "director_id": 9033,
+        "director_name": "크리스토퍼 맥쿼리",
+        "director_original_name": "Christopher McQuarrie",
+        "director_popularity": 18
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 72,
+    "fields": {
+        "director_id": 18184,
+        "director_name": "Xavier Gens",
+        "director_original_name": "Xavier Gens",
+        "director_popularity": 8
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 73,
+    "fields": {
+        "director_id": 4610,
+        "director_name": "존 랜디스",
+        "director_original_name": "John Landis",
+        "director_popularity": 16
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 74,
+    "fields": {
+        "director_id": 18175,
+        "director_name": "Dominik Moll",
+        "director_original_name": "Dominik Moll",
+        "director_popularity": 9
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 75,
+    "fields": {
+        "director_id": 13859,
+        "director_name": "Stuart Rosenberg",
+        "director_original_name": "Stuart Rosenberg",
+        "director_popularity": 5
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 76,
+    "fields": {
+        "director_id": 4499,
+        "director_name": "Tom Shadyac",
+        "director_original_name": "Tom Shadyac",
+        "director_popularity": 10
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 77,
+    "fields": {
+        "director_id": 3776,
+        "director_name": "장뤽 고다르",
+        "director_original_name": "Jean-Luc Godard",
+        "director_popularity": 17
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 78,
+    "fields": {
+        "director_id": 1650,
+        "director_name": "프랑수아 트뤼포",
+        "director_original_name": "François Truffaut",
+        "director_popularity": 9
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 79,
+    "fields": {
+        "director_id": 3974,
+        "director_name": "밀로스 포만",
+        "director_original_name": "Miloš Forman",
+        "director_popularity": 10
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 80,
+    "fields": {
+        "director_id": 6295,
+        "director_name": "카트린 브레야",
+        "director_original_name": "Catherine Breillat",
+        "director_popularity": 16
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 81,
+    "fields": {
+        "director_id": 9168,
+        "director_name": "앨런 파커",
+        "director_original_name": "Alan Parker",
+        "director_popularity": 12
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 82,
+    "fields": {
+        "director_id": 18250,
+        "director_name": "Jon Avnet",
+        "director_original_name": "Jon Avnet",
+        "director_popularity": 9
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 83,
+    "fields": {
+        "director_id": 18254,
+        "director_name": "Simon Wincer",
+        "director_original_name": "Simon Wincer",
+        "director_popularity": 10
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 84,
+    "fields": {
+        "director_id": 865,
+        "director_name": "마이클 베이",
+        "director_original_name": "Michael Bay",
+        "director_popularity": 25
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 85,
+    "fields": {
+        "director_id": 1524,
+        "director_name": "해롤드 래미스",
+        "director_original_name": "Harold Ramis",
+        "director_popularity": 29
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 86,
+    "fields": {
+        "director_id": 2209,
+        "director_name": "쟝 드봉",
+        "director_original_name": "Jan de Bont",
+        "director_popularity": 10
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 87,
+    "fields": {
+        "director_id": 455,
+        "director_name": "폴 해기스",
+        "director_original_name": "Paul Haggis",
+        "director_popularity": 9
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 88,
+    "fields": {
+        "director_id": 18320,
+        "director_name": "Bronwen Hughes",
+        "director_original_name": "Bronwen Hughes",
+        "director_popularity": 8
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 89,
+    "fields": {
+        "director_id": 11472,
+        "director_name": "Irwin Winkler",
+        "director_original_name": "Irwin Winkler",
+        "director_popularity": 6
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 90,
+    "fields": {
+        "director_id": 4956,
+        "director_name": "베르나르도 베르톨루치",
+        "director_original_name": "Bernardo Bertolucci",
+        "director_popularity": 13
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 91,
+    "fields": {
+        "director_id": 18335,
+        "director_name": "George Sluizer",
+        "director_original_name": "George Sluizer",
+        "director_popularity": 6
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 92,
+    "fields": {
+        "director_id": 2163,
+        "director_name": "Richard LaGravenese",
+        "director_original_name": "Richard LaGravenese",
+        "director_popularity": 10
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 93,
+    "fields": {
+        "director_id": 21370,
+        "director_name": "Roger Donaldson",
+        "director_original_name": "Roger Donaldson",
+        "director_popularity": 11
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 94,
+    "fields": {
+        "director_id": 18356,
+        "director_name": "Stephen Herek",
+        "director_original_name": "Stephen Herek",
+        "director_popularity": 6
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 95,
+    "fields": {
+        "director_id": 18357,
+        "director_name": "Peter Hewitt",
+        "director_original_name": "Peter Hewitt",
+        "director_popularity": 13
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 96,
+    "fields": {
+        "director_id": 10620,
+        "director_name": "Ulli Lommel",
+        "director_original_name": "Ulli Lommel",
+        "director_popularity": 11
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 97,
+    "fields": {
+        "director_id": 53420,
+        "director_name": "Peter Moland",
+        "director_original_name": "Peter Moland",
+        "director_popularity": 7
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 98,
+    "fields": {
+        "director_id": 18415,
+        "director_name": "Christoph Schlingensief",
+        "director_original_name": "Christoph Schlingensief",
+        "director_popularity": 11
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 99,
+    "fields": {
+        "director_id": 18400,
+        "director_name": "Helge Schneider",
+        "director_original_name": "Helge Schneider",
+        "director_popularity": 13
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 100,
+    "fields": {
+        "director_id": 8574,
+        "director_name": "월터 살레스",
+        "director_original_name": "Walter Salles",
+        "director_popularity": 10
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 101,
+    "fields": {
+        "director_id": 18392,
+        "director_name": "로버트 알드리치",
+        "director_original_name": "Robert Aldrich",
+        "director_popularity": 12
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 102,
+    "fields": {
+        "director_id": 10702,
+        "director_name": "마틴 캠벨",
+        "director_original_name": "Martin Campbell",
+        "director_popularity": 9
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 103,
+    "fields": {
+        "director_id": 18428,
+        "director_name": "Malte Ludin",
+        "director_original_name": "Malte Ludin",
+        "director_popularity": 1
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 104,
+    "fields": {
+        "director_id": 35408,
+        "director_name": "Ralf Huettner",
+        "director_original_name": "Ralf Huettner",
+        "director_popularity": 6
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 105,
+    "fields": {
+        "director_id": 3702,
+        "director_name": "Sebastian Schipper",
+        "director_original_name": "Sebastian Schipper",
+        "director_popularity": 12
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 106,
+    "fields": {
+        "director_id": 18500,
+        "director_name": "Phil Joanou",
+        "director_original_name": "Phil Joanou",
+        "director_popularity": 10
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 107,
+    "fields": {
+        "director_id": 18502,
+        "director_name": "Alfred Vohrer",
+        "director_original_name": "Alfred Vohrer",
+        "director_popularity": 8
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 108,
+    "fields": {
+        "director_id": 5216,
+        "director_name": "구스 반 산트",
+        "director_original_name": "Gus Van Sant",
+        "director_popularity": 14
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 109,
+    "fields": {
+        "director_id": 18524,
+        "director_name": "Eric Steel",
+        "director_original_name": "Eric Steel",
+        "director_popularity": 5
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 110,
+    "fields": {
+        "director_id": 18525,
+        "director_name": "Luc Jacquet",
+        "director_original_name": "Luc Jacquet",
+        "director_popularity": 11
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 111,
+    "fields": {
+        "director_id": 18563,
+        "director_name": "Georges Lautner",
+        "director_original_name": "Georges Lautner",
+        "director_popularity": 15
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 112,
+    "fields": {
+        "director_id": 18574,
+        "director_name": "Budd Boetticher",
+        "director_original_name": "Budd Boetticher",
+        "director_popularity": 9
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 113,
+    "fields": {
+        "director_id": 18592,
+        "director_name": "Tom Gries",
+        "director_original_name": "Tom Gries",
+        "director_popularity": 8
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 114,
+    "fields": {
+        "director_id": 18596,
+        "director_name": "Taylor Hackford",
+        "director_original_name": "Taylor Hackford",
+        "director_popularity": 9
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 115,
+    "fields": {
+        "director_id": 18598,
+        "director_name": "혼다 이시로",
+        "director_original_name": "本多猪四郎",
+        "director_popularity": 27
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 116,
+    "fields": {
+        "director_id": 18603,
+        "director_name": "Motoyoshi Oda",
+        "director_original_name": "Motoyoshi Oda",
+        "director_popularity": 3
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 117,
+    "fields": {
+        "director_id": 2042,
+        "director_name": "Stephen Hopkins",
+        "director_original_name": "Stephen Hopkins",
+        "director_popularity": 15
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 118,
+    "fields": {
+        "director_id": 18618,
+        "director_name": "Bettina Blümner",
+        "director_original_name": "Bettina Blümner",
+        "director_popularity": 3
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 119,
+    "fields": {
+        "director_id": 18635,
+        "director_name": "Ted Post",
+        "director_original_name": "Ted Post",
+        "director_popularity": 10
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 120,
+    "fields": {
+        "director_id": 18626,
+        "director_name": "앤디 워홀",
+        "director_original_name": "Andy Warhol",
+        "director_popularity": 16
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 121,
+    "fields": {
+        "director_id": 18627,
+        "director_name": "Paul Morrissey",
+        "director_original_name": "Paul Morrissey",
+        "director_popularity": 11
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 122,
+    "fields": {
+        "director_id": 9108,
+        "director_name": "Don Taylor",
+        "director_original_name": "Don Taylor",
+        "director_popularity": 13
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 123,
+    "fields": {
+        "director_id": 18669,
+        "director_name": "J. Lee Thompson",
+        "director_original_name": "J. Lee Thompson",
+        "director_popularity": 9
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 124,
+    "fields": {
+        "director_id": 16847,
+        "director_name": "일라이 로스",
+        "director_original_name": "Eli Roth",
+        "director_popularity": 28
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 125,
+    "fields": {
+        "director_id": 24949,
+        "director_name": "Michael Davis",
+        "director_original_name": "Michael Davis",
+        "director_popularity": 5
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 126,
+    "fields": {
+        "director_id": 27991,
+        "director_name": "스튜어트 고든",
+        "director_original_name": "Stuart Gordon",
+        "director_popularity": 9
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 127,
+    "fields": {
+        "director_id": 16848,
+        "director_name": "롭 좀비",
+        "director_original_name": "Rob Zombie",
+        "director_popularity": 18
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 128,
+    "fields": {
+        "director_id": 18710,
+        "director_name": "Marcus H. Rosenmüller",
+        "director_original_name": "Marcus H. Rosenmüller",
+        "director_popularity": 7
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 129,
+    "fields": {
+        "director_id": 15115,
+        "director_name": "Stefan Ruzowitzky",
+        "director_original_name": "Stefan Ruzowitzky",
+        "director_popularity": 14
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 130,
+    "fields": {
+        "director_id": 3026,
+        "director_name": "롭 라이너",
+        "director_original_name": "Rob Reiner",
+        "director_popularity": 28
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 131,
+    "fields": {
+        "director_id": 12786,
+        "director_name": "Simon West",
+        "director_original_name": "Simon West",
+        "director_popularity": 10
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 132,
+    "fields": {
+        "director_id": 10808,
+        "director_name": "Stephen Norrington",
+        "director_original_name": "Stephen Norrington",
+        "director_popularity": 5
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 133,
+    "fields": {
+        "director_id": 15148,
+        "director_name": "Jon Amiel",
+        "director_original_name": "Jon Amiel",
+        "director_popularity": 6
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 134,
+    "fields": {
+        "director_id": 18694,
+        "director_name": "Bret Michaels",
+        "director_original_name": "Bret Michaels",
+        "director_popularity": 5
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 135,
+    "fields": {
+        "director_id": 18738,
+        "director_name": "조지 스티븐스",
+        "director_original_name": "George Stevens",
+        "director_popularity": 9
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 136,
+    "fields": {
+        "director_id": 5281,
+        "director_name": "스파이크 리",
+        "director_original_name": "Spike Lee",
+        "director_popularity": 26
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 137,
+    "fields": {
+        "director_id": 2260,
+        "director_name": "스티븐 제일리언",
+        "director_original_name": "Steven Zaillian",
+        "director_popularity": 16
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 138,
+    "fields": {
+        "director_id": 4109,
+        "director_name": "Michael Curtiz",
+        "director_original_name": "Michael Curtiz",
+        "director_popularity": 10
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 139,
+    "fields": {
+        "director_id": 18823,
+        "director_name": "Dagur Kári",
+        "director_original_name": "Dagur Kári",
+        "director_popularity": 4
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 140,
+    "fields": {
+        "director_id": 18834,
+        "director_name": "Giuseppe Colizzi",
+        "director_original_name": "Giuseppe Colizzi",
+        "director_popularity": 5
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 141,
+    "fields": {
+        "director_id": 18844,
+        "director_name": "존 매든",
+        "director_original_name": "John Madden",
+        "director_popularity": 11
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 142,
+    "fields": {
+        "director_id": 18854,
+        "director_name": "Martin Ritt",
+        "director_original_name": "Martin Ritt",
+        "director_popularity": 7
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 143,
+    "fields": {
+        "director_id": 18865,
+        "director_name": "Louis Leterrier",
+        "director_original_name": "Louis Leterrier",
+        "director_popularity": 18
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 144,
+    "fields": {
+        "director_id": 18868,
+        "director_name": "Jerome Robbins",
+        "director_original_name": "Jerome Robbins",
+        "director_popularity": 5
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 145,
+    "fields": {
+        "director_id": 1744,
+        "director_name": "Robert Wise",
+        "director_original_name": "Robert Wise",
+        "director_popularity": 14
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 146,
+    "fields": {
+        "director_id": 15277,
+        "director_name": "존 패브로",
+        "director_original_name": "Jon Favreau",
+        "director_popularity": 50
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 147,
+    "fields": {
+        "director_id": 12840,
+        "director_name": "John Badham",
+        "director_original_name": "John Badham",
+        "director_popularity": 11
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 148,
+    "fields": {
+        "director_id": 18898,
+        "director_name": "Rob Minkoff",
+        "director_original_name": "Rob Minkoff",
+        "director_popularity": 16
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 149,
+    "fields": {
+        "director_id": 5602,
+        "director_name": "데이비드 린치",
+        "director_original_name": "David Lynch",
+        "director_popularity": 29
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 150,
+    "fields": {
+        "director_id": 18903,
+        "director_name": "Sandra Nettelbeck",
+        "director_original_name": "Sandra Nettelbeck",
+        "director_popularity": 17
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 151,
+    "fields": {
+        "director_id": 18907,
+        "director_name": "Richard Quine",
+        "director_original_name": "Richard Quine",
+        "director_popularity": 9
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 152,
+    "fields": {
+        "director_id": 7775,
+        "director_name": "Stephen Sommers",
+        "director_original_name": "Stephen Sommers",
+        "director_popularity": 13
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 153,
+    "fields": {
+        "director_id": 18878,
+        "director_name": "Rob Cohen",
+        "director_original_name": "Rob Cohen",
+        "director_popularity": 14
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 154,
+    "fields": {
+        "director_id": 18927,
+        "director_name": "Ralf Westhoff",
+        "director_original_name": "Ralf Westhoff",
+        "director_popularity": 3
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 155,
+    "fields": {
+        "director_id": 7256,
+        "director_name": "리 타마호리",
+        "director_original_name": "Lee Tamahori",
+        "director_popularity": 15
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 156,
+    "fields": {
+        "director_id": 49415,
+        "director_name": "Paul May",
+        "director_original_name": "Paul May",
+        "director_popularity": 10
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 157,
+    "fields": {
+        "director_id": 18969,
+        "director_name": "도리스 되리",
+        "director_original_name": "Doris Dörrie",
+        "director_popularity": 15
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 158,
+    "fields": {
+        "director_id": 17016,
+        "director_name": "닐 조던",
+        "director_original_name": "Neil Jordan",
+        "director_popularity": 10
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 159,
+    "fields": {
+        "director_id": 4945,
+        "director_name": "조 존스턴",
+        "director_original_name": "Joe Johnston",
+        "director_popularity": 20
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 160,
+    "fields": {
+        "director_id": 102445,
+        "director_name": "존 세일즈",
+        "director_original_name": "John Sayles",
+        "director_popularity": 10
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 161,
+    "fields": {
+        "director_id": 17087,
+        "director_name": "마이클 무어",
+        "director_original_name": "Michael Moore",
+        "director_popularity": 21
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 162,
+    "fields": {
+        "director_id": 19003,
+        "director_name": "Heidi Ewing",
+        "director_original_name": "Heidi Ewing",
+        "director_popularity": 4
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 163,
+    "fields": {
+        "director_id": 19006,
+        "director_name": "Rachel Grady",
+        "director_original_name": "Rachel Grady",
+        "director_popularity": 4
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 164,
+    "fields": {
+        "director_id": 19026,
+        "director_name": "Paul Hough",
+        "director_original_name": "Paul Hough",
+        "director_popularity": 4
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 165,
+    "fields": {
+        "director_id": 19012,
+        "director_name": "Davis Guggenheim",
+        "director_original_name": "Davis Guggenheim",
+        "director_popularity": 6
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 166,
+    "fields": {
+        "director_id": 19035,
+        "director_name": "Gilles Bourdos",
+        "director_original_name": "Gilles Bourdos",
+        "director_popularity": 8
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 167,
+    "fields": {
+        "director_id": 133635,
+        "director_name": "David L. Cunningham",
+        "director_original_name": "David L. Cunningham",
+        "director_popularity": 3
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 168,
+    "fields": {
+        "director_id": 15389,
+        "director_name": "루이 말",
+        "director_original_name": "Louis Malle",
+        "director_popularity": 16
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 169,
+    "fields": {
+        "director_id": 19069,
+        "director_name": "클로드 샤브롤",
+        "director_original_name": "Claude Chabrol",
+        "director_popularity": 12
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 170,
+    "fields": {
+        "director_id": 18378,
+        "director_name": "Herbert Ross",
+        "director_original_name": "Herbert Ross",
+        "director_popularity": 18
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 171,
+    "fields": {
+        "director_id": 19093,
+        "director_name": "George Marshall",
+        "director_original_name": "George Marshall",
+        "director_popularity": 7
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 172,
+    "fields": {
+        "director_id": 19101,
+        "director_name": "Lee H. Katzin",
+        "director_original_name": "Lee H. Katzin",
+        "director_popularity": 8
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 173,
+    "fields": {
+        "director_id": 6011,
+        "director_name": "미카엘 하네케",
+        "director_original_name": "Michael Haneke",
+        "director_popularity": 20
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 174,
+    "fields": {
+        "director_id": 7395,
+        "director_name": "바비 패럴리",
+        "director_original_name": "Bobby Farrelly",
+        "director_popularity": 11
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 175,
+    "fields": {
+        "director_id": 7396,
+        "director_name": "피터 패럴리",
+        "director_original_name": "Peter Farrelly",
+        "director_popularity": 20
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 176,
+    "fields": {
+        "director_id": 8956,
+        "director_name": "Robert Vincent O'Neil",
+        "director_original_name": "Robert Vincent O'Neil",
+        "director_popularity": 8
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 177,
+    "fields": {
+        "director_id": 16863,
+        "director_name": "토드 헤인즈",
+        "director_original_name": "Todd Haynes",
+        "director_popularity": 7
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 178,
+    "fields": {
+        "director_id": 8297,
+        "director_name": "Roger Avary",
+        "director_original_name": "Roger Avary",
+        "director_popularity": 10
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 179,
+    "fields": {
+        "director_id": 2746,
+        "director_name": "엘리아 카잔",
+        "director_original_name": "Elia Kazan",
+        "director_popularity": 15
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 180,
+    "fields": {
+        "director_id": 19224,
+        "director_name": "그렉 아라키",
+        "director_original_name": "Gregg Araki",
+        "director_popularity": 10
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 181,
+    "fields": {
+        "director_id": 19228,
+        "director_name": "Jim Fall",
+        "director_original_name": "Jim Fall",
+        "director_popularity": 11
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 182,
+    "fields": {
+        "director_id": 19236,
+        "director_name": "Michael Schorr",
+        "director_original_name": "Michael Schorr",
+        "director_popularity": 2
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 183,
+    "fields": {
+        "director_id": 19244,
+        "director_name": "Michael Winner",
+        "director_original_name": "Michael Winner",
+        "director_popularity": 11
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 184,
+    "fields": {
+        "director_id": 4786,
+        "director_name": "리처드 애튼버러",
+        "director_original_name": "Richard Attenborough",
+        "director_popularity": 23
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 185,
+    "fields": {
+        "director_id": 19271,
+        "director_name": "안소니 루소",
+        "director_original_name": "Anthony Russo",
+        "director_popularity": 23
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 186,
+    "fields": {
+        "director_id": 19272,
+        "director_name": "조 루소",
+        "director_original_name": "Joe Russo",
+        "director_popularity": 21
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 187,
+    "fields": {
+        "director_id": 13426,
+        "director_name": "피터 시걸",
+        "director_original_name": "Peter Segal",
+        "director_popularity": 12
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 188,
+    "fields": {
+        "director_id": 33008,
+        "director_name": "Menahem Golan",
+        "director_original_name": "Menahem Golan",
+        "director_popularity": 12
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 189,
+    "fields": {
+        "director_id": 8685,
+        "director_name": "앤드류 니콜",
+        "director_original_name": "Andrew Niccol",
+        "director_popularity": 10
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 190,
+    "fields": {
+        "director_id": 19304,
+        "director_name": "John Schlesinger",
+        "director_original_name": "John Schlesinger",
+        "director_popularity": 8
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 191,
+    "fields": {
+        "director_id": 19303,
+        "director_name": "케빈 스미스",
+        "director_original_name": "Kevin Smith",
+        "director_popularity": 26
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 192,
+    "fields": {
+        "director_id": 10965,
+        "director_name": "크리스 콜럼버스",
+        "director_original_name": "Chris Columbus",
+        "director_popularity": 28
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 193,
+    "fields": {
+        "director_id": 64114,
+        "director_name": "Edward Dmytryk",
+        "director_original_name": "Edward Dmytryk",
+        "director_popularity": 5
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 194,
+    "fields": {
+        "director_id": 19333,
+        "director_name": "Dick Richards",
+        "director_original_name": "Dick Richards",
+        "director_popularity": 8
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 195,
+    "fields": {
+        "director_id": 19359,
+        "director_name": "Marina de Van",
+        "director_original_name": "Marina de Van",
+        "director_popularity": 6
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 196,
+    "fields": {
+        "director_id": 19376,
+        "director_name": "Virginie Wagon",
+        "director_original_name": "Virginie Wagon",
+        "director_popularity": 5
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 197,
+    "fields": {
+        "director_id": 19346,
+        "director_name": "Niels Arden Oplev",
+        "director_original_name": "Niels Arden Oplev",
+        "director_popularity": 7
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 198,
+    "fields": {
+        "director_id": 19396,
+        "director_name": "John Brahm",
+        "director_original_name": "John Brahm",
+        "director_popularity": 11
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 199,
+    "fields": {
+        "director_id": 19406,
+        "director_name": "Robert Montgomery",
+        "director_original_name": "Robert Montgomery",
+        "director_popularity": 15
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 200,
+    "fields": {
+        "director_id": 66224,
+        "director_name": "Charles B. Pierce",
+        "director_original_name": "Charles B. Pierce",
+        "director_popularity": 5
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 201,
+    "fields": {
+        "director_id": 19416,
+        "director_name": "Ondi Timoner",
+        "director_original_name": "Ondi Timoner",
+        "director_popularity": 4
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 202,
+    "fields": {
+        "director_id": 1146,
+        "director_name": "줄리 델피",
+        "director_original_name": "Julie Delpy",
+        "director_popularity": 24
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 203,
+    "fields": {
+        "director_id": 55146,
+        "director_name": "Paul Bogart",
+        "director_original_name": "Paul Bogart",
+        "director_popularity": 13
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 204,
+    "fields": {
+        "director_id": 9789,
+        "director_name": "로버트 올트먼",
+        "director_original_name": "Robert Altman",
+        "director_popularity": 20
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 205,
+    "fields": {
+        "director_id": 19450,
+        "director_name": "Bob Rafelson",
+        "director_original_name": "Bob Rafelson",
+        "director_popularity": 10
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 206,
+    "fields": {
+        "director_id": 19457,
+        "director_name": "Mark Robson",
+        "director_original_name": "Mark Robson",
+        "director_popularity": 5
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 207,
+    "fields": {
+        "director_id": 19473,
+        "director_name": "Alex March",
+        "director_original_name": "Alex March",
+        "director_popularity": 5
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 208,
+    "fields": {
+        "director_id": 1152,
+        "director_name": "올리버 스톤",
+        "director_original_name": "Oliver Stone",
+        "director_popularity": 18
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 209,
+    "fields": {
+        "director_id": 19509,
+        "director_name": "Jessica Yu",
+        "director_original_name": "Jessica Yu",
+        "director_popularity": 5
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 210,
+    "fields": {
+        "director_id": 19516,
+        "director_name": "Alfred Weidenmann",
+        "director_original_name": "Alfred Weidenmann",
+        "director_popularity": 8
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 211,
+    "fields": {
+        "director_id": 18555,
+        "director_name": "Herbert Reinecker",
+        "director_original_name": "Herbert Reinecker",
+        "director_popularity": 10
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 212,
+    "fields": {
+        "director_id": 19528,
+        "director_name": "Vincent Sherman",
+        "director_original_name": "Vincent Sherman",
+        "director_popularity": 12
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 213,
+    "fields": {
+        "director_id": 19542,
+        "director_name": "Nelson Shin",
+        "director_original_name": "Nelson Shin",
+        "director_popularity": 4
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 214,
+    "fields": {
+        "director_id": 2428,
+        "director_name": "에른스트 루비치",
+        "director_original_name": "Ernst Lubitsch",
+        "director_popularity": 16
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 215,
+    "fields": {
+        "director_id": 19556,
+        "director_name": "Alexander Ramati",
+        "director_original_name": "Alexander Ramati",
+        "director_popularity": 1
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 216,
+    "fields": {
+        "director_id": 19565,
+        "director_name": "Sergio M. Castilla",
+        "director_original_name": "Sergio M. Castilla",
+        "director_popularity": 1
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 217,
+    "fields": {
+        "director_id": 19572,
+        "director_name": "Richard Michaels",
+        "director_original_name": "Richard Michaels",
+        "director_popularity": 8
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 218,
+    "fields": {
+        "director_id": 12329,
+        "director_name": "비토리오 데 시카",
+        "director_original_name": "Vittorio De Sica",
+        "director_popularity": 11
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 219,
+    "fields": {
+        "director_id": 19606,
+        "director_name": "Jean Negulesco",
+        "director_original_name": "Jean Negulesco",
+        "director_popularity": 7
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 220,
+    "fields": {
+        "director_id": 19629,
+        "director_name": "Guy Casaril",
+        "director_original_name": "Guy Casaril",
+        "director_popularity": 3
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 221,
+    "fields": {
+        "director_id": 19639,
+        "director_name": "André Hunebelle",
+        "director_original_name": "André Hunebelle",
+        "director_popularity": 14
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 222,
+    "fields": {
+        "director_id": 19656,
+        "director_name": "Sebastian Gutierrez",
+        "director_original_name": "Sebastian Gutierrez",
+        "director_popularity": 11
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 223,
+    "fields": {
+        "director_id": 19665,
+        "director_name": "존 부어만",
+        "director_original_name": "John Boorman",
+        "director_popularity": 7
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 224,
+    "fields": {
+        "director_id": 19684,
+        "director_name": "빌 어거스트",
+        "director_original_name": "Bille August",
+        "director_popularity": 13
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 225,
+    "fields": {
+        "director_id": 19700,
+        "director_name": "Chris Cook",
+        "director_original_name": "Chris Cook",
+        "director_popularity": 0
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 226,
+    "fields": {
+        "director_id": 19708,
+        "director_name": "Albert Band",
+        "director_original_name": "Albert Band",
+        "director_popularity": 8
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 227,
+    "fields": {
+        "director_id": 19707,
+        "director_name": "Charles Band",
+        "director_original_name": "Charles Band",
+        "director_popularity": 14
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 228,
+    "fields": {
+        "director_id": 280,
+        "director_name": "테리 길리엄",
+        "director_original_name": "Terry Gilliam",
+        "director_popularity": 14
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 229,
+    "fields": {
+        "director_id": 4081,
+        "director_name": "스탠리 크레이머",
+        "director_original_name": "Stanley Kramer",
+        "director_popularity": 11
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 230,
+    "fields": {
+        "director_id": 8328,
+        "director_name": "존 밀리어스",
+        "director_original_name": "John Milius",
+        "director_popularity": 13
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 231,
+    "fields": {
+        "director_id": 19730,
+        "director_name": "Stéphane Meunier",
+        "director_original_name": "Stéphane Meunier",
+        "director_popularity": 5
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 232,
+    "fields": {
+        "director_id": 4065,
+        "director_name": "프레드 진네만",
+        "director_original_name": "Fred Zinnemann",
+        "director_popularity": 7
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 233,
+    "fields": {
+        "director_id": 19744,
+        "director_name": "John Korty",
+        "director_original_name": "John Korty",
+        "director_popularity": 6
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 234,
+    "fields": {
+        "director_id": 16513,
+        "director_name": "존 G. 아빌드센",
+        "director_original_name": "John G. Avildsen",
+        "director_popularity": 11
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 235,
+    "fields": {
+        "director_id": 1769,
+        "director_name": "소피아 코폴라",
+        "director_original_name": "Sofia Coppola",
+        "director_popularity": 17
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 236,
+    "fields": {
+        "director_id": 3146,
+        "director_name": "빌리 와일더",
+        "director_original_name": "Billy Wilder",
+        "director_popularity": 21
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 237,
+    "fields": {
+        "director_id": 19789,
+        "director_name": "Marcel Ophüls",
+        "director_original_name": "Marcel Ophüls",
+        "director_popularity": 9
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 238,
+    "fields": {
+        "director_id": 19798,
+        "director_name": "Randa Haines",
+        "director_original_name": "Randa Haines",
+        "director_popularity": 5
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 239,
+    "fields": {
+        "director_id": 10930,
+        "director_name": "어빈 케쉬너",
+        "director_original_name": "Irvin Kershner",
+        "director_popularity": 14
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 240,
+    "fields": {
+        "director_id": 19800,
+        "director_name": "Richard Marquand",
+        "director_original_name": "Richard Marquand",
+        "director_popularity": 11
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 241,
+    "fields": {
+        "director_id": 1,
+        "director_name": "조지 루카스",
+        "director_original_name": "George Lucas",
+        "director_popularity": 29
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 242,
+    "fields": {
+        "director_id": 19804,
+        "director_name": "Manuel Huerga",
+        "director_original_name": "Manuel Huerga",
+        "director_popularity": 10
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 243,
+    "fields": {
+        "director_id": 19837,
+        "director_name": "Dai Sijie",
+        "director_original_name": "Dai Sijie",
+        "director_popularity": 6
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 244,
+    "fields": {
+        "director_id": 1884,
+        "director_name": "스티븐 소더버그",
+        "director_original_name": "Steven Soderbergh",
+        "director_popularity": 17
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 245,
+    "fields": {
+        "director_id": 3289,
+        "director_name": "Paul Weitz",
+        "director_original_name": "Paul Weitz",
+        "director_popularity": 10
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 246,
+    "fields": {
+        "director_id": 19840,
+        "director_name": "알레한드로 아메나바르",
+        "director_original_name": "Alejandro Amenábar",
+        "director_popularity": 12
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 247,
+    "fields": {
+        "director_id": 11649,
+        "director_name": "카메론 크로우",
+        "director_original_name": "Cameron Crowe",
+        "director_popularity": 11
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 248,
+    "fields": {
+        "director_id": 19864,
+        "director_name": "Rosa von Praunheim",
+        "director_original_name": "Rosa von Praunheim",
+        "director_popularity": 6
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 249,
+    "fields": {
+        "director_id": 19865,
+        "director_name": "Konrad Wolf",
+        "director_original_name": "Konrad Wolf",
+        "director_popularity": 7
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 250,
+    "fields": {
+        "director_id": 5509,
+        "director_name": "Wolfgang Kohlhaase",
+        "director_original_name": "Wolfgang Kohlhaase",
+        "director_popularity": 13
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 251,
+    "fields": {
+        "director_id": 2034,
+        "director_name": "대니 보일",
+        "director_original_name": "Danny Boyle",
+        "director_popularity": 16
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 252,
+    "fields": {
+        "director_id": 25210,
+        "director_name": "Jeremy Leven",
+        "director_original_name": "Jeremy Leven",
+        "director_popularity": 8
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 253,
+    "fields": {
+        "director_id": 19879,
+        "director_name": "Cyril Tuschi",
+        "director_original_name": "Cyril Tuschi",
+        "director_popularity": 3
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 254,
+    "fields": {
+        "director_id": 3722,
+        "director_name": "Hans Weingartner",
+        "director_original_name": "Hans Weingartner",
+        "director_popularity": 4
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 255,
+    "fields": {
+        "director_id": 19912,
+        "director_name": "Ute Wieland",
+        "director_original_name": "Ute Wieland",
+        "director_popularity": 5
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 256,
+    "fields": {
+        "director_id": 19920,
+        "director_name": "Bruno Grass",
+        "director_original_name": "Bruno Grass",
+        "director_popularity": 6
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 257,
+    "fields": {
+        "director_id": 19921,
+        "director_name": "Wolfgang Büld",
+        "director_original_name": "Wolfgang Büld",
+        "director_popularity": 8
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 258,
+    "fields": {
+        "director_id": 18176,
+        "director_name": "Gilles Marchand",
+        "director_original_name": "Gilles Marchand",
+        "director_popularity": 10
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 259,
+    "fields": {
+        "director_id": 19939,
+        "director_name": "Keren Yedaya",
+        "director_original_name": "Keren Yedaya",
+        "director_popularity": 1
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 260,
+    "fields": {
+        "director_id": 98,
+        "director_name": "사라 폴리",
+        "director_original_name": "Sarah Polley",
+        "director_popularity": 33
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 261,
+    "fields": {
+        "director_id": 8626,
+        "director_name": "Gerd Oswald",
+        "director_original_name": "Gerd Oswald",
+        "director_popularity": 9
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 262,
+    "fields": {
+        "director_id": 19969,
+        "director_name": "Pat O'Connor",
+        "director_original_name": "Pat O'Connor",
+        "director_popularity": 4
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 263,
+    "fields": {
+        "director_id": 19983,
+        "director_name": "Sam Garbarski",
+        "director_original_name": "Sam Garbarski",
+        "director_popularity": 8
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 264,
+    "fields": {
+        "director_id": 7187,
+        "director_name": "리처드 도너",
+        "director_original_name": "Richard Donner",
+        "director_popularity": 17
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 265,
+    "fields": {
+        "director_id": 672,
+        "director_name": "Oskar Roehler",
+        "director_original_name": "Oskar Roehler",
+        "director_popularity": 9
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 266,
+    "fields": {
+        "director_id": 15488,
+        "director_name": "켄 로치",
+        "director_original_name": "Ken Loach",
+        "director_popularity": 26
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 267,
+    "fields": {
+        "director_id": 6495,
+        "director_name": "미라 네어",
+        "director_original_name": "Mira Nair",
+        "director_popularity": 9
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 268,
+    "fields": {
+        "director_id": 20025,
+        "director_name": "이마무라 쇼헤이",
+        "director_original_name": "Shōhei Imamura",
+        "director_popularity": 5
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 269,
+    "fields": {
+        "director_id": 20024,
+        "director_name": "Amos Gitai",
+        "director_original_name": "Amos Gitai",
+        "director_popularity": 10
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 270,
+    "fields": {
+        "director_id": 223,
+        "director_name": "알레한드로 곤살레스 이냐리투",
+        "director_original_name": "Alejandro González Iñárritu",
+        "director_popularity": 10
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 271,
+    "fields": {
+        "director_id": 20028,
+        "director_name": "Danis Tanović",
+        "director_original_name": "Danis Tanović",
+        "director_popularity": 6
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 272,
+    "fields": {
+        "director_id": 20026,
+        "director_name": "Samira Makhmalbaf",
+        "director_original_name": "Samira Makhmalbaf",
+        "director_popularity": 6
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 273,
+    "fields": {
+        "director_id": 20027,
+        "director_name": "Idrissa Ouedraogo",
+        "director_original_name": "Idrissa Ouedraogo",
+        "director_popularity": 7
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 274,
+    "fields": {
+        "director_id": 2228,
+        "director_name": "숀 펜",
+        "director_original_name": "Sean Penn",
+        "director_popularity": 42
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 275,
+    "fields": {
+        "director_id": 16862,
+        "director_name": "클로드 를루치",
+        "director_original_name": "Claude Lelouch",
+        "director_popularity": 18
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 276,
+    "fields": {
+        "director_id": 20023,
+        "director_name": "Youssef Chahine",
+        "director_original_name": "Youssef Chahine",
+        "director_popularity": 17
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 277,
+    "fields": {
+        "director_id": 1614,
+        "director_name": "이안",
+        "director_original_name": "Ang Lee",
+        "director_popularity": 13
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 278,
+    "fields": {
+        "director_id": 87742,
+        "director_name": "마크 웹",
+        "director_original_name": "Marc Webb",
+        "director_popularity": 11
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 279,
+    "fields": {
+        "director_id": 31119,
+        "director_name": "Sylvain White",
+        "director_original_name": "Sylvain White",
+        "director_popularity": 8
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 280,
+    "fields": {
+        "director_id": 20073,
+        "director_name": "Alexandra Leclère",
+        "director_original_name": "Alexandra Leclère",
+        "director_popularity": 6
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 281,
+    "fields": {
+        "director_id": 834,
+        "director_name": "Otto Preminger",
+        "director_original_name": "Otto Preminger",
+        "director_popularity": 13
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 282,
+    "fields": {
+        "director_id": 20133,
+        "director_name": "Tod Williams",
+        "director_original_name": "Tod Williams",
+        "director_popularity": 5
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 283,
+    "fields": {
+        "director_id": 10781,
+        "director_name": "마이클 앱티드",
+        "director_original_name": "Michael Apted",
+        "director_popularity": 10
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 284,
+    "fields": {
+        "director_id": 224,
+        "director_name": "데이비드 크로넨버그",
+        "director_original_name": "David Cronenberg",
+        "director_popularity": 26
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 285,
+    "fields": {
+        "director_id": 20192,
+        "director_name": "Brian Taylor",
+        "director_original_name": "Brian Taylor",
+        "director_popularity": 12
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 286,
+    "fields": {
+        "director_id": 20193,
+        "director_name": "Mark Neveldine",
+        "director_original_name": "Mark Neveldine",
+        "director_popularity": 13
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 287,
+    "fields": {
+        "director_id": 7467,
+        "director_name": "데이비드 핀처",
+        "director_original_name": "David Fincher",
+        "director_popularity": 22
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 288,
+    "fields": {
+        "director_id": 323,
+        "director_name": "커티스 핸슨",
+        "director_original_name": "Curtis Hanson",
+        "director_popularity": 7
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 289,
+    "fields": {
+        "director_id": 42,
+        "director_name": "라스 폰 트리에",
+        "director_original_name": "Lars von Trier",
+        "director_popularity": 27
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 290,
+    "fields": {
+        "director_id": 20218,
+        "director_name": "Eric Bress",
+        "director_original_name": "Eric Bress",
+        "director_popularity": 7
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 291,
+    "fields": {
+        "director_id": 20219,
+        "director_name": "J. Mackye Gruber",
+        "director_original_name": "J. Mackye Gruber",
+        "director_popularity": 2
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 292,
+    "fields": {
+        "director_id": 4387,
+        "director_name": "프랑수아 오종",
+        "director_original_name": "François Ozon",
+        "director_popularity": 12
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 293,
+    "fields": {
+        "director_id": 20237,
+        "director_name": "Beeban Kidron",
+        "director_original_name": "Beeban Kidron",
+        "director_popularity": 11
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 294,
+    "fields": {
+        "director_id": 11357,
+        "director_name": "브루스 캠벨",
+        "director_original_name": "Bruce Campbell",
+        "director_popularity": 23
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 295,
+    "fields": {
+        "director_id": 20254,
+        "director_name": "Achim von Borries",
+        "director_original_name": "Achim von Borries",
+        "director_popularity": 3
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 296,
+    "fields": {
+        "director_id": 1188,
+        "director_name": "김기덕",
+        "director_original_name": "김기덕",
+        "director_popularity": 29
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 297,
+    "fields": {
+        "director_id": 12989,
+        "director_name": "Andrew Davis",
+        "director_original_name": "Andrew Davis",
+        "director_popularity": 6
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 298,
+    "fields": {
+        "director_id": 11057,
+        "director_name": "Robert Towne",
+        "director_original_name": "Robert Towne",
+        "director_popularity": 13
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 299,
+    "fields": {
+        "director_id": 17167,
+        "director_name": "Andy Tennant",
+        "director_original_name": "Andy Tennant",
+        "director_popularity": 18
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 300,
+    "fields": {
+        "director_id": 20307,
+        "director_name": "Joachim Rønning",
+        "director_original_name": "Joachim Rønning",
+        "director_popularity": 8
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 301,
+    "fields": {
+        "director_id": 20308,
+        "director_name": "Espen Sandberg",
+        "director_original_name": "Espen Sandberg",
+        "director_popularity": 14
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 302,
+    "fields": {
+        "director_id": 20310,
+        "director_name": "시미즈 다카시",
+        "director_original_name": "Takashi Shimizu",
+        "director_popularity": 9
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 303,
+    "fields": {
+        "director_id": 10001,
+        "director_name": "윌리엄 와일러",
+        "director_original_name": "William Wyler",
+        "director_popularity": 8
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 304,
+    "fields": {
+        "director_id": 82939,
+        "director_name": "Toby Wilkins",
+        "director_original_name": "Toby Wilkins",
+        "director_popularity": 6
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 305,
+    "fields": {
+        "director_id": 20400,
+        "director_name": "Tim Story",
+        "director_original_name": "Tim Story",
+        "director_popularity": 7
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 306,
+    "fields": {
+        "director_id": 20410,
+        "director_name": "Macario De Souza",
+        "director_original_name": "Macario De Souza",
+        "director_popularity": 2
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 307,
+    "fields": {
+        "director_id": 20409,
+        "director_name": "Sunny Abberton",
+        "director_original_name": "Sunny Abberton",
+        "director_popularity": 1
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 308,
+    "fields": {
+        "director_id": 20412,
+        "director_name": "Michael Anderson",
+        "director_original_name": "Michael Anderson",
+        "director_popularity": 12
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 309,
+    "fields": {
+        "director_id": 8557,
+        "director_name": "페르난도 메이렐레스",
+        "director_original_name": "Fernando Meirelles",
+        "director_popularity": 8
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 310,
+    "fields": {
+        "director_id": 20430,
+        "director_name": "Radu Mihăileanu",
+        "director_original_name": "Radu Mihăileanu",
+        "director_popularity": 7
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 311,
+    "fields": {
+        "director_id": 172,
+        "director_name": "마이클 윈터바텀",
+        "director_original_name": "Michael Winterbottom",
+        "director_popularity": 11
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 312,
+    "fields": {
+        "director_id": 12453,
+        "director_name": "왕가위",
+        "director_original_name": "Wong Kar-wai",
+        "director_popularity": 10
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 313,
+    "fields": {
+        "director_id": 138,
+        "director_name": "쿠엔틴 타란티노",
+        "director_original_name": "Quentin Tarantino",
+        "director_popularity": 61
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 314,
+    "fields": {
+        "director_id": 2294,
+        "director_name": "로버트 로드리게즈",
+        "director_original_name": "Robert Rodriguez",
+        "director_popularity": 16
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 315,
+    "fields": {
+        "director_id": 20587,
+        "director_name": "Emanuele Crialese",
+        "director_original_name": "Emanuele Crialese",
+        "director_popularity": 5
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 316,
+    "fields": {
+        "director_id": 20370,
+        "director_name": "Irving Pichel",
+        "director_original_name": "Irving Pichel",
+        "director_popularity": 14
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 317,
+    "fields": {
+        "director_id": 3239,
+        "director_name": "Ernest B. Schoedsack",
+        "director_original_name": "Ernest B. Schoedsack",
+        "director_popularity": 13
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 318,
+    "fields": {
+        "director_id": 2352,
+        "director_name": "Jean-Jacques Annaud",
+        "director_original_name": "Jean-Jacques Annaud",
+        "director_popularity": 11
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 319,
+    "fields": {
+        "director_id": 20556,
+        "director_name": "Bertrand Tavernier",
+        "director_original_name": "Bertrand Tavernier",
+        "director_popularity": 10
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 320,
+    "fields": {
+        "director_id": 5010,
+        "director_name": "토드 필드",
+        "director_original_name": "Todd Field",
+        "director_popularity": 10
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 321,
+    "fields": {
+        "director_id": 6818,
+        "director_name": "베르너 헤어조크",
+        "director_original_name": "Werner Herzog",
+        "director_popularity": 18
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 322,
+    "fields": {
+        "director_id": 20561,
+        "director_name": "제임스 그레이",
+        "director_original_name": "James Gray",
+        "director_popularity": 8
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 323,
+    "fields": {
+        "director_id": 20605,
+        "director_name": "Anno Saul",
+        "director_original_name": "Anno Saul",
+        "director_popularity": 4
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 324,
+    "fields": {
+        "director_id": 716,
+        "director_name": "Emile Ardolino",
+        "director_original_name": "Emile Ardolino",
+        "director_popularity": 9
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 325,
+    "fields": {
+        "director_id": 20629,
+        "director_name": "조지 밀러",
+        "director_original_name": "George Miller",
+        "director_popularity": 28
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 326,
+    "fields": {
+        "director_id": 20640,
+        "director_name": "천카이커",
+        "director_original_name": "Chen Kaige",
+        "director_popularity": 17
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 327,
+    "fields": {
+        "director_id": 20657,
+        "director_name": "크리스티안 문쥬",
+        "director_original_name": "Cristian Mungiu",
+        "director_popularity": 8
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 328,
+    "fields": {
+        "director_id": 20658,
+        "director_name": "가와세 나오미",
+        "director_original_name": "河瀨直美",
+        "director_popularity": 22
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 329,
+    "fields": {
+        "director_id": 20709,
+        "director_name": "Vincent Paronnaud",
+        "director_original_name": "Vincent Paronnaud",
+        "director_popularity": 8
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 330,
+    "fields": {
+        "director_id": 20659,
+        "director_name": "Marjane Satrapi",
+        "director_original_name": "Marjane Satrapi",
+        "director_popularity": 10
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 331,
+    "fields": {
+        "director_id": 20660,
+        "director_name": "Carlos Reygadas",
+        "director_original_name": "Carlos Reygadas",
+        "director_popularity": 6
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 332,
+    "fields": {
+        "director_id": 7482,
+        "director_name": "Julian Schnabel",
+        "director_original_name": "Julian Schnabel",
+        "director_popularity": 9
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 333,
+    "fields": {
+        "director_id": 5125,
+        "director_name": "파티 아킨",
+        "director_original_name": "Fatih Akin",
+        "director_popularity": 18
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 334,
+    "fields": {
+        "director_id": 96657,
+        "director_name": "이창동",
+        "director_original_name": "이창동",
+        "director_popularity": 14
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 335,
+    "fields": {
+        "director_id": 20665,
+        "director_name": "Rachid Bouchareb",
+        "director_original_name": "Rachid Bouchareb",
+        "director_popularity": 15
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 336,
+    "fields": {
+        "director_id": 20739,
+        "director_name": "Adam Shankman",
+        "director_original_name": "Adam Shankman",
+        "director_popularity": 10
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 337,
+    "fields": {
+        "director_id": 11401,
+        "director_name": "오우삼",
+        "director_original_name": "John Woo",
+        "director_popularity": 17
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 338,
+    "fields": {
+        "director_id": 20779,
+        "director_name": "Gary Sinyor",
+        "director_original_name": "Gary Sinyor",
+        "director_popularity": 5
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 339,
+    "fields": {
+        "director_id": 20773,
+        "director_name": "Tim Sullivan",
+        "director_original_name": "Tim Sullivan",
+        "director_popularity": 7
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 340,
+    "fields": {
+        "director_id": 32593,
+        "director_name": "Steven Brill",
+        "director_original_name": "Steven Brill",
+        "director_popularity": 14
+    }
+},
+{
+    "model": "movie.director",
+    "pk": 341,
+    "fields": {
+        "director_id": 6046,
+        "director_name": "롤란트 에머리히",
+        "director_original_name": "Roland Emmerich",
+        "director_popularity": 24
+    }
+}
+]

@@ -44,7 +44,7 @@ import axios from 'axios'
 const route = useRoute()
 const movieId = route.params.movieId
 
-const apiKey = '6b9a23f96ce34df2a77e6d0e76769d05'
+const apiKey = import.meta.env.VITE_TMDB_API_KEY
 const movie = ref({})
 
 const videoId = ref('')

@@ -53,7 +53,9 @@ def details(movie_id):
     'api_key': API_KEY,
   }
   file_name = 'detail.json'
-  save_data(url, params, file_name)
+  response = requests.get(url, params=params)
+  if response.status_code == 200:
+    return response.json()
 
 ### movid_id에 따른 Credits
 def credits(movie_id):

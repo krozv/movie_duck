@@ -50,6 +50,7 @@ class Movie(models.Model):
     video = models.ManyToManyField(Video)
     Provider = models.ManyToManyField(Provider)
     popularity = models.IntegerField()
+    poster_path = models.TextField()
     
     def __str__(self):
         return self.title

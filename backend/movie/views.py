@@ -17,7 +17,14 @@ def movie_main(request):
     return Response(serializer.data, status=status.HTTP_200_OK)
   # 데이터 추출 및 저장용으로 사용할 예정
   if request.method == 'POST':
-    pass
+    for movie_id in range(1517, 2025):
+      movie = Movie.objects.get(id=movie_id)
+      data = crawling.details(movie.movie_id)
+      # pprint(data.get('poster_path'))
+      poster_path = data.get('poster_path')
+      if poster_path:
+        movie.poster_path = poster_path
+        movie.save()
     return Response({'message':'test'}, status=status.HTTP_200_OK)
 
 @api_view(['GET'])

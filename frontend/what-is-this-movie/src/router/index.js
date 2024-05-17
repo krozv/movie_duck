@@ -6,7 +6,10 @@ import RecommendView from '@/views/recommend/RecommendView.vue'
 import MovieSearchView from '@/views/MovieSearchView.vue'
 import SignUpView from '@/views/user/SignUpView.vue'
 import LogInView from '@/views/user/LogInView.vue'
-import ResultView from '@/views/recommend/ResultView.vue'
+
+import LogOutView from '@/views/user/LogOutView.vue'
+import ProfileView from '@/views/user/ProfileView.vue'
+
 import { useCounterStore } from '@/stores/userStore'
 
 const router = createRouter({
@@ -53,19 +56,30 @@ const router = createRouter({
       path: '/login',
       name: 'LogInView',
       component: LogInView
+    },
+    {
+      path: '/logout',
+      name: 'LogOutView',
+      component: LogOutView
+    },
+    {
+      path: '/profile',
+      name: 'Profile',
+      component: ProfileView
     }
   ]
 })
 
 router.beforeEach((to, from) => {
   const store = useCounterStore()
-  if (to.name === 'ArticleView' && store.isLogin === false) {
+  if (to.name === 'home' && store.isLogin === false) {
     window.alert('로그인이 필요합니다.')
     return { name: 'LogInView'}
   }
   if ((to.name === 'SignUpView' || to.name === 'LogInView') && (store.isLogin)) {
+    console.log(to.name)
     window.alert('이미 로그인이 되어있습니다.')
-    return { name: 'ArticleView'}
+    return { name: 'home'}
   }
   // result로 이동 시 localStorage의 likedMovies 삭제
   if (to.name === 'recommend-result') {

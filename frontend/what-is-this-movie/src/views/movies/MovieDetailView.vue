@@ -160,7 +160,7 @@ img {
     display: flex;
     margin-top: 50px;
     margin-left: 50px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .movie-info {
@@ -175,9 +175,12 @@ img {
 }
 
 .thumbnail {
-    margin-left: 30%;
+    margin-left: 25%;
     width: 240px;
     height: 180px;
 }
 
+.trailer {
+  margin-bottom: 60px;
+}
 </style>

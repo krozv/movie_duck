@@ -1,26 +1,24 @@
 <template>
     <div class="nav">
-      <router-link :to="{ name:'home'}">Home </router-link>
-      <span>|</span>
-      <router-link :to="{ name:'movies'}">Movies</router-link>
-      <span>|</span>
-      <router-link :to="{ name:'recommended'}" class="mr-4">Recommend</router-link>
-      <b-nav-form @submit.prevent="searchMovie"> 
-        <b-form-input v-model="searchTerm" aria-label="Input" class="mr-1" @keyup.enter="searchMovie"></b-form-input>
-        <img src="../assets/search.png" alt="#" @click="searchMovie">
-      </b-nav-form> 
-      <!-- 로그인이 됐으면 -->
-      <div v-if="store.isLogin">
+    <router-link :to="{ name:'home'}">Home </router-link>
+    <span>|</span>
+    <router-link :to="{ name:'movies'}"> Movies</router-link>
+    <span>|</span>
+    <router-link :to="{ name:'recommend'}" class="mr-4">Recommend</router-link>
+    <b-nav-form @submit.prevent="searchMovie"> 
+      <b-form-input v-model="searchTerm" aria-label="Input" class="mr-1" @keyup.enter="searchMovie"></b-form-input>
+      <img src="../assets/search.png" alt="#" @click="searchMovie">
+    </b-nav-form>
+    <!-- 로그인이 됐으면 -->
+    <div v-if="store.isLogin">
         <router-link :to="{ name:'LogOutView'}">로그아웃</router-link>
         <span>|</span>
         <router-link :to="{ name:'Profile'}">프로필</router-link>
       </div>
-      <!-- 로그인이 안됐으면 -->
-      <div v-else>
-        <router-link :to="{ name:'SignUpView'}">회원가입</router-link>
-        <span>|</span>
-        <router-link :to="{ name:'LogInView'}">로그인</router-link>
-      </div>
+    <!-- 로그인이 안됐으면 -->
+    <router-link :to="{ name:'SignUpView'}">회원가입</router-link>
+    <span>|</span>
+    <router-link :to="{ name:'LogInView'}">로그인</router-link>
     </div>
   </template>
   

@@ -30,7 +30,8 @@ import NowPlayingMovies from '@/components/movies/NowPlaying.vue'
 const store = useMovieStore()
 
 onMounted(() => {
-  store.getMovies()
+  // error 때문에 잠깐 꺼놨음. 확인할 것
+  // store.getMovies()
 })
 
 const router = useRouter()
@@ -57,6 +58,7 @@ const moveRight = () => {
     }
 };
 </script>
+
 <style scoped>
 .movie-slider {
   display: flex;

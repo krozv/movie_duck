@@ -18,6 +18,9 @@ def index(request):
     return Response(serializer.data, status=status.HTTP_200_OK)
   # 요청 받은 영화 목록을 바탕으로 추천 영화 응답
   if request.method == 'POST':
-    pass
+    # user가 선택한 영화 목록 받음
+    like_movies = request.data.get('userLikeMovies')
+    print(like_movies)
+    return Response({'message':'data'})
   # 새로운 Random 영화 목록 20개 -> get이랑 비슷한데 굳이?
     

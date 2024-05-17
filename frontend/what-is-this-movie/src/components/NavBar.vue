@@ -4,7 +4,7 @@
     <span>|</span>
     <router-link :to="{ name:'movies'}"> Movies</router-link>
     <span>|</span>
-    <router-link :to="{ name:'recommended'}" class="mr-4">Recommend</router-link>
+    <router-link :to="{ name:'recommend'}" class="mr-4">Recommend</router-link>
     <b-nav-form @submit.prevent="searchMovie"> 
       <b-form-input v-model="searchTerm" aria-label="Input" class="mr-1" @keyup.enter="searchMovie"></b-form-input>
       <img src="../assets/search.png" alt="#" @click="searchMovie">

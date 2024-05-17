@@ -1,17 +1,14 @@
-import { ref, computed } from 'vue'
+import { ref } from 'vue'
 import { defineStore } from 'pinia'
 import axios from 'axios'
 
+// 나중에 쓸 일 있으면 아래 수정할 것임
 export const useMovieStore = defineStore('movies', () => {
-  const apiKey = import.meta.env.VITE_TMDB_API_KEY
   const movies = ref([])
 
-  const getMovies = function() {
+  const sendMovies = function() {
     axios({
-      method: 'get',
-      params: {page: '1'},
-      url: "https://api.themoviedb.org/3/movie/top_rated?api_key=" + apiKey + "&language=ko-KR",
-      }
+     }
     )
     .then((response) => {
       movies.value = response.data
@@ -23,5 +20,5 @@ export const useMovieStore = defineStore('movies', () => {
 
   // juyeon
   const userLikeMovies = ref([])
-  return { movies, getMovies, userLikeMovies }
+  return { sendMovies }
 }, { persist: true,})

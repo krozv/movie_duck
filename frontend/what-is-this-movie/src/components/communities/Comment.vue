@@ -13,5 +13,12 @@ import CommentCreate from '@/components/communities/CommentCreate.vue'
 </script>
 
 <style scoped>
+div {
+    margin-top: 20px;
+    margin-left: 60px;
+}
 
+h1 {
+    margin-left: 50px;
+}
 </style>

@@ -1,8 +1,13 @@
 from django.contrib.auth import get_user_model
 from django.http import JsonResponse
+from rest_framework.response import Response
+from rest_framework.decorators import api_view
 from rest_framework.views import APIView
 from rest_framework.permissions import IsAuthenticated
+from rest_framework.decorators import permission_classes
 from rest_framework.authtoken.models import Token
+
+from .serializers import UserSerializer
 
 User = get_user_model()
 
@@ -17,6 +22,12 @@ class SignOutView(APIView):
         request.session.flush()
         return JsonResponse({"message": "회원탈퇴 성공"})
 
+@api_view(['GET'])
+@permission_classes([IsAuthenticated])
+def get_user_data(request):
+    user = request.user
+    serializer = UserSerializer(user)
+    return Response(serializer.data)
 
 
 # from allauth.socialaccount.providers.google.views import GoogleOAuth2Adapter

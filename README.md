@@ -62,3 +62,22 @@
 `fix: a 버그 수정`
 
 `docs: [README.md](http://README.md) 수정`
+
+
+### 실행
+- FE
+    - node.js를 깔아야 npm 명령어 사용 가능하다.
+> npm install
+
+> npm run dev
+
+- BE
+> python -m venv venv
+
+> source venv/Script/activate
+
+> pip install -r requirements.txt
+
+> python manage.py migrate
+
+> python manage.py runserver

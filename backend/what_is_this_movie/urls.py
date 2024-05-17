@@ -24,4 +24,5 @@ urlpatterns = [
     path('accounts/signout/', include("accounts.urls")),
     path("api/movie/", include("movie.urls")),
     path("api/recommend/", include("recommendation.urls")),
+    path('accounts/', include("accounts.urls")),
 ]

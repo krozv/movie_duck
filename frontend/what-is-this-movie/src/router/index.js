@@ -40,7 +40,8 @@ const router = createRouter({
     {
       path: '/recommend/result', 
       name: 'recommend-result', 
-      component: ResultView
+      component: ResultView,
+      props: true,
     },
     // user 구현
     {
@@ -65,6 +66,10 @@ router.beforeEach((to, from) => {
   if ((to.name === 'SignUpView' || to.name === 'LogInView') && (store.isLogin)) {
     window.alert('이미 로그인이 되어있습니다.')
     return { name: 'ArticleView'}
+  }
+  // result로 이동 시 localStorage의 likedMovies 삭제
+  if (to.name === 'recommend-result') {
+    localStorage.removeItem('likedMovies')
   }
 })
 

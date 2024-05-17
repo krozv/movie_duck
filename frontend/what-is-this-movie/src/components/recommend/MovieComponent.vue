@@ -10,7 +10,7 @@
 
 <script setup>
 import 'bootstrap'
-import { onMounted, ref } from 'vue';
+import { ref } from 'vue';
 
 const props = defineProps({
     movieId: Number,
@@ -30,6 +30,6 @@ const storeMovie = function() {
 }
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
 
 </style>

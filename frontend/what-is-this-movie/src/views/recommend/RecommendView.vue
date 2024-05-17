@@ -13,29 +13,35 @@
             </div>
         </div>
         <button class="btn btn-primary">다른 영화</button>
-        <button class="btn btn-primary" @click="sendMovies">선택 완료</button>
+        <button @click="goResult" v-show="moveToResult" class="btn btn-primary">선택 완료</button>
+
     </div>
 </template>
   
 <script setup>
 import { onMounted, ref, watch } from 'vue'
 import { useCounterStore } from '@/stores/userStore'
+import { useBackendStore } from '@/stores/backend'
 import { useRouter } from 'vue-router'
 import axios from 'axios'
 import MovieComponent from '@/components/recommend/MovieComponent.vue';
 
 const userStore = useCounterStore()
-const router = useRouter()
 const movies = ref([])
-const userLikeMovies = ref([])
+const store = useBackendStore()
 const count = ref(0)
+const moveToResult = ref(false) // 영화를 10개 이상 골랐을 때 전송 가능
 
-watch(userLikeMovies, () => {
-    if (userLikeMovies.value){
-        count.value = userLikeMovies.value.length
-        if (userLikeMovies.value.length >= 10) {
+watch(store, () => {
+    console.log('watch 작동')
+    if (store.userLikeMovies){
+        count.value = store.userLikeMovies.length
+        if (store.userLikeMovies.length >= 10) {
             console.log('영화 10개를 채웠습니다.')
             // 보내기 버튼 활성화
+            moveToResult.value = true
+        } else {
+            moveToResult.value = false
         }
     }
     }, { deep: true }
@@ -53,48 +59,29 @@ axios({
         console.log(err)
     })
 // localStorage에 저장한 사용자가 선택한 movieId를 저장함. 페이지를 새로고침(렌더링)할 때마다 작동
-userLikeMovies.value = JSON.parse(localStorage.getItem('likedMovies'))
+store.userLikeMovies = JSON.parse(localStorage.getItem('likedMovies'))
 })
 
 const storeMovie = function(movieId) {
     console.log(movieId)
-    let isAlreadyLiked
-    if (userLikeMovies.value){
-        isAlreadyLiked = userLikeMovies.value.some(Id => Id === movieId)
-    } else {
-        isAlreadyLiked = false
-    }
+    let isAlreadyLiked = store.userLikeMovies?.includes(movieId)
     if (!isAlreadyLiked) {
-        if (userLikeMovies.value){
-            userLikeMovies.value.push(movieId)
+        if (store.userLikeMovies){
+            store.userLikeMovies.push(movieId)
         } else {
-            userLikeMovies.value = [movieId]
+            store.userLikeMovies = [movieId]
         }
     } else {
-        userLikeMovies.value.pop(movieId)
+        store.userLikeMovies.pop(movieId)
     }
-    console.log(userLikeMovies.value)
-    localStorage.setItem('likedMovies', JSON.stringify(userLikeMovies.value))
+    localStorage.setItem('likedMovies', JSON.stringify(store.userLikeMovies))
 }
-
-const sendMovies = function () {
-    console.log(userLikeMovies.value)
-    axios({
-        method: 'post',
-        url: `${userStore.API_URL}/api/recommend/`,
-        data: {
-            userLikeMovies: userLikeMovies.value,
-        }
+const router = useRouter()
+const goResult = function () {
+    router.push({
+        name: 'recommend-result'
     })
-        .then((res) => {
-            console.log(res)
-            router.push({ 'name': 'recommend-result' })
-        })
-        .catch((err) => {
-            console.log(err)
-        })
 }
-
   </script>
   
   <style scoped>

@@ -27,6 +27,7 @@
 
 <script setup>
 import { useBackendStore } from '@/stores/backend';
+import { useCounterStore } from '@/stores/userStore'
 import { ref } from 'vue';
 import axios from 'axios'
 import MovieComponent from '@/components/recommend/MovieComponent.vue';
@@ -43,26 +44,35 @@ const classification = function (search) {
     }
 }
 const store = useBackendStore()
+const userStore = useCounterStore()
 const firstMovies = ref(null)
 const secondMovies = ref(null)
 const recommend = function (search) {
-    const option = search => search.charAt(0).toUpperCase() + search.slice(1);
+    const option = function(search) {
+        if (typeof search !== 'string') {
+        return '';
+    }
+    return search.charAt(0).toUpperCase() + search.slice(1);
+};
     axios({
         method: 'post',
         url: `${store.API_URL}/api/recommend/${search}/`,
+        headers: {
+            Authorization: `Token ${userStore.token}`
+        },
         data: {
             userLikeMovies: JSON.parse(localStorage.getItem('likedMovies')),
         }
     })
         .then((res) => {
-            console.log(Object.keys(res.data))
+            console.log(option(search))
             const firstKey = Object.keys(res.data)[0]
             const secondKey = Object.keys(res.data)[1]
             console.log(firstKey, secondKey)
             firstMovies.value = res.data[firstKey]
             secondMovies.value = res.data[secondKey]
-            localStorage.setItem(`first${option}Movies`, JSON.stringify(firstMovies.value))
-            localStorage.setItem(`second${option}Movies`, JSON.stringify(secondMovies.value))
+            localStorage.setItem(`first${option(search)}Movies`, JSON.stringify(firstMovies.value))
+            localStorage.setItem(`second${option(search)}Movies`, JSON.stringify(secondMovies.value))
         })
         .catch((err) => {
             console.log(err)

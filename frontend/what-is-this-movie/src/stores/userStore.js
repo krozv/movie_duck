@@ -98,7 +98,7 @@ export const useCounterStore = defineStore('counter', () => {
   
   // 유저 정보 받아오기
   const fetchUserData = () =>{
-    console.log(token.value)
+    // console.log(token.value)
     axios({
       method: 'get',
       url: `${API_URL}/accounts/user/`,
@@ -107,7 +107,7 @@ export const useCounterStore = defineStore('counter', () => {
       }
     })
     .then((response) => {
-      console.log(response.data)
+      // console.log(response.data)
       userData.value = response.data
     })
     .catch((error) => {

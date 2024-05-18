@@ -17,7 +17,11 @@ def movie_main(request):
     return Response(serializer.data, status=status.HTTP_200_OK)
   # 데이터 추출 및 저장용으로 사용할 예정
   if request.method == 'POST':
-    return Response({'message':'test'}, status=status.HTTP_200_OK)
+    
+    # movies = Movie.objects.all()
+    
+    # serializer = MovieListSerializer(movies, many=True)
+    return Response(serializer.data, status=status.HTTP_200_OK)
 
 @api_view(['GET'])
 def movie_detail(request, movie_pk):

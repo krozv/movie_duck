@@ -2,8 +2,7 @@ import json
 import requests
 
 # TMDB api key
-API_KEY = '769830601abcc5047d5d1a90b40dc11c'
-
+API_KEY = 'apikey 적으세여'
 ### popular movie  
 def popular(page):
   url = 'https://api.themoviedb.org/3/movie/popular'
@@ -53,9 +52,7 @@ def details(movie_id):
     'api_key': API_KEY,
   }
   file_name = 'detail.json'
-  response = requests.get(url, params=params)
-  if response.status_code == 200:
-    return response.json()
+  save_data(url, params, file_name)
 
 ### movid_id에 따른 Credits
 def credits(movie_id):
@@ -65,9 +62,7 @@ def credits(movie_id):
     'api_key': API_KEY,
   }
   file_name = 'credits.json'
-  response = requests.get(url, params=params)
-  if response.status_code == 200:
-    return response.json()
+  save_data(url, params, file_name)
   
 
 ### movie_id에 따른 해당 영화 keywords 확인 가능
@@ -128,9 +123,7 @@ def videos(movie_id):
     'api_key': API_KEY,
   }
   file_name = 'videos.json'
-  response = requests.get(url, params=params)
-  if response.status_code == 200:
-    return response.json().get('results')
+  save_data(url, params, file_name)
 
 # 해당 영화를 볼 수 있는 provider 정보 제공
 # appleTV, amazon 등
@@ -142,13 +135,7 @@ def watch_providers(movie_id):
     'api_key': API_KEY,
   }
   file_name = 'watch_providers.json'
-  response = requests.get(url, params=params)
-  # print(response)
-
-  if response.status_code == 200:
-    return response.json().get('results').get('KR')
-  
-  # save_data(url, params, file_name)
+  save_data(url, params, file_name)
 
 # person id에 따른 인물 정보
 def person_details(person_id):

@@ -6,6 +6,16 @@ class MovieListSerializer(serializers.ModelSerializer):
         model = Movie
         fields = '__all__'
 
+class RecommendListSerializer(serializers.ModelSerializer):
+    recommend = serializers.SerializerMethodField()
+
+    class Meta:
+        model = Movie
+        fields = ['title', 'movie_id', 'poster_path']
+        fields.append('recommend')
+
+    def get_recommend(self, obj):
+        return self.context.get('recommend', 'default')
 
 class CommentSerializer(serializers.ModelSerializer):
     class Meta:

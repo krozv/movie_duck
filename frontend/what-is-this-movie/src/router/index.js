@@ -67,10 +67,13 @@ router.beforeEach((to, from) => {
     window.alert('이미 로그인이 되어있습니다.')
     return { name: 'ArticleView'}
   }
-  // result로 이동 시 localStorage의 likedMovies 삭제
-  if (to.name === 'recommend-result') {
+  // result에서 나갈 시 localStorage의 likedMovies 삭제
+  if (from.name === 'recommend-result') {
     localStorage.removeItem('likedMovies')
+    localStorage.removeItem('firstGenreMovies')
+    localStorage.removeItem('secondGenreMovies')
   }
+
 })
 
 export default router

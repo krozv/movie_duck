@@ -10,14 +10,14 @@ class Actor(models.Model):
     actor_id = models.IntegerField()
     actor_name = models.CharField(max_length=100)
     actor_original_name = models.CharField(max_length=100)
-    actor_popularity = models.IntegerField()
+    actor_popularity = models.IntegerField(null=True)
     profile_logo_path = models.TextField(null=True)
 
 class Director(models.Model):
     director_id = models.IntegerField()
     director_name = models.CharField(max_length=100)
     director_original_name = models.CharField(max_length=100)
-    director_popularity = models.IntegerField()
+    director_popularity = models.IntegerField(null=True)
 
 class Producer(models.Model):
     producer_id = models.IntegerField()
@@ -42,15 +42,15 @@ class Movie(models.Model):
     title = models.CharField(max_length=200)  # 제목
     overview = models.TextField()   # 상세 설명
     movie_id = models.IntegerField()  # 영화 검색용 아이디
-    adult = models.BooleanField() # 성인 영화 유무
+    adult = models.BooleanField(null=True) # 성인 영화 유무
     genres = models.ManyToManyField(Genre)
     actors = models.ManyToManyField(Actor)
     director = models.ManyToManyField(Director)
     producer = models.ManyToManyField(Producer)
     video = models.ManyToManyField(Video)
     Provider = models.ManyToManyField(Provider)
-    popularity = models.IntegerField()
-    poster_path = models.TextField()
+    popularity = models.IntegerField(null=True)
+    poster_path = models.TextField(null=True)
     
     def __str__(self):
         return self.title
@@ -68,3 +68,11 @@ class Reply(models.Model):
     content = models.TextField()
     created_at = models.DateTimeField(auto_now_add=True)  
     updated_at = models.DateTimeField(auto_now=True)
+
+# 한국영화진흥원 기준 주간 박스오피스
+class Boxoffice(models.Model):
+    period = models.TextField()
+    rank = models.IntegerField()
+    name = models.TextField()
+    code = models.IntegerField()
+    acc_aud = models.IntegerField()

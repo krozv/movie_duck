@@ -88,3 +88,7 @@ def reply(request, movie_pk, comment_pk, reply_pk):
     reply = get_object_or_404(Reply, pk=reply_pk)
     reply.delete()
     return Response(status=status.HTTP_204_NO_CONTENT)
+
+@api_view(['GET'])
+def box_office(request):
+  pass

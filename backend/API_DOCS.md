@@ -30,7 +30,9 @@
 | --- | --- | --- |
 | api/recommend/ | GET | 영화 추천 페이지 |
 | api/recommend/ | PUT | 영화 목록 reset |
-| api/recommend/ | POST | 추천 영화 목록 |
+| api/recommend/genre/ | POST | 장르 별 추천 영화 목록 |
+| api/recommend/actor/ | POST | 배우 별 추천 영화 목록 |
+| api/recommend/likemovie/ | GET | 사용자가 좋아요한 영화 목록 |
 
 ### WhatIsThisMovie API
 | URL | Method | Description |

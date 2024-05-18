@@ -51,6 +51,9 @@ onMounted(() => {
 axios({
     method: 'get',
     url: `${userStore.API_URL}/api/recommend/`,
+    headers: {
+            Authorization: `Token ${userStore.token}`
+        },
 })
     .then((res) => {
         movies.value = res.data

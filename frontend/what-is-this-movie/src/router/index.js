@@ -84,6 +84,8 @@ router.beforeEach((to, from) => {
     localStorage.removeItem('likedMovies')
     localStorage.removeItem('firstGenreMovies')
     localStorage.removeItem('secondGenreMovies')
+    localStorage.removeItem('firstActorMovies')
+    localStorage.removeItem('secondActorMovies')
   }
 
 })

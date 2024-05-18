@@ -2,7 +2,7 @@ import json
 import requests
 
 # TMDB api key
-API_KEY = 'apikey 적으세여'
+API_KEY = '769830601abcc5047d5d1a90b40dc11c'
 ### popular movie  
 def popular(page):
   url = 'https://api.themoviedb.org/3/movie/popular'
@@ -62,7 +62,14 @@ def credits(movie_id):
     'api_key': API_KEY,
   }
   file_name = 'credits.json'
-  save_data(url, params, file_name)
+  response = requests.get(url, params=params)
+
+  if response.status_code == 200:
+    data = response.json()
+    # print(data)
+    return data
+  else:
+    print(response.status_code)
   
 
 ### movie_id에 따른 해당 영화 keywords 확인 가능

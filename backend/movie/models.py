@@ -11,7 +11,7 @@ class Actor(models.Model):
     actor_name = models.CharField(max_length=100)
     actor_original_name = models.CharField(max_length=100)
     actor_popularity = models.IntegerField()
-    profile_logo_path = models.TextField()
+    profile_logo_path = models.TextField(null=True)
 
 class Director(models.Model):
     director_id = models.IntegerField()

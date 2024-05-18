@@ -45,34 +45,23 @@ def actor(request):
   if request.method == 'POST':
     # user가 선택한 영화 목록 받음 -> 추후 저장할 것
     like_movies = request.data.get('userLikeMovies')
-    
+    # print(like_movies)
     # 영화 추천 알고리즘 짜기
     # 사용자가 선호하는 배우 2명 선정
-    actors_query = Actor.objects.filter(movie__movie_id__in=like_movies).distinct().annotate(total=Count('id')).order_by('-total', '-actor_popularity')[:2]
-    
+    movies = Movie.objects.filter(movie_id__in=like_movies)
+    # print(movies)
+    actors_query = Actor.objects.filter(movie__in=movies).distinct().annotate(total=Count('id')).order_by('-actor_popularity', '-total')[:2]
+    print('test')
+    print(actors_query)
     if len(actors_query) < 2:
         return Response({"error": "Not enough data to make recommendations"}, status=status.HTTP_400_BAD_REQUEST)
 
     recommendations = {}
 
     for actor in actors_query:
-        print(actor.actor_name)
-        print(actor.pk)
-        print(actor.actor_id)
-        print(actor)
-        print(Movie.objects.filter(actors=actor))
-        print(actor.pk)
-        for movie in Movie.objects.filter(actors=actor):
-           print(movie)
-
-        # actor_movies = Movie.objects.filter(actors=actor).order_by('-popularity')[:5]
-        # actor_serializer = RecommendListSerializer(actor_movies, many=True, context={'recommend': actor.actor_name})
-        # print(actor_serializer)
-        # recommendations[actor.actor_name] = actor_serializer.data
-    pprint(recommendations)
-    # Flatten the dictionary to a list
-    # total_actor_data = [movie for movies in recommendations.values() for movie in movies]
-    # pprint(total_actor_data)
+        actor_movies = Movie.objects.filter(actors=actor).order_by('-popularity')[:5]
+        actor_serializer = RecommendListSerializer(actor_movies, many=True, context={'recommend': actor.actor_name})
+        recommendations[actor.actor_name] = actor_serializer.data
     return Response(recommendations, status=status.HTTP_200_OK)
   
 @api_view(['POST'])

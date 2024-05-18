@@ -3,6 +3,7 @@ from django.http import JsonResponse
 from rest_framework.views import APIView
 from rest_framework.permissions import IsAuthenticated
 from rest_framework.authtoken.models import Token
+from rest_framework.decorators import api_view, permission_classes
 
 User = get_user_model()
 
@@ -16,8 +17,6 @@ class SignOutView(APIView):
         user.delete()
         request.session.flush()
         return JsonResponse({"message": "회원탈퇴 성공"})
-
-
 
 # from allauth.socialaccount.providers.google.views import GoogleOAuth2Adapter
 # from allauth.socialaccount.providers.oauth2.client import OAuth2Client

@@ -17,60 +17,7 @@ def movie_main(request):
     return Response(serializer.data, status=status.HTTP_200_OK)
   # 데이터 추출 및 저장용으로 사용할 예정
   if request.method == 'POST':
-    
-    movies = Movie.objects.all()
-    # 각 영화마다 영화 id 추출 range(1517, 2025)
-    for movie_pk in range(1525, 1536):
-      movie = Movie.objects.get(pk=movie_pk)
-      credits = crawling.credits(movie.movie_id)
-      if credits:
-        casts = credits.get('cast')
-        crews = credits.get('crew')
-    # @ pprint(crews)
-        for crew in crews:
-          if crew.get('job') == 'Producer':
-                pprint(crew.get('name'))
-                producer_id = crew.get('id')
-                query = f"SELECT * FROM movie_producer WHERE producer_id = {producer_id}"
-                producers = Producer.objects.raw(query)
-
-                if not producers:
-                  print('없음')
-                  producer = Producer.objects.create(
-                    producer_id = producer_id,
-                    producer_name = crew.get('name'),
-                    producer_original_name = crew.get('original_name'),
-                    producer_popularity = crew.get('popularity'),
-                    )
-                  movie.producer.add(producer)
-                # actors가 있다면
-                for producer in producers:
-                  print(producer.id, producer.producer_id, producer.producer_name)  # 예시로 출력하는 필드들입니다.
-                  movie.producer.add(producer)
-          if crew.get('job') == 'Director':
-              pprint(crew.get('name'))
-              director_id = crew.get('id')
-              query = f"SELECT * FROM movie_director WHERE director_id = {director_id}"
-              directors = Director.objects.raw(query)
-
-              if not directors:
-                print('없음')
-                director = Director.objects.create(
-                  director_id = director_id,
-                  director_name = crew.get('name'),
-                  director_original_name = crew.get('original_name'),
-                  director_popularity = crew.get('popularity'),
-                  )
-                movie.director.add(director)
-
-              for director in directors:
-                print(director.id, director.director_id, director.director_name)  # 예시로 출력하는 필드들입니다.
-                movie.director.add(director)
-        
-        print('-------------------------')
-
-    serializer = MovieListSerializer(movies, many=True)
-    return Response(crews, status=status.HTTP_200_OK)
+    return Response({'message':'아무기능없음'}, status=status.HTTP_200_OK)
 
 @api_view(['GET'])
 def movie_detail(request, movie_pk):

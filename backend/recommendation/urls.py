@@ -6,4 +6,5 @@ urlpatterns = [
     path("genre/", views.genre),
     path("actor/", views.actor),
     path("director/", views.director),
+    path("likemovie/", views.like_movie)
 ]

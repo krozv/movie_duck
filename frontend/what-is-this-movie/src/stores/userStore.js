@@ -6,7 +6,7 @@ import axios from 'axios'
 export const useCounterStore = defineStore('counter', () => {
   const articles = ref([])
   const API_URL = 'http://127.0.0.1:8000'
-  const token = ref(null)
+  const token = ref(localStorage.getItem('token') || null)
   const userData = ref(null)
   const isLogin = computed(() => {
     if (token.value === null) {
@@ -75,10 +75,11 @@ export const useCounterStore = defineStore('counter', () => {
       }
     })
       .then((response) => {
-        // console.log('로그인 완료')
-        // console.log(response.data.key)
+        console.log('로그인 완료')
+        console.log(response.data.key)
         // 3. 로그인 성공 후 응답 받은 토큰 저장
         token.value = response.data.key
+        localStorage.setItem('token', token.value)
         router.push({ name: 'home' })
       })
       .catch((error) => {
@@ -89,13 +90,15 @@ export const useCounterStore = defineStore('counter', () => {
   // 로그아웃 구현
   const logout = () => {
     token.value = null
-    window.localStorage.removeItem("token");
+    localStorage.removeItem("token");
     window.localStorage.removeItem("userPk");
     router.push({ name: "home" });
   };
 
+  
   // 유저 정보 받아오기
   const fetchUserData = () =>{
+    console.log(token.value)
     axios({
       method: 'get',
       url: `${API_URL}/accounts/user/`,
@@ -111,10 +114,11 @@ export const useCounterStore = defineStore('counter', () => {
       console.log(error)
     })
   }
-
+  
   if (token.value) {
     fetchUserData()
   }
+  
 
   return { articles, API_URL, getArticles, signUp, logIn, token, isLogin, logout, userData, fetchUserData }
 }, { persist: true })

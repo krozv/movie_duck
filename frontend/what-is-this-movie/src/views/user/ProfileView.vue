@@ -2,7 +2,7 @@
     <div>
         <h1>User Profile Page Will Here.</h1>
     </div>
-    <h1>안녕하세요, {{ store.userData.username }}님.</h1>
+    <h1 v-if="store.userData">안녕하세요, {{ store.userData.username }}님.</h1>
     
 </template>
 
@@ -13,7 +13,10 @@ import { onMounted } from 'vue'
 const store = useCounterStore()
 
 onMounted(() => {
-    store.fetchUserData()
+    console.log(store.userData)
+    if (!store.userData) {
+        store.fetchUserData()
+    }
 })
 </script>
 

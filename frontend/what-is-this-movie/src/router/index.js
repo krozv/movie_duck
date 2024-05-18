@@ -6,6 +6,8 @@ import RecommendView from '@/views/recommend/RecommendView.vue'
 import MovieSearchView from '@/views/MovieSearchView.vue'
 import SignUpView from '@/views/user/SignUpView.vue'
 import LogInView from '@/views/user/LogInView.vue'
+import LogOutView from '@/views/user/LogOutView.vue'
+import ProfileView from '@/views/user/ProfileView.vue'
 import ResultView from '@/views/recommend/ResultView.vue'
 import { useCounterStore } from '@/stores/userStore'
 
@@ -53,6 +55,16 @@ const router = createRouter({
       path: '/login',
       name: 'LogInView',
       component: LogInView
+    },
+    {
+      path: '/logout',
+      name: 'LogOutView',
+      component: LogOutView
+    },
+    {
+      path: '/profile',
+      name: 'Profile',
+      component: ProfileView
     }
   ]
 })

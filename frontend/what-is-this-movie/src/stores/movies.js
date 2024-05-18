@@ -21,5 +21,7 @@ export const useMovieStore = defineStore('movies', () => {
     })
   }
 
-  return { movies, getMovies }
+  // juyeon
+  const userLikeMovies = ref([])
+  return { movies, getMovies, userLikeMovies }
 }, { persist: true,})

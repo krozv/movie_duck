@@ -2,10 +2,11 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '@/views/HomeView.vue'
 import MovieDetailView from '@/views/movies/MovieDetailView.vue'
 import MovieListView from '@/views/movies/MovieListView.vue'
-import RecommendedView from '@/views/movies/RecommendedView.vue'
+import RecommendView from '@/views/recommend/RecommendView.vue'
 import MovieSearchView from '@/views/MovieSearchView.vue'
 import SignUpView from '@/views/user/SignUpView.vue'
 import LogInView from '@/views/user/LogInView.vue'
+import ResultView from '@/views/recommend/ResultView.vue'
 import { useCounterStore } from '@/stores/userStore'
 
 const router = createRouter({
@@ -32,9 +33,15 @@ const router = createRouter({
       component: MovieSearchView
     },
     {
-      path:'/recommended',
-      name:'recommended',
-      component: RecommendedView
+      path:'/recommend',
+      name:'recommend',
+      component: RecommendView,
+    },
+    {
+      path: '/recommend/result', 
+      name: 'recommend-result', 
+      component: ResultView,
+      props: true,
     },
     // user 구현
     {
@@ -59,6 +66,10 @@ router.beforeEach((to, from) => {
   if ((to.name === 'SignUpView' || to.name === 'LogInView') && (store.isLogin)) {
     window.alert('이미 로그인이 되어있습니다.')
     return { name: 'ArticleView'}
+  }
+  // result로 이동 시 localStorage의 likedMovies 삭제
+  if (to.name === 'recommend-result') {
+    localStorage.removeItem('likedMovies')
   }
 })
 

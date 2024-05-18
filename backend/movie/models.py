@@ -11,7 +11,7 @@ class Actor(models.Model):
     actor_name = models.CharField(max_length=100)
     actor_original_name = models.CharField(max_length=100)
     actor_popularity = models.IntegerField()
-    profile_logo_path = models.TextField()
+    profile_logo_path = models.TextField(null=True)
 
 class Director(models.Model):
     director_id = models.IntegerField()
@@ -50,6 +50,7 @@ class Movie(models.Model):
     video = models.ManyToManyField(Video)
     Provider = models.ManyToManyField(Provider)
     popularity = models.IntegerField()
+    poster_path = models.TextField()
     
     def __str__(self):
         return self.title

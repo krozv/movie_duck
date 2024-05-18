@@ -47,8 +47,8 @@ class Movie(models.Model):
     actors = models.ManyToManyField(Actor)
     director = models.ManyToManyField(Director)
     producer = models.ManyToManyField(Producer)
-    video = models.ManyToManyField(Video, null=True)
-    Provider = models.ManyToManyField(Provider, null=True)
+    video = models.ManyToManyField(Video)
+    Provider = models.ManyToManyField(Provider)
     popularity = models.IntegerField(null=True)
     poster_path = models.TextField(null=True)
     
@@ -70,7 +70,7 @@ class Reply(models.Model):
     updated_at = models.DateTimeField(auto_now=True)
 
 # 한국영화진흥원 기준 주간 박스오피스
-class Boxoffice(models.Models):
+class Boxoffice(models.Model):
     period = models.TextField()
     rank = models.IntegerField()
     name = models.TextField()

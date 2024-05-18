@@ -1,7 +1,7 @@
 <template>
     <hr>
     <div v-if="firstMovies && firstMovies.length > 0">
-        <h3><span class="bold-dark">{{ firstMovies[0]['recommend'] }}</span> {{ classification(search)}} 영화를 추천드려요</h3>
+        <h3><span class="bold-dark">{{ firstMovies[0]['recommend'] }}</span> {{ classification(search)}} 영화를 좋아하시네요</h3>
         <div class="row">
             <div class="col-md-2 mt-1" v-for="movie in firstMovies" :key = movie.id>
                 <MovieComponent

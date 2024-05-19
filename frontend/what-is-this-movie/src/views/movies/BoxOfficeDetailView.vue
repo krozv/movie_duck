@@ -1,11 +1,23 @@
 <template>
     <h1>boxoffice detail view</h1>
     <div v-if="moviePk" class="container">
-        <!-- <img 
-        :src="'https://image.tmdb.org/t/p/w300' + movie.poster_path" 
-        alt="poster-img" 
-        class="movie-image"
-        > -->
+        <div class="row">
+            <div class="col-md-6">
+                <p>poster 넣을 예정</p>
+            </div>
+            <div class="col-md-6">
+                <h1>{{ store.movie.title }}</h1>
+                <p>{{ store.movie.overview }}</p>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <p>youtube trailer 예정</p>
+        </div>
+        <hr>
+        <div>
+            <Comment />
+        </div>
     </div>
 </template>
 
@@ -13,20 +25,17 @@
 import { ref, onMounted } from 'vue'
 import { useRoute } from 'vue-router'
 import { useMovieStore } from '@/stores/movies';
+import Comment from '@/components/communities/Comment.vue'
 const route = useRoute()
 const moviePk = route.params.moviePk
 const store = useMovieStore()
 // 수정중!!!!!!!!!!!!!
 onMounted(() => {
-    store.getMovies()
+    store.getMovies(moviePk)
+    console.log(store.movie)
 })
 </script>
 
 <style scoped>
-.container {
-    display: flex;
-    margin-top: 50px;
-    margin-left: 50px;
-    margin-bottom: 50px;
-}
+
 </style>

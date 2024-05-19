@@ -72,7 +72,9 @@ class Reply(models.Model):
 # 한국영화진흥원 기준 주간 박스오피스
 class Boxoffice(models.Model):
     period = models.TextField()
-    rank = models.IntegerField()
+    rank = models.IntegerField()    # boxoffice rank
     name = models.TextField()
-    code = models.IntegerField()
-    acc_aud = models.IntegerField()
+    en_name = models.TextField(null=True)
+    code = models.IntegerField()    # kobis 영화코드
+    acc_aud = models.IntegerField() # 누적관객수
+    movie = models.ManyToManyField(Movie)   

@@ -107,7 +107,6 @@ export const useCounterStore = defineStore('counter', () => {
       }
     })
     .then((response) => {
-      // console.log(response.data)
       userData.value = response.data
     })
     .catch((error) => {

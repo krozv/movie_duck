@@ -3,11 +3,11 @@ from rest_framework import status
 from rest_framework.decorators import api_view
 from .serializers import MovieListSerializer, MovieSerializer
 from .serializers import CommentSerializer, ReplySerializer
-from .serializers import CommentReplySerializer
-from .models import Movie, Comment, Reply, Actor, Producer, Director
+from .serializers import CommentReplySerializer, BoxOfficeListSerializer
+from .models import Movie, Comment, Reply, Actor, Producer, Director, Genre, Provider, Video, Boxoffice
 from django.shortcuts import get_object_or_404
 from pprint import pprint
-from crawling import crawling
+from crawling import crawling, kobis_crawling
 
 @api_view(['GET', 'POST'])
 def movie_main(request):
@@ -17,7 +17,7 @@ def movie_main(request):
     return Response(serializer.data, status=status.HTTP_200_OK)
   # 데이터 추출 및 저장용으로 사용할 예정
   if request.method == 'POST':
-    return Response({'message':'아무기능없음'}, status=status.HTTP_200_OK)
+    return Response({'message':'기능없음'}, status=status.HTTP_200_OK)
 
 @api_view(['GET'])
 def movie_detail(request, movie_pk):
@@ -91,4 +91,7 @@ def reply(request, movie_pk, comment_pk, reply_pk):
 
 @api_view(['GET'])
 def box_office(request):
-  pass
+  if request.method == 'GET':
+    movies = Boxoffice.objects.all()
+    serializer = BoxOfficeListSerializer(movies, many=True)
+    return Response(serializer.data, status=status.HTTP_200_OK)

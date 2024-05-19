@@ -39,7 +39,13 @@ class CommentReplySerializer(serializers.ModelSerializer):
         model = Comment
         fields = '__all__'
 
+class BoxOfficeMovieSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Movie
+        fields = ['title', 'overview', 'movie_id', 'poster_path', 'pk']
+
 class BoxOfficeListSerializer(serializers.ModelSerializer):
+    movie = BoxOfficeMovieSerializer(many=True, read_only=True)
     class Meta:
         model = Boxoffice
         fields = '__all__'

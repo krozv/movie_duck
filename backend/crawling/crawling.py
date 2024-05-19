@@ -60,7 +60,13 @@ def details(movie_id):
     'api_key': API_KEY,
   }
   file_name = 'detail.json'
-  save_data(url, params, file_name)
+  response = requests.get(url, params=params)
+  if response.status_code == 200:
+    data = response.json()
+    # print(data)
+    return data
+  else:
+    print(response.status_code)
 
 ### movid_id에 따른 Credits
 def credits(movie_id):
@@ -141,7 +147,7 @@ def videos(movie_id):
   response = requests.get(url, params=params)
   if response.status_code == 200:
     data = response.json().get('results')
-    pprint(data)
+    # pprint(data)
     return data
   else:
     print(response.status_code)
@@ -160,7 +166,7 @@ def watch_providers(movie_id):
 
   if response.status_code == 200:
     data = response.json().get('results').get('KR')
-    pprint(data)
+    # pprint(data)
     return data
   else:
     print(response.status_code)

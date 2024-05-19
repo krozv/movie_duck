@@ -9,6 +9,7 @@ import LogInView from '@/views/user/LogInView.vue'
 import LogOutView from '@/views/user/LogOutView.vue'
 import ProfileView from '@/views/user/ProfileView.vue'
 import ResultView from '@/views/recommend/ResultView.vue'
+import BoxOfficeDetailView from '@/views/movies/BoxOfficeDetailView.vue'
 import { useCounterStore } from '@/stores/userStore'
 
 const router = createRouter({
@@ -24,10 +25,15 @@ const router = createRouter({
       name:'movies',
       component: MovieListView
     },
+    // {
+    //   path:'/:movieId',
+    //   name:'movie-detail',
+    //   component: MovieDetailView
+    // },
     {
-      path:'/:movieId',
-      name:'movie-detail',
-      component: MovieDetailView
+      path:'/:moviePk',
+      name:'boxoffice-detail',
+      component: BoxOfficeDetailView
     },
     {
       path:'/movie-search/:search',

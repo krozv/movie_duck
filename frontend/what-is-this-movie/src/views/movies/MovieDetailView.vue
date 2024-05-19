@@ -5,9 +5,6 @@
           :src="'https://image.tmdb.org/t/p/w300' + movie.poster_path" 
           alt="poster-img" 
           class="movie-image"
-          @mouseover="zoomIn"
-          @mouseleave="zoomOut"
-          :style="{ transform: zoomStyle, transition: zoomTransition}"
           >
       </transition>
       <div class="movie-info">
@@ -41,7 +38,7 @@
           :src="`https://www.youtube.com/embed/${videoId}?autoplay=1`"
           title="YouTube video player"
           frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen/>
         <div class="modal-btn">
           <button @click="modalOpen">닫기</button>
@@ -114,21 +111,6 @@
   function modalOpen() {
       modalCheck.value = !modalCheck.value
   }
-  
-  // 이미지 커졋다가 작아졋다가
-  const isZoomed = ref(false)
-  const zoomIn = () => {
-      isZoomed.value = true
-  }
-  const zoomOut = () => {
-      isZoomed.value = false
-  }
-  const zoomStyle = computed(() => {
-      return isZoomed.value ? 'scale(1.2)' : 'scale(1)'
-  })
-  const zoomTransition = computed(() => {
-        return isZoomed.value ? 'transform 0.5s ease' : 'transform 0.5s ease-out'
-      })
   </script>
   
   <style scoped>

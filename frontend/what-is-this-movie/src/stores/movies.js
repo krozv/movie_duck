@@ -4,20 +4,21 @@ import { useCounterStore } from './userStore'
 import axios from 'axios'
 
 export const useMovieStore = defineStore('movies', () => {
-  const apiKey = import.meta.env.VITE_TMDB_API_KEY
-  const movies = ref([])
-
-  const getMovies = function() {
+  const movie = ref([])
+  const getMovies = function(movie_pk) {
     axios({
       method: 'get',
-      params: {page: '1'},
-      url: "https://api.themoviedb.org/3/movie/top_rated?api_key=" + apiKey + "&language=ko-KR",
+      url: `${store.API_URL}/api/movie/${movie_pk}/`,
+      headers: {
+        Authorization: `Token ${store.token}`
       }
-    )
-    .then((response) => {
-      movies.value = response.data
     })
-    .catch((error) => {
+    .then(response => {
+      // console.log(response.data)
+      movie.value = response.data
+      // console.log(boxOfficeMovies.value)
+    })
+    .catch(error => {
       console.log(error)
     })
   }
@@ -34,12 +35,13 @@ export const useMovieStore = defineStore('movies', () => {
       }
     })
     .then(response => {
-      console.log(response.data)
+      // console.log(response.data)
       boxOfficeMovies.value = response.data
+      // console.log(boxOfficeMovies.value)
     })
     .catch(error => {
       console.log(error)
     })
   }
-  return { movies, getMovies, boxOffice, boxOfficeMovies }
+  return { movie, getMovies, boxOffice, boxOfficeMovies }
 }, { persist: true,})

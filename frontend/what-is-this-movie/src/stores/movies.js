@@ -1,5 +1,6 @@
 import { ref, computed } from 'vue'
 import { defineStore } from 'pinia'
+import { useCounterStore } from './userStore'
 import axios from 'axios'
 
 export const useMovieStore = defineStore('movies', () => {
@@ -22,6 +23,23 @@ export const useMovieStore = defineStore('movies', () => {
   }
 
   // juyeon
-  const userLikeMovies = ref([])
-  return { movies, getMovies, userLikeMovies }
+  const boxOfficeMovies = ref([])
+  const store = useCounterStore()
+  const boxOffice = function () {
+    axios({
+      method: 'get',
+      url: `${store.API_URL}/api/movie/boxoffice/`,
+      headers: {
+        Authorization: `Token ${store.token}`
+      }
+    })
+    .then(response => {
+      console.log(response.data)
+      boxOfficeMovies.value = response.data
+    })
+    .catch(error => {
+      console.log(error)
+    })
+  }
+  return { movies, getMovies, boxOffice, boxOfficeMovies }
 }, { persist: true,})

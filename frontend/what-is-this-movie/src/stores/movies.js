@@ -14,9 +14,7 @@ export const useMovieStore = defineStore('movies', () => {
       }
     })
     .then(response => {
-      // console.log(response.data)
       movie.value = response.data
-      // console.log(boxOfficeMovies.value)
     })
     .catch(error => {
       console.log(error)

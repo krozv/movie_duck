@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from .models import Movie, Comment, Reply, Boxoffice
+from .models import Movie, Comment, Reply, Boxoffice, Genre, Provider, Video
 
 class MovieListSerializer(serializers.ModelSerializer):
     class Meta:
@@ -27,12 +27,27 @@ class ReplySerializer(serializers.ModelSerializer):
         model = Reply
         fields = '__all__'
 
+# movie 단일 serializer
+class MovieGenreSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Genre
+        fields = '__all__'
+
+class MovieVideoSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Video
+        fields = '__all__'
+
 class MovieSerializer(serializers.ModelSerializer):
     comments = CommentSerializer(many=True, read_only=True)
+    genres = MovieGenreSerializer(many=True, read_only=True)
+    video = MovieVideoSerializer(many=True, read_only=True)
     class Meta:
         model = Movie
-        fields = ['title', 'overview', 'adult', 'comments']
+        # fields = ['title', 'overview', 'poster_path', 'comments']
+        fields = '__all__'
 
+# comment serializer
 class CommentReplySerializer(serializers.ModelSerializer):
     replies = ReplySerializer(many=True, read_only=True)
     class Meta:

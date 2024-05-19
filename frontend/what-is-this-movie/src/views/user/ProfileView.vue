@@ -1,18 +1,37 @@
 <template>
-    <div>
-        <h1>User Profile Page Will Here.</h1>
+    
+    <div class="pa-4">
+    <h2 v-if="userStore.userData">안녕하세요, {{ userStore.userData.username }}님.</h2>
     </div>
-    <h1 v-if="userStore.userData">안녕하세요, {{ userStore.userData.username }}님.</h1>
     <hr>
+    <div class="pa-4">
     <h3>좋아요한 영화 목록</h3>
-    <div class="row">
-            <div class="col-md-2 mt-1" v-for="movie in likeMovies" :key = movie.id>
-                <MovieComponent
-                :movie-id="movie.movie_id"
-                :movie-title="movie.title"
-                :movie-poster-path="movie.poster_path"/>
-            </div>
-        </div>
+    </div>
+    <v-slide-group
+        class="pa-4"
+        selected-class="bg-success"
+        show-arrows
+        
+    >
+        <v-slide-group-item
+            v-for="movie in likeMovies" 
+            :key = movie.id
+            v-slot="{ isSelected }"
+            
+        >
+            <v-card
+                :class="['ma-2', isSelected]"
+                hover
+                height="200"
+                weight="100"
+            >
+                <BoxOfficePoster
+                    :poster-path="movie.poster_path"
+                />
+                
+            </v-card>
+        </v-slide-group-item>
+    </v-slide-group>
 </template>
 
 <script setup>
@@ -20,7 +39,7 @@ import { useCounterStore } from '@/stores/userStore';
 import { useBackendStore } from '@/stores/backend';
 import axios from 'axios';
 import { onMounted, ref } from 'vue'
-import MovieComponent from '@/components/recommend/MovieComponent.vue';
+import BoxOfficePoster from '@/components/movies/BoxOfficePoster.vue'
 
 const userStore = useCounterStore()
 const store = useBackendStore()

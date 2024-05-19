@@ -1,5 +1,7 @@
 <template>
-    <h1>boxoffice detail view</h1>
+    <div class="pa-4">
+    <h2>boxoffice detail view</h2>
+    </div>
     <div v-if="store.movie" class="container">
         <div class="row">
             <div class="col-md-6">

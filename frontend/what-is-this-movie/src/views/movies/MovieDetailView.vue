@@ -48,7 +48,7 @@
     </div>
   </div>
   <div>
-      <Comment />
+      <Comment :movie-id="movieId"/>
   </div>
   </template>
     

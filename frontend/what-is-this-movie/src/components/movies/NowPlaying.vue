@@ -39,7 +39,6 @@ const getMovies = function() {
       }
     )
     .then((response) => {
-      // console.log(response.data)
       nowPlayingMovies.value = response.data.results
     })
     .catch((error) => {
@@ -50,7 +49,10 @@ const getMovies = function() {
 const store = useMovieStore()
 const router = useRouter()
 const movieDetailPage = function (movieId) {
-    router.push(`/${movieId}`)
+    router.push({ 
+      name: 'movie-detail',
+      params: { movieId : movieId }
+    })
 }
 
 const slideIndex = ref(0); // 현재 슬라이드 인덱스
@@ -65,8 +67,7 @@ const moveLeft = () => {
 };
 
 const moveRight = () => {
-    console.log(store.movies.results)
-    if (slideIndex.value < store.movies.results.length - 1) {
+    if (slideIndex.value < nowPlayingMovies.value.length - 1) {
     slideIndex.value++;
     offsetX.value -= slideWidth;
     }

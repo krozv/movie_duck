@@ -14,7 +14,7 @@ export const useMovieStore = defineStore('movies', () => {
       }
     })
     .then(response => {
-      // console.log(response.data)
+      console.log(response.data)
       movie.value = response.data
       // console.log(boxOfficeMovies.value)
     })

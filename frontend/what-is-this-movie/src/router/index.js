@@ -25,11 +25,11 @@ const router = createRouter({
       name:'movies',
       component: MovieListView
     },
-    // {
-    //   path:'/:movieId',
-    //   name:'movie-detail',
-    //   component: MovieDetailView
-    // },
+    {
+      path:'/:movieId',
+      name:'movie-detail',
+      component: MovieDetailView
+    },
     {
       path:'/:moviePk',
       name:'boxoffice-detail',

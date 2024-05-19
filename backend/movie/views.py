@@ -1,13 +1,14 @@
 from rest_framework.response import Response
 from rest_framework import status
-from rest_framework.decorators import api_view
+from rest_framework.decorators import api_view, permission_classes
 from .serializers import MovieListSerializer, MovieSerializer
 from .serializers import CommentSerializer, ReplySerializer
 from .serializers import CommentReplySerializer, BoxOfficeListSerializer
 from .models import Movie, Comment, Reply, Actor, Producer, Director, Genre, Provider, Video, Boxoffice
 from django.shortcuts import get_object_or_404
 from pprint import pprint
-from crawling import crawling, kobis_crawling
+from crawling import crawling, kobis_crawling, model_save
+from rest_framework.permissions import IsAuthenticated
 
 @api_view(['GET', 'POST'])
 def movie_main(request):
@@ -17,9 +18,11 @@ def movie_main(request):
     return Response(serializer.data, status=status.HTTP_200_OK)
   # 데이터 추출 및 저장용으로 사용할 예정
   if request.method == 'POST':
+
     return Response({'message':'기능없음'}, status=status.HTTP_200_OK)
 
 @api_view(['GET'])
+@permission_classes([IsAuthenticated])
 def movie_detail(request, movie_pk):
   # 단일 게시글 (댓글 포함) 조회
   if request.method == 'GET':

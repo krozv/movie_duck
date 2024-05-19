@@ -1,13 +1,16 @@
 <template>
-    <v-layout style="height: 45px">
-        <v-app-bar :elevation="0" rounded >
-            <div class="text-center">
-                <p>HOME</p>
-            </div>
-            <template v-slot:append>
+    <v-layout style="height: 50px">
+        <v-app-bar :elevation="0" rounded style="height: 50px">
+            <v-row>
+                <v-col>
+                <v-btn justify="center">
+                    <p>test</p>
+                </v-btn>
+                </v-col>
+                <v-col>
                 <!-- 로그인이 됐으면 -->
-                <div v-if="store.isLogin">
-                    <v-btn v-tooltip:bottom="'log out'">
+                <div v-if="store.isLogin" style="height: 50px" >
+                    <v-btn v-tooltip:bottom="'log out'" >
                     <router-link :to="{ name:'LogOutView'}">
                         <svg-icon type="mdi" :path="mdiLogout"
                         color=black
@@ -44,10 +47,9 @@
                         ></svg-icon>
                     </router-link>
                 </v-btn>
-                
-                
                 </div>
-            </template>
+                </v-col>
+            </v-row>
         </v-app-bar>
     </v-layout>
 </template>

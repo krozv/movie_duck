@@ -1,10 +1,13 @@
 <template>
-  <Navigation/>
-  <!-- <div>
-    <NavBar />
-  </div> -->
-  <router-view></router-view>
-  <FooterComponent />
+  <nav>
+    <Navigation/>
+  </nav>
+  <main>
+    <router-view></router-view>
+  </main>
+  <footer>
+    <FooterComponent />
+  </footer>
 </template>
 
 <script setup>
@@ -25,5 +28,9 @@ import FooterComponent  from '@/components/Footer.vue'
 
 * {
   font-family:'Apple';
+}
+
+main{
+  background-color: #e4e4e4f9;
 }
 </style>

@@ -8,10 +8,3 @@ class UserSerializer(serializers.ModelSerializer):
         model = User
         fields = ('username', 'password', 'email',)  # Serializer에 포함할 필드 지정
 
-    # def create(self, validated_data):
-    #     # 비밀번호를 해싱하여 저장
-    #     password = validated_data.pop('password')
-    #     user = User(**validated_data)
-    #     user.set_password(password)
-    #     user.save()
-    #     return user

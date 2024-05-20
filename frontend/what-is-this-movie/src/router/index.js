@@ -1,6 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '@/views/HomeView.vue'
-import MovieDetailView from '@/views/movies/MovieDetailView.vue'
 import MovieListView from '@/views/movies/MovieListView.vue'
 import RecommendView from '@/views/recommend/RecommendView.vue'
 import MovieSearchView from '@/views/MovieSearchView.vue'
@@ -92,6 +91,11 @@ router.beforeEach((to, from) => {
     localStorage.removeItem('secondGenreMovies')
     localStorage.removeItem('firstActorMovies')
     localStorage.removeItem('secondActorMovies')
+  }
+  // sign up view에서 나갈 시 profile 이미지 불러오기
+  if (from.name === 'SignUpView') {
+    // axios로 user profilePath 요청
+    // store.userProfile.value = profilePath
   }
 
 })

@@ -5,9 +5,5 @@ from movie.models import Movie
 
 # Create your models here.
 class User(AbstractUser):
-    pass
-
-class LoginUser(models.Model):
-    user = models.ForeignKey(settings.AUTH_USER_MODEL,on_delete=models.CASCADE)
-    user_profile =  models.ImageField(blank=True)
+    user_profile =  models.ImageField(default='defaults/duck.jpg', blank=True)
     user_liked_movie = models.ManyToManyField(Movie)

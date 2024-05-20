@@ -118,6 +118,6 @@ export const useCounterStore = defineStore('counter', () => {
     fetchUserData()
   }
   
-
-  return { articles, API_URL, getArticles, signUp, logIn, token, isLogin, logout, userData, fetchUserData }
+  const userProfile = ref(null)
+  return { userProfile, articles, API_URL, getArticles, signUp, logIn, token, isLogin, logout, userData, fetchUserData }
 }, { persist: true })

@@ -3,7 +3,6 @@ from rest_framework import status
 from rest_framework.decorators import api_view, permission_classes
 from movie.serializers import MovieListSerializer, RecommendListSerializer
 from movie.models import Movie, Genre, Actor, Director
-from accounts.models import LoginUser
 from random import sample
 from django.db.models import Count
 from django.contrib.auth import get_user_model
@@ -28,12 +27,12 @@ def genre(request):
     like_movies = request.data.get('userLikeMovies')
     like_movies_query = Movie.objects.filter(movie_id__in=like_movies)
     
+    # user = request.user
     user = request.user
-    profile, created = LoginUser.objects.get_or_create(user=user)
 
     # user가 선택한 영화 목록 추가함
     for like_movies in like_movies_query:
-      profile.user_liked_movie.add(like_movies)
+      user.user_liked_movie.add(like_movies)
 
     # 사용자가 선호하는 장르 2가지 
     genres = like_movies_query.values('genres').annotate(total=Count('id')).order_by('-total')[:2]
@@ -86,7 +85,5 @@ def director(request):
 @api_view(['GET'])
 @permission_classes([IsAuthenticated])
 def like_movie(request):
-  user = request.user
-  loginUser = LoginUser.objects.get(user=user)
-  serializer = MovieListSerializer(loginUser.user_liked_movie.all(), many=True)
+  serializer = MovieListSerializer(request.user.user_liked_movie, many=True)
   return Response(serializer.data, status=status.HTTP_200_OK)

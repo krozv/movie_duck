@@ -158,3 +158,7 @@ ROOT_URLCONF = 'what_is_this_movie.urls'
 MEDIA_ROOT = BASE_DIR / 'media'
 
 MEDIA_URL = 'media/'
+
+STATIC_URL = 'static/'
+
+STATIC_ROOT = BASE_DIR / 'static'

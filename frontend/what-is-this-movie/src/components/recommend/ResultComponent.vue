@@ -2,26 +2,55 @@
     <hr>
     <div v-if="firstMovies && firstMovies.length > 0">
         <h3><span class="bold-dark">{{ firstMovies[0]['recommend'] }}</span> {{ classification(search)}} 영화를 좋아하시네요</h3>
-        <div class="row">
-            <div class="col-md-2 mt-1" v-for="movie in firstMovies" :key = movie.id>
-                <MovieComponent
-                :movie-id="movie.movie_id"
-                :movie-title="movie.title"
-                :movie-poster-path="movie.poster_path"/>
-            </div>
-        </div>
+        <v-slide-group
+            class="px-2"
+            selected-class="bg-success"
+            show-arrows
+        >
+            <v-slide-group-item
+                v-for="movie in firstMovies" 
+                :key="movie.id"
+                v-slot="{ selectedClass }"
+            >
+                <v-card
+                    :class="['ma-4', selectedClass]"
+                    @click="movieDetailPage(movie.pk)"
+                    hover
+                >
+                <Poster 
+                    :poster-path="movie.poster_path"
+                />
+          
+                </v-card>
+            </v-slide-group-item>
+        </v-slide-group>
     </div>
     <hr>
     <div v-if="secondMovies && secondMovies.length > 0">
         <h3><span class="bold-dark">{{ secondMovies[0]['recommend'] }}</span> {{ classification(search)}} 영화를 추천드려요</h3>
-        <div class="row">
-            <div class="col-md-2 mt-1" v-for="movie in secondMovies" :key = movie.id>
-                <MovieComponent
-                :movie-id="movie.movie_id"
-                :movie-title="movie.title"
-                :movie-poster-path="movie.poster_path"/>
-            </div>
-        </div>
+
+        <v-slide-group
+            class="px-2"
+            selected-class="bg-success"
+            show-arrows
+        >
+            <v-slide-group-item
+                v-for="movie in secondMovies" 
+                :key="movie.id"
+                v-slot="{ selectedClass }"
+            >
+                <v-card
+                    :class="['ma-4', selectedClass]"
+                    @click="movieDetailPage(movie.pk)"
+                    hover
+                >
+                <Poster 
+                    :poster-path="movie.poster_path"
+                />
+          
+                </v-card>
+            </v-slide-group-item>
+        </v-slide-group>
     </div>
 </template>
 
@@ -30,8 +59,8 @@ import { useBackendStore } from '@/stores/backend';
 import { useCounterStore } from '@/stores/userStore'
 import { ref } from 'vue';
 import axios from 'axios'
-import MovieComponent from '@/components/recommend/MovieComponent.vue';
-
+import { useRouter } from 'vue-router'
+import Poster from '../movies/Poster.vue';
 const props = defineProps({
     search: String,
 })
@@ -65,10 +94,8 @@ const recommend = function (search) {
         }
     })
         .then((res) => {
-            console.log(option(search))
             const firstKey = Object.keys(res.data)[0]
             const secondKey = Object.keys(res.data)[1]
-            console.log(firstKey, secondKey)
             firstMovies.value = res.data[firstKey]
             secondMovies.value = res.data[secondKey]
             localStorage.setItem(`first${option(search)}Movies`, JSON.stringify(firstMovies.value))
@@ -79,6 +106,16 @@ const recommend = function (search) {
         })
 }
 recommend(props.search)
+
+const router = useRouter()
+const movieDetailPage = function (moviePk) {
+    router.push(
+    { 
+            name: 'boxoffice-detail',
+            params: { moviePk : moviePk }
+    }
+    )
+}
 </script>
 
 <style scoped>

@@ -5,7 +5,8 @@ from . import crawling
 def movie_and_genre(data):
     # database는 api 요청 결과임
     # pprint(data)
-    genres = data['genres']
+    genres = data['genre_ids']
+    print(genres)
     # 받을 데이터를 movie 모델에 저장해야함
     movie = Movie.objects.create(
             title = data['title'],
@@ -15,7 +16,7 @@ def movie_and_genre(data):
             popularity = data['popularity'],
             poster_path = data.get('poster_path'))
     for genre in genres:
-        genre = Genre.objects.get(genre_id=genre.get('id'))
+        genre = Genre.objects.get(genre_id=genre)
         movie.genres.add(genre)
 
 def provider(movie_pk):

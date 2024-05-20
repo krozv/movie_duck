@@ -18,7 +18,6 @@ def movie_main(request):
     return Response(serializer.data, status=status.HTTP_200_OK)
   # 데이터 추출 및 저장용으로 사용할 예정
   if request.method == 'POST':
-
     return Response({'message':'기능없음'}, status=status.HTTP_200_OK)
 
 @api_view(['GET'])
@@ -97,4 +96,11 @@ def box_office(request):
   if request.method == 'GET':
     movies = Boxoffice.objects.all()
     serializer = BoxOfficeListSerializer(movies, many=True)
+    return Response(serializer.data, status=status.HTTP_200_OK)
+
+@api_view(['GET'])
+def popular(request):
+  if request.method == 'GET':
+    movies = Movie.objects.filter(upcoming=True)[:10]
+    serializer = MovieListSerializer(movies, many=True)
     return Response(serializer.data, status=status.HTTP_200_OK)

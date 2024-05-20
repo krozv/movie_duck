@@ -1,14 +1,14 @@
 <template>
-    <div class="pa-4">
-    <h2>boxoffice detail view</h2>
-    </div>
+    <main class="pa-4">
     <div v-if="store.movie" class="container">
         <div class="row">
-            <div class="col-md-6">
-                <img 
-                :src="'https://image.tmdb.org/t/p/w300' + store.movie.poster_path" 
-                alt="poster-img" 
-                >
+            <div class="col-md-5">
+                <div class="d-flex justify-center">
+                    <img 
+                    :src="'https://image.tmdb.org/t/p/w300' + store.movie.poster_path" 
+                    alt="poster-img" 
+                    >
+                </div>
             </div>
             <div class="col-md-6">
                 <h1>{{ store.movie.title }}</h1>
@@ -36,6 +36,7 @@
             <Comment />
         </div>
     </div>
+    </main>
 </template>
 
 <script setup>

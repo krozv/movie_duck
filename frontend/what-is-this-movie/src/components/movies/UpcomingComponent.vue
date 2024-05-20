@@ -1,23 +1,22 @@
 <template>
-  <h2 class="pa-4 mx-14 my-0">Box Office 순위</h2>
+  <h2 class="pa-4 mx-14 my-0">아직 안 나온 영화</h2>
   <v-slide-group
       class="px-2"
       selected-class="bg-success"
       show-arrows
     >
       <v-slide-group-item
-        v-for="boxoffice in store.boxOfficeMovies" 
-        :key="boxoffice.movie[0].movie_id"
+        v-for="popularMovie in store.popularMovies" 
+        :key="popularMovie.id"
         v-slot="{ selectedClass }"
       >
-        
         <v-card
           :class="['ma-4', selectedClass]"
-          @click="movieDetailPage(boxoffice.movie[0].pk)"
+          @click="movieDetailPage(popularMovie.id)"
           hover
         >
         <Poster 
-          :poster-path="boxoffice.movie[0].poster_path"
+          :poster-path="popularMovie.poster_path"
         />
           
         </v-card>
@@ -35,12 +34,11 @@ const store = useMovieStore()
 
 onMounted(() => {
    // boxoffice 순위 불러옴
-   store.boxOffice()
+  store.popular()
    
 })
 const router = useRouter()
 const movieDetailPage = function (moviePk) {
- console.log(moviePk)
  router.push(
    { 
      name: 'boxoffice-detail',

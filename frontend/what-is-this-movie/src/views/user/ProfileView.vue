@@ -25,7 +25,7 @@
                 height="200"
                 weight="100"
             >
-                <BoxOfficePoster
+                <Poster
                     :poster-path="movie.poster_path"
                 />
                 
@@ -39,7 +39,7 @@ import { useCounterStore } from '@/stores/userStore';
 import { useBackendStore } from '@/stores/backend';
 import axios from 'axios';
 import { onMounted, ref } from 'vue'
-import BoxOfficePoster from '@/components/movies/BoxOfficePoster.vue'
+import Poster from '@/components/movies/Poster.vue'
 
 const userStore = useCounterStore()
 const store = useBackendStore()

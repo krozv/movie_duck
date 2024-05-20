@@ -4,7 +4,7 @@
         <p>영화를 10개 이상 골라주세요.</p>
         <p>{{ count }}개를 골랐습니다.</p>
         <div class="row">
-            <div class="col-md-3 mt-1" v-for="movie in movies" :key = movie.id>
+            <div class="col-6 col-md-3 col-xl-2 mt-1" v-for="movie in movies" :key = movie.id>
                 <MovieComponent
                 @click-event="storeMovie"
                 :movie-id="movie.movie_id"

@@ -20,7 +20,22 @@ export const useMovieStore = defineStore('movies', () => {
       console.log(error)
     })
   }
-
+  const allMovies = ref([])
+  const getAllMovies = function() {
+    axios({
+      method: 'get',
+      url: `${store.API_URL}/api/movie/`,
+      headers: {
+        Authorization: `Token ${store.token}`
+      }
+    })
+    .then(response => {
+      allMovies.value = response.data
+    })
+    .catch(error => {
+      console.log(error)
+    })
+  }
   // juyeon
   const boxOfficeMovies = ref([])
   const store = useCounterStore()
@@ -33,13 +48,28 @@ export const useMovieStore = defineStore('movies', () => {
       }
     })
     .then(response => {
-      // console.log(response.data)
       boxOfficeMovies.value = response.data
-      // console.log(boxOfficeMovies.value)
     })
     .catch(error => {
       console.log(error)
     })
   }
-  return { movie, getMovies, boxOffice, boxOfficeMovies }
+
+  const popularMovies = ref([])
+  const popular = function () {
+    axios({
+      method: 'get',
+      url: `${store.API_URL}/api/movie/popular/`,
+      headers: {
+        Authorization: `Token ${store.token}`
+      }
+    })
+    .then(response => {
+      popularMovies.value = response.data
+    })
+    .catch(error => {
+      console.log(error)
+    })
+  }
+  return { movie, getMovies, boxOffice, boxOfficeMovies, allMovies, getAllMovies, popular, popularMovies  }
 }, { persist: true,})

@@ -1,12 +1,12 @@
 <template>
   <BoxOfficeComponent />
-  <NowPlayingMovies />
+  <!-- <NowPlayingMovies /> -->
+  <UpcomingComponent />
 </template>
 
 <script setup>
-import NowPlayingMovies from '@/components/movies/NowPlaying.vue'
 import BoxOfficeComponent from '@/components/movies/BoxOfficeComponent.vue'
-
+import UpcomingComponent from '@/components/movies/UpcomingComponent.vue'
 
 </script>
 

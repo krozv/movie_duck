@@ -16,11 +16,27 @@ def popular(page):
   response = requests.get(url, params=params)
   if response.status_code == 200:
     data = response.json()
-    print(data)
+    pprint(data)
     return data
   else:
     print(response.status_code)
 
+def upcoming(page):
+  url = 'https://api.themoviedb.org/3/movie/upcoming'
+  params = {
+    'language': 'ko',
+    'page': page,
+    'api_key': API_KEY,
+    'region' : 'KR',
+  }
+  response = requests.get(url, params=params)
+  if response.status_code == 200:
+    data = response.json()
+    # pprint(data)
+    return data
+  else:
+    print(response.status_code)
+    
 def genres():
   url = 'https://api.themoviedb.org/3/genre/movie/list'
   params = {

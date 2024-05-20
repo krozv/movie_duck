@@ -11,7 +11,7 @@ class RecommendListSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Movie
-        fields = ['title', 'movie_id', 'poster_path']
+        fields = ['title', 'movie_id', 'poster_path', 'pk']
         fields.append('recommend')
 
     def get_recommend(self, obj):

@@ -15,7 +15,7 @@ def index(request):
   # 영화 추천 페이지: random 영화 목록 20개
   if request.method == 'GET':
     movies = Movie.objects.all()
-    random_movies = sample(list(movies), 20)
+    random_movies = sample(list(movies), 24)
     serializer = MovieListSerializer(random_movies, many=True)
     return Response(serializer.data, status=status.HTTP_200_OK)
   

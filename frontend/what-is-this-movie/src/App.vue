@@ -11,10 +11,18 @@
 </template>
 
 <script setup>
+import { onMounted } from 'vue';
 import { RouterView } from 'vue-router'
-import NavBar from './components/NavBar.vue';
 import Navigation from '@/components/Navigation.vue'
 import FooterComponent  from '@/components/Footer.vue'
+import { useMovieStore } from '@/stores/movies';
+
+const store = useMovieStore();
+onMounted(() => {
+  store.getAllMovies();
+  console.log('앱 구동')
+});
+
 </script>
 
 <style>

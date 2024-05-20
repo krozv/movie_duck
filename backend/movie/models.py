@@ -42,7 +42,7 @@ class Movie(models.Model):
     title = models.CharField(max_length=200)  # 제목
     overview = models.TextField()   # 상세 설명
     movie_id = models.IntegerField()  # 영화 검색용 아이디
-    adult = models.BooleanField(null=True) # 성인 영화 유무
+    upcoming = models.BooleanField(null=True) # 1: 개봉안함, 0: 개봉함
     genres = models.ManyToManyField(Genre)
     actors = models.ManyToManyField(Actor)
     director = models.ManyToManyField(Director)

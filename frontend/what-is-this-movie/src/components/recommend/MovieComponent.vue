@@ -1,12 +1,13 @@
 <template>
     <!-- 단일 영화 컴포넌트 -->
-    <div @click="storeMovie" :class="{ 'border-primary': clickCard }" class="card text-bg-dark" style="height: 100%;">
+    <div @click="storeMovie" :class="{ 'border-warning': clickCard }" class="card text-bg-dark" style="height: 100%;">
         <img class="card-img" 
             :src="'https://image.tmdb.org/t/p/w300'+moviePosterPath" 
             alt="Card image cap"
             style="height: 100%;">
         <div class="card-img-overlay">
-            <h3 class="card-title" :class="{ 'text-primary': clickCard }">{{ movieTitle }}</h3>
+            <h4 class="card-title fw-bold  text-dark highlight" 
+            :class="{ 'text-warning': clickCard }">{{ movieTitle }}</h4>
         </div>
     </div>
 </template>
@@ -34,5 +35,10 @@ const storeMovie = function() {
 </script>
 
 <style scoped>
+.highlight {
+    background-color: rgba(255,255,255,0.5);
+    padding: 3px 5px;
+    border-radius: 3px;
+}
 
 </style>

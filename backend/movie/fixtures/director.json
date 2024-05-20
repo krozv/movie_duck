@@ -3508,5 +3508,2595 @@
     "director_original_name": "Sylvester Stallone",
     "director_popularity": 106
   }
+},
+{
+  "model": "movie.director",
+  "pk": 352,
+  "fields": {
+    "director_id": 1544991,
+    "director_name": "장재현",
+    "director_original_name": "장재현",
+    "director_popularity": 16
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 353,
+  "fields": {
+    "director_id": 557736,
+    "director_name": "박훈정",
+    "director_original_name": "박훈정",
+    "director_popularity": 22
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 354,
+  "fields": {
+    "director_id": 119337,
+    "director_name": "최동훈",
+    "director_original_name": "최동훈",
+    "director_popularity": 7
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 355,
+  "fields": {
+    "director_id": 1295402,
+    "director_name": "김창주",
+    "director_original_name": "김창주",
+    "director_popularity": 10
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 356,
+  "fields": {
+    "director_id": 2879867,
+    "director_name": "허명행",
+    "director_original_name": "허명행",
+    "director_popularity": 16
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 357,
+  "fields": {
+    "director_id": 2378215,
+    "director_name": "Bang Woo-ri",
+    "director_original_name": "Bang Woo-ri",
+    "director_popularity": 5
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 358,
+  "fields": {
+    "director_id": 21684,
+    "director_name": "봉준호",
+    "director_original_name": "봉준호",
+    "director_popularity": 43
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 359,
+  "fields": {
+    "director_id": 939147,
+    "director_name": "연상호",
+    "director_original_name": "연상호",
+    "director_popularity": 29
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 360,
+  "fields": {
+    "director_id": 1910480,
+    "director_name": "Lee Won-tae",
+    "director_original_name": "Lee Won-tae",
+    "director_popularity": 10
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 361,
+  "fields": {
+    "director_id": 10099,
+    "director_name": "박찬욱",
+    "director_original_name": "박찬욱",
+    "director_popularity": 22
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 362,
+  "fields": {
+    "director_id": 1294527,
+    "director_name": "김홍선",
+    "director_original_name": "김홍선",
+    "director_popularity": 7
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 363,
+  "fields": {
+    "director_id": 1681678,
+    "director_name": "Choi Sang-hoon",
+    "director_original_name": "Choi Sang-hoon",
+    "director_popularity": 0
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 364,
+  "fields": {
+    "director_id": 1296327,
+    "director_name": "김대우",
+    "director_original_name": "김대우",
+    "director_popularity": 11
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 365,
+  "fields": {
+    "director_id": 1576066,
+    "director_name": "엄태화",
+    "director_original_name": "엄태화",
+    "director_popularity": 8
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 366,
+  "fields": {
+    "director_id": 1943702,
+    "director_name": "이충현",
+    "director_original_name": "이충현",
+    "director_popularity": 26
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 367,
+  "fields": {
+    "director_id": 17120,
+    "director_name": "정우성",
+    "director_original_name": "정우성",
+    "director_popularity": 59
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 368,
+  "fields": {
+    "director_id": 1140790,
+    "director_name": "Choi Jin-sung",
+    "director_original_name": "Choi Jin-sung",
+    "director_popularity": 8
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 369,
+  "fields": {
+    "director_id": 2919106,
+    "director_name": "유재선",
+    "director_original_name": "유재선",
+    "director_popularity": 4
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 370,
+  "fields": {
+    "director_id": 75915,
+    "director_name": "나홍진",
+    "director_original_name": "나홍진",
+    "director_popularity": 17
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 371,
+  "fields": {
+    "director_id": 2376041,
+    "director_name": "이상용",
+    "director_original_name": "이상용",
+    "director_popularity": 16
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 372,
+  "fields": {
+    "director_id": 2204473,
+    "director_name": "Choi Jae-hoon",
+    "director_original_name": "Choi Jae-hoon",
+    "director_popularity": 4
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 373,
+  "fields": {
+    "director_id": 69081,
+    "director_name": "김지운",
+    "director_original_name": "김지운",
+    "director_popularity": 27
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 374,
+  "fields": {
+    "director_id": 17119,
+    "director_name": "김성수",
+    "director_original_name": "김성수",
+    "director_popularity": 19
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 375,
+  "fields": {
+    "director_id": 548646,
+    "director_name": "정병길",
+    "director_original_name": "정병길",
+    "director_popularity": 7
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 376,
+  "fields": {
+    "director_id": 84969,
+    "director_name": "김용화",
+    "director_original_name": "김용화",
+    "director_popularity": 16
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 377,
+  "fields": {
+    "director_id": 2404074,
+    "director_name": "Kwon Oh-seung",
+    "director_original_name": "Kwon Oh-seung",
+    "director_popularity": 1
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 378,
+  "fields": {
+    "director_id": 150150,
+    "director_name": "민규동",
+    "director_original_name": "민규동",
+    "director_popularity": 12
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 379,
+  "fields": {
+    "director_id": 2359485,
+    "director_name": "Cho Il",
+    "director_original_name": "Cho Il",
+    "director_popularity": 1
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 380,
+  "fields": {
+    "director_id": 1902848,
+    "director_name": "강윤성",
+    "director_original_name": "강윤성",
+    "director_popularity": 10
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 381,
+  "fields": {
+    "director_id": 132177,
+    "director_name": "김대승",
+    "director_original_name": "김대승",
+    "director_popularity": 7
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 382,
+  "fields": {
+    "director_id": 1294594,
+    "director_name": "Moon Hyun-sung",
+    "director_original_name": "Moon Hyun-sung",
+    "director_popularity": 2
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 383,
+  "fields": {
+    "director_id": 1059129,
+    "director_name": "한재림",
+    "director_original_name": "한재림",
+    "director_popularity": 20
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 384,
+  "fields": {
+    "director_id": 1049134,
+    "director_name": "김한민",
+    "director_original_name": "김한민",
+    "director_popularity": 9
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 385,
+  "fields": {
+    "director_id": 1293085,
+    "director_name": "김병서",
+    "director_original_name": "김병서",
+    "director_popularity": 8
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 386,
+  "fields": {
+    "director_id": 108536,
+    "director_name": "이해준",
+    "director_original_name": "이해준",
+    "director_popularity": 22
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 387,
+  "fields": {
+    "director_id": 2154622,
+    "director_name": "Kim Min-ho",
+    "director_original_name": "Kim Min-ho",
+    "director_popularity": 0
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 388,
+  "fields": {
+    "director_id": 3909409,
+    "director_name": "Kim Hee-jin",
+    "director_original_name": "Kim Hee-jin",
+    "director_popularity": 1
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 389,
+  "fields": {
+    "director_id": 25645,
+    "director_name": "고레에다 히로카즈",
+    "director_original_name": "Hirokazu Kore-eda",
+    "director_popularity": 18
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 390,
+  "fields": {
+    "director_id": 94003,
+    "director_name": "임필성",
+    "director_original_name": "임필성",
+    "director_popularity": 8
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 391,
+  "fields": {
+    "director_id": 1294627,
+    "director_name": "유하",
+    "director_original_name": "유하",
+    "director_popularity": 14
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 392,
+  "fields": {
+    "director_id": 1135240,
+    "director_name": "김성훈",
+    "director_original_name": "김성훈",
+    "director_popularity": 1
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 393,
+  "fields": {
+    "director_id": 144590,
+    "director_name": "이정범",
+    "director_original_name": "이정범",
+    "director_popularity": 9
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 394,
+  "fields": {
+    "director_id": 148747,
+    "director_name": "장훈",
+    "director_original_name": "장훈",
+    "director_popularity": 3
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 395,
+  "fields": {
+    "director_id": 1293686,
+    "director_name": "변성현",
+    "director_original_name": "변성현",
+    "director_popularity": 13
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 396,
+  "fields": {
+    "director_id": 1121891,
+    "director_name": "조의석",
+    "director_original_name": "조의석",
+    "director_popularity": 6
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 397,
+  "fields": {
+    "director_id": 1086497,
+    "director_name": "조성희",
+    "director_original_name": "조성희",
+    "director_popularity": 11
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 398,
+  "fields": {
+    "director_id": 97142,
+    "director_name": "정지우",
+    "director_original_name": "정지우",
+    "director_popularity": 8
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 399,
+  "fields": {
+    "director_id": 577473,
+    "director_name": "Lee Kae-byeok",
+    "director_original_name": "Lee Kae-byeok",
+    "director_popularity": 5
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 400,
+  "fields": {
+    "director_id": 1480986,
+    "director_name": "백",
+    "director_original_name": "백",
+    "director_popularity": 8
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 401,
+  "fields": {
+    "director_id": 64883,
+    "director_name": "강제규",
+    "director_original_name": "강제규",
+    "director_popularity": 9
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 402,
+  "fields": {
+    "director_id": 1630357,
+    "director_name": "이용주",
+    "director_original_name": "이용주",
+    "director_popularity": 5
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 403,
+  "fields": {
+    "director_id": 112018,
+    "director_name": "Jung Bum-shik",
+    "director_original_name": "Jung Bum-shik",
+    "director_popularity": 7
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 404,
+  "fields": {
+    "director_id": 1879192,
+    "director_name": "Kim Joung-hoon",
+    "director_original_name": "Kim Joung-hoon",
+    "director_popularity": 3
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 405,
+  "fields": {
+    "director_id": 1109635,
+    "director_name": "Na Hyun",
+    "director_original_name": "Na Hyun",
+    "director_popularity": 4
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 406,
+  "fields": {
+    "director_id": 126809,
+    "director_name": "이준익",
+    "director_original_name": "이준익",
+    "director_popularity": 7
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 407,
+  "fields": {
+    "director_id": 84852,
+    "director_name": "윤제균",
+    "director_original_name": "윤제균",
+    "director_popularity": 15
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 408,
+  "fields": {
+    "director_id": 1149649,
+    "director_name": "이환경",
+    "director_original_name": "이환경",
+    "director_popularity": 7
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 409,
+  "fields": {
+    "director_id": 1771406,
+    "director_name": "장항준",
+    "director_original_name": "장항준",
+    "director_popularity": 15
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 410,
+  "fields": {
+    "director_id": 1863287,
+    "director_name": "Kim Sung-hoon",
+    "director_original_name": "Kim Sung-hoon",
+    "director_popularity": 6
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 411,
+  "fields": {
+    "director_id": 583166,
+    "director_name": "김지훈",
+    "director_original_name": "김지훈",
+    "director_popularity": 4
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 412,
+  "fields": {
+    "director_id": 3150115,
+    "director_name": "Kim Tae-joon",
+    "director_original_name": "Kim Tae-joon",
+    "director_popularity": 0
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 413,
+  "fields": {
+    "director_id": 1139243,
+    "director_name": "Kim Kwang-sik",
+    "director_original_name": "Kim Kwang-sik",
+    "director_popularity": 6
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 414,
+  "fields": {
+    "director_id": 1023610,
+    "director_name": "Park Dae-min",
+    "director_original_name": "Park Dae-min",
+    "director_popularity": 1
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 415,
+  "fields": {
+    "director_id": 2423925,
+    "director_name": "Jo Ba-reun",
+    "director_original_name": "Jo Ba-reun",
+    "director_popularity": 8
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 416,
+  "fields": {
+    "director_id": 73249,
+    "director_name": "이정재",
+    "director_original_name": "이정재",
+    "director_popularity": 38
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 417,
+  "fields": {
+    "director_id": 78866,
+    "director_name": "John H. Lee",
+    "director_original_name": "John H. Lee",
+    "director_popularity": 2
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 418,
+  "fields": {
+    "director_id": 73253,
+    "director_name": "Lee Hyun-seung",
+    "director_original_name": "Lee Hyun-seung",
+    "director_popularity": 6
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 419,
+  "fields": {
+    "director_id": 2405028,
+    "director_name": "Kim Hyung-joo",
+    "director_original_name": "Kim Hyung-joo",
+    "director_popularity": 3
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 420,
+  "fields": {
+    "director_id": 2206335,
+    "director_name": "Lee Min-jae",
+    "director_original_name": "Lee Min-jae",
+    "director_popularity": 2
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 421,
+  "fields": {
+    "director_id": 1830479,
+    "director_name": "Lee Sa-rang",
+    "director_original_name": "Lee Sa-rang",
+    "director_popularity": 11
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 422,
+  "fields": {
+    "director_id": 64331,
+    "director_name": "심형래",
+    "director_original_name": "심형래",
+    "director_popularity": 12
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 423,
+  "fields": {
+    "director_id": 2206352,
+    "director_name": "Lee Sang-geun",
+    "director_original_name": "Lee Sang-geun",
+    "director_popularity": 2
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 424,
+  "fields": {
+    "director_id": 117370,
+    "director_name": "박광현",
+    "director_original_name": "박광현",
+    "director_popularity": 9
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 425,
+  "fields": {
+    "director_id": 1979003,
+    "director_name": "Seo Yu-min",
+    "director_original_name": "Seo Yu-min",
+    "director_popularity": 2
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 426,
+  "fields": {
+    "director_id": 240802,
+    "director_name": "Park Jung-woo",
+    "director_original_name": "Park Jung-woo",
+    "director_popularity": 8
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 427,
+  "fields": {
+    "director_id": 3133890,
+    "director_name": "Sim Deok-geun",
+    "director_original_name": "Sim Deok-geun",
+    "director_popularity": 0
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 428,
+  "fields": {
+    "director_id": 1043312,
+    "director_name": "김기영",
+    "director_original_name": "김기영",
+    "director_popularity": 11
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 429,
+  "fields": {
+    "director_id": 1456792,
+    "director_name": "이병헌",
+    "director_original_name": "이병헌",
+    "director_popularity": 26
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 430,
+  "fields": {
+    "director_id": 1024391,
+    "director_name": "윤종빈",
+    "director_original_name": "윤종빈",
+    "director_popularity": 30
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 431,
+  "fields": {
+    "director_id": 96631,
+    "director_name": "허진호",
+    "director_original_name": "허진호",
+    "director_popularity": 20
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 432,
+  "fields": {
+    "director_id": 86325,
+    "director_name": "류승완",
+    "director_original_name": "류승완",
+    "director_popularity": 19
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 433,
+  "fields": {
+    "director_id": 1285352,
+    "director_name": "양우석",
+    "director_original_name": "양우석",
+    "director_popularity": 5
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 434,
+  "fields": {
+    "director_id": 531737,
+    "director_name": "윤성현",
+    "director_original_name": "윤성현",
+    "director_popularity": 3
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 435,
+  "fields": {
+    "director_id": 1565972,
+    "director_name": "Lee Il-hyung",
+    "director_original_name": "Lee Il-hyung",
+    "director_popularity": 3
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 436,
+  "fields": {
+    "director_id": 1292897,
+    "director_name": "우민호",
+    "director_original_name": "우민호",
+    "director_popularity": 6
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 437,
+  "fields": {
+    "director_id": 1276241,
+    "director_name": "Park Hong-soo",
+    "director_original_name": "Park Hong-soo",
+    "director_popularity": 3
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 438,
+  "fields": {
+    "director_id": 2092980,
+    "director_name": "Jude Jung",
+    "director_original_name": "Jude Jung",
+    "director_popularity": 0
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 439,
+  "fields": {
+    "director_id": 1294471,
+    "director_name": "황동혁",
+    "director_original_name": "황동혁",
+    "director_popularity": 17
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 440,
+  "fields": {
+    "director_id": 83153,
+    "director_name": "박현진",
+    "director_original_name": "박현진",
+    "director_popularity": 9
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 441,
+  "fields": {
+    "director_id": 2204515,
+    "director_name": "Kim Yong-hoon",
+    "director_original_name": "Kim Yong-hoon",
+    "director_popularity": 3
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 442,
+  "fields": {
+    "director_id": 75918,
+    "director_name": "홍원찬",
+    "director_original_name": "홍원찬",
+    "director_popularity": 14
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 443,
+  "fields": {
+    "director_id": 548666,
+    "director_name": "장철수",
+    "director_original_name": "장철수",
+    "director_popularity": 6
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 444,
+  "fields": {
+    "director_id": 1539147,
+    "director_name": "Kim Dong-won",
+    "director_original_name": "Kim Dong-won",
+    "director_popularity": 1
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 445,
+  "fields": {
+    "director_id": 84998,
+    "director_name": "곽경택",
+    "director_original_name": "곽경택",
+    "director_popularity": 9
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 446,
+  "fields": {
+    "director_id": 1637242,
+    "director_name": "Kim Tae-hun",
+    "director_original_name": "Kim Tae-hun",
+    "director_popularity": 5
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 447,
+  "fields": {
+    "director_id": 1044894,
+    "director_name": "박흥식",
+    "director_original_name": "박흥식",
+    "director_popularity": 2
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 448,
+  "fields": {
+    "director_id": 1203347,
+    "director_name": "허정",
+    "director_original_name": "허정",
+    "director_popularity": 3
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 449,
+  "fields": {
+    "director_id": 120643,
+    "director_name": "임순례",
+    "director_original_name": "임순례",
+    "director_popularity": 12
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 450,
+  "fields": {
+    "director_id": 1453807,
+    "director_name": "Son Yong-ho",
+    "director_original_name": "Son Yong-ho",
+    "director_popularity": 1
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 451,
+  "fields": {
+    "director_id": 87781,
+    "director_name": "강효진",
+    "director_original_name": "강효진",
+    "director_popularity": 4
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 452,
+  "fields": {
+    "director_id": 84976,
+    "director_name": "강형철",
+    "director_original_name": "강형철",
+    "director_popularity": 6
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 453,
+  "fields": {
+    "director_id": 132452,
+    "director_name": "임상수",
+    "director_original_name": "임상수",
+    "director_popularity": 14
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 454,
+  "fields": {
+    "director_id": 937713,
+    "director_name": "Mo Hong-jin",
+    "director_original_name": "Mo Hong-jin",
+    "director_popularity": 1
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 455,
+  "fields": {
+    "director_id": 63429,
+    "director_name": "곽재용",
+    "director_original_name": "곽재용",
+    "director_popularity": 16
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 456,
+  "fields": {
+    "director_id": 566365,
+    "director_name": "추창민",
+    "director_original_name": "추창민",
+    "director_popularity": 9
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 457,
+  "fields": {
+    "director_id": 1293710,
+    "director_name": "이해영",
+    "director_original_name": "이해영",
+    "director_popularity": 7
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 458,
+  "fields": {
+    "director_id": 1055512,
+    "director_name": "Caroline Suh",
+    "director_original_name": "Caroline Suh",
+    "director_popularity": 3
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 459,
+  "fields": {
+    "director_id": 68905,
+    "director_name": "장준환",
+    "director_original_name": "장준환",
+    "director_popularity": 12
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 460,
+  "fields": {
+    "director_id": 2644294,
+    "director_name": "Lee Seung-Won",
+    "director_original_name": "Lee Seung-Won",
+    "director_popularity": 2
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 461,
+  "fields": {
+    "director_id": 2196988,
+    "director_name": "Lim Kyoung-tack",
+    "director_original_name": "Lim Kyoung-tack",
+    "director_popularity": 1
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 462,
+  "fields": {
+    "director_id": 553709,
+    "director_name": "Moon-saeng Kim",
+    "director_original_name": "Moon-saeng Kim",
+    "director_popularity": 0
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 463,
+  "fields": {
+    "director_id": 3140690,
+    "director_name": "Oh Yun-dong",
+    "director_original_name": "Oh Yun-dong",
+    "director_popularity": 2
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 464,
+  "fields": {
+    "director_id": 496939,
+    "director_name": "Jeong Gi-hoon",
+    "director_original_name": "Jeong Gi-hoon",
+    "director_popularity": 1
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 465,
+  "fields": {
+    "director_id": 1988603,
+    "director_name": "Lee Jang-hoon",
+    "director_original_name": "Lee Jang-hoon",
+    "director_popularity": 2
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 466,
+  "fields": {
+    "director_id": 56865,
+    "director_name": "프룻 첸",
+    "director_original_name": "Fruit Chan",
+    "director_popularity": 6
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 467,
+  "fields": {
+    "director_id": 17282,
+    "director_name": "미이케 다카시",
+    "director_original_name": "Takashi Miike",
+    "director_popularity": 15
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 468,
+  "fields": {
+    "director_id": 2930735,
+    "director_name": "Sung Do-joon",
+    "director_original_name": "Sung Do-joon",
+    "director_popularity": 1
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 469,
+  "fields": {
+    "director_id": 1312149,
+    "director_name": "정주리",
+    "director_original_name": "정주리",
+    "director_popularity": 1
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 470,
+  "fields": {
+    "director_id": 2109484,
+    "director_name": "Lee Jong-suk",
+    "director_original_name": "Lee Jong-suk",
+    "director_popularity": 1
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 471,
+  "fields": {
+    "director_id": 123802,
+    "director_name": "Kang Dae-gyu",
+    "director_original_name": "Kang Dae-gyu",
+    "director_popularity": 1
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 472,
+  "fields": {
+    "director_id": 1410322,
+    "director_name": "Kim Joo-hwan",
+    "director_original_name": "Kim Joo-hwan",
+    "director_popularity": 10
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 473,
+  "fields": {
+    "director_id": 1175686,
+    "director_name": "Chung Keun-sup",
+    "director_original_name": "Chung Keun-sup",
+    "director_popularity": 1
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 474,
+  "fields": {
+    "director_id": 980218,
+    "director_name": "이석훈",
+    "director_original_name": "이석훈",
+    "director_popularity": 7
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 475,
+  "fields": {
+    "director_id": 2204456,
+    "director_name": "Kim Kwang-bin",
+    "director_original_name": "Kim Kwang-bin",
+    "director_popularity": 1
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 476,
+  "fields": {
+    "director_id": 123661,
+    "director_name": "이재용",
+    "director_original_name": "이재용",
+    "director_popularity": 9
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 477,
+  "fields": {
+    "director_id": 2320163,
+    "director_name": "Choi Won-sub",
+    "director_original_name": "Choi Won-sub",
+    "director_popularity": 1
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 478,
+  "fields": {
+    "director_id": 1296107,
+    "director_name": "Kim Yeong-tak",
+    "director_original_name": "Kim Yeong-tak",
+    "director_popularity": 2
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 479,
+  "fields": {
+    "director_id": 1296950,
+    "director_name": "김도영",
+    "director_original_name": "김도영",
+    "director_popularity": 9
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 480,
+  "fields": {
+    "director_id": 2073528,
+    "director_name": "Lee Seok-geun",
+    "director_original_name": "Lee Seok-geun",
+    "director_popularity": 1
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 481,
+  "fields": {
+    "director_id": 1827112,
+    "director_name": "Cho Sun-ho",
+    "director_original_name": "Cho Sun-ho",
+    "director_popularity": 0
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 482,
+  "fields": {
+    "director_id": 1497221,
+    "director_name": "Park Sang-hyeon",
+    "director_original_name": "Park Sang-hyeon",
+    "director_popularity": 3
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 483,
+  "fields": {
+    "director_id": 1760449,
+    "director_name": "Dawon Jung",
+    "director_original_name": "Dawon Jung",
+    "director_popularity": 3
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 484,
+  "fields": {
+    "director_id": 150975,
+    "director_name": "홍상수",
+    "director_original_name": "홍상수",
+    "director_popularity": 26
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 485,
+  "fields": {
+    "director_id": 2029267,
+    "director_name": "Kim Yong-wan",
+    "director_original_name": "Kim Yong-wan",
+    "director_popularity": 2
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 486,
+  "fields": {
+    "director_id": 2320161,
+    "director_name": "Kim Tae-hyoung",
+    "director_original_name": "Kim Tae-hyoung",
+    "director_popularity": 2
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 487,
+  "fields": {
+    "director_id": 1087160,
+    "director_name": "Han Sang-ho",
+    "director_original_name": "Han Sang-ho",
+    "director_popularity": 5
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 488,
+  "fields": {
+    "director_id": 2166752,
+    "director_name": "김보라",
+    "director_original_name": "김보라",
+    "director_popularity": 3
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 489,
+  "fields": {
+    "director_id": 1337779,
+    "director_name": "Kim Joon-Sung",
+    "director_original_name": "Kim Joon-Sung",
+    "director_popularity": 1
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 490,
+  "fields": {
+    "director_id": 87894,
+    "director_name": "원신연",
+    "director_original_name": "원신연",
+    "director_popularity": 8
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 491,
+  "fields": {
+    "director_id": 1294904,
+    "director_name": "Huh Jong-ho",
+    "director_original_name": "Huh Jong-ho",
+    "director_popularity": 2
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 492,
+  "fields": {
+    "director_id": 138108,
+    "director_name": "Chang",
+    "director_original_name": "Chang",
+    "director_popularity": 4
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 493,
+  "fields": {
+    "director_id": 1293082,
+    "director_name": "김병우",
+    "director_original_name": "김병우",
+    "director_popularity": 5
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 494,
+  "fields": {
+    "director_id": 1600903,
+    "director_name": "Lee Eun-hee",
+    "director_original_name": "Lee Eun-hee",
+    "director_popularity": 1
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 495,
+  "fields": {
+    "director_id": 87086,
+    "director_name": "양윤호",
+    "director_original_name": "양윤호",
+    "director_popularity": 7
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 496,
+  "fields": {
+    "director_id": 1970202,
+    "director_name": "Jeon Go-woon",
+    "director_original_name": "Jeon Go-woon",
+    "director_popularity": 7
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 497,
+  "fields": {
+    "director_id": 2198187,
+    "director_name": "Kim Seung-woo",
+    "director_original_name": "Kim Seung-woo",
+    "director_popularity": 1
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 498,
+  "fields": {
+    "director_id": 2115600,
+    "director_name": "Kim Tae-gyoon",
+    "director_original_name": "Kim Tae-gyoon",
+    "director_popularity": 2
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 499,
+  "fields": {
+    "director_id": 548652,
+    "director_name": "Yoon Jae-geun",
+    "director_original_name": "Yoon Jae-geun",
+    "director_popularity": 1
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 500,
+  "fields": {
+    "director_id": 1643133,
+    "director_name": "Kim Je-young",
+    "director_original_name": "Kim Je-young",
+    "director_popularity": 4
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 501,
+  "fields": {
+    "director_id": 557418,
+    "director_name": "Song Il-gon",
+    "director_original_name": "Song Il-gon",
+    "director_popularity": 4
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 502,
+  "fields": {
+    "director_id": 3007563,
+    "director_name": "Hong Sung-eun",
+    "director_original_name": "Hong Sung-eun",
+    "director_popularity": 2
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 503,
+  "fields": {
+    "director_id": 934324,
+    "director_name": "Cho Beom-gu",
+    "director_original_name": "Cho Beom-gu",
+    "director_popularity": 2
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 504,
+  "fields": {
+    "director_id": 548068,
+    "director_name": "황인호",
+    "director_original_name": "황인호",
+    "director_popularity": 7
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 505,
+  "fields": {
+    "director_id": 1994909,
+    "director_name": "Lee Chang-hee",
+    "director_original_name": "Lee Chang-hee",
+    "director_popularity": 9
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 506,
+  "fields": {
+    "director_id": 1598384,
+    "director_name": "Choi Jung-yol",
+    "director_original_name": "Choi Jung-yol",
+    "director_popularity": 3
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 507,
+  "fields": {
+    "director_id": 118688,
+    "director_name": "Shin Jai-ho",
+    "director_original_name": "Shin Jai-ho",
+    "director_popularity": 3
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 508,
+  "fields": {
+    "director_id": 937484,
+    "director_name": "Oh Sung-yoon",
+    "director_original_name": "Oh Sung-yoon",
+    "director_popularity": 0
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 509,
+  "fields": {
+    "director_id": 1895319,
+    "director_name": "Jang Chang-won",
+    "director_original_name": "Jang Chang-won",
+    "director_popularity": 0
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 510,
+  "fields": {
+    "director_id": 85006,
+    "director_name": "강우석",
+    "director_original_name": "강우석",
+    "director_popularity": 13
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 511,
+  "fields": {
+    "director_id": 69384,
+    "director_name": "심성보",
+    "director_original_name": "심성보",
+    "director_popularity": 5
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 512,
+  "fields": {
+    "director_id": 116181,
+    "director_name": "김태균",
+    "director_original_name": "김태균",
+    "director_popularity": 10
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 513,
+  "fields": {
+    "director_id": 2042738,
+    "director_name": "Park Jun-soo",
+    "director_original_name": "Park Jun-soo",
+    "director_popularity": 6
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 514,
+  "fields": {
+    "director_id": 580244,
+    "director_name": "Lim Dae-wung",
+    "director_original_name": "Lim Dae-wung",
+    "director_popularity": 4
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 515,
+  "fields": {
+    "director_id": 1066215,
+    "director_name": "김종관",
+    "director_original_name": "김종관",
+    "director_popularity": 8
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 516,
+  "fields": {
+    "director_id": 1109572,
+    "director_name": "Jang Kyu-sung",
+    "director_original_name": "Jang Kyu-sung",
+    "director_popularity": 3
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 517,
+  "fields": {
+    "director_id": 42793,
+    "director_name": "변영주",
+    "director_original_name": "변영주",
+    "director_popularity": 7
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 518,
+  "fields": {
+    "director_id": 1572355,
+    "director_name": "Cho Kyu-jang",
+    "director_original_name": "Cho Kyu-jang",
+    "director_popularity": 1
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 519,
+  "fields": {
+    "director_id": 1294126,
+    "director_name": "임상윤",
+    "director_original_name": "임상윤",
+    "director_popularity": 6
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 520,
+  "fields": {
+    "director_id": 1040488,
+    "director_name": "Kim Jin-won",
+    "director_original_name": "Kim Jin-won",
+    "director_popularity": 0
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 521,
+  "fields": {
+    "director_id": 1106142,
+    "director_name": "윤재연",
+    "director_original_name": "윤재연",
+    "director_popularity": 3
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 522,
+  "fields": {
+    "director_id": 3542282,
+    "director_name": "Young-cheol Joe",
+    "director_original_name": "Young-cheol Joe",
+    "director_popularity": 0
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 523,
+  "fields": {
+    "director_id": 2312381,
+    "director_name": "Sohn Won-pyung",
+    "director_original_name": "Sohn Won-pyung",
+    "director_popularity": 1
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 524,
+  "fields": {
+    "director_id": 1480520,
+    "director_name": "Kim Kwang-tae",
+    "director_original_name": "Kim Kwang-tae",
+    "director_popularity": 1
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 525,
+  "fields": {
+    "director_id": 939140,
+    "director_name": "이정향",
+    "director_original_name": "이정향",
+    "director_popularity": 9
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 526,
+  "fields": {
+    "director_id": 938737,
+    "director_name": "Kim Hyoung-jun",
+    "director_original_name": "Kim Hyoung-jun",
+    "director_popularity": 1
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 527,
+  "fields": {
+    "director_id": 1107433,
+    "director_name": "Kim Hwi",
+    "director_original_name": "Kim Hwi",
+    "director_popularity": 5
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 528,
+  "fields": {
+    "director_id": 235064,
+    "director_name": "Baek Woon-Hak",
+    "director_original_name": "Baek Woon-Hak",
+    "director_popularity": 0
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 529,
+  "fields": {
+    "director_id": 112752,
+    "director_name": "김용균",
+    "director_original_name": "김용균",
+    "director_popularity": 8
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 530,
+  "fields": {
+    "director_id": 109305,
+    "director_name": "Son Jae-gon",
+    "director_original_name": "Son Jae-gon",
+    "director_popularity": 2
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 531,
+  "fields": {
+    "director_id": 83030,
+    "director_name": "이한",
+    "director_original_name": "이한",
+    "director_popularity": 7
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 532,
+  "fields": {
+    "director_id": 138507,
+    "director_name": "Kim Ho-joon",
+    "director_original_name": "Kim Ho-joon",
+    "director_popularity": 3
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 533,
+  "fields": {
+    "director_id": 127531,
+    "director_name": "송해성",
+    "director_original_name": "송해성",
+    "director_popularity": 7
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 534,
+  "fields": {
+    "director_id": 1471895,
+    "director_name": "Lee Kwon",
+    "director_original_name": "Lee Kwon",
+    "director_popularity": 8
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 535,
+  "fields": {
+    "director_id": 83016,
+    "director_name": "신태라",
+    "director_original_name": "신태라",
+    "director_popularity": 3
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 536,
+  "fields": {
+    "director_id": 84715,
+    "director_name": "Kim Min-suk",
+    "director_original_name": "Kim Min-suk",
+    "director_popularity": 3
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 537,
+  "fields": {
+    "director_id": 83628,
+    "director_name": "Kim Young-jun",
+    "director_original_name": "Kim Young-jun",
+    "director_popularity": 2
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 538,
+  "fields": {
+    "director_id": 480529,
+    "director_name": "Kim Gok",
+    "director_original_name": "Kim Gok",
+    "director_popularity": 5
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 539,
+  "fields": {
+    "director_id": 480530,
+    "director_name": "Kim Sun",
+    "director_original_name": "Kim Sun",
+    "director_popularity": 4
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 540,
+  "fields": {
+    "director_id": 1556959,
+    "director_name": "Sam Wrench",
+    "director_original_name": "Sam Wrench",
+    "director_popularity": 4
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 541,
+  "fields": {
+    "director_id": 79565,
+    "director_name": "공수창",
+    "director_original_name": "공수창",
+    "director_popularity": 9
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 542,
+  "fields": {
+    "director_id": 2141853,
+    "director_name": "손영성",
+    "director_original_name": "손영성",
+    "director_popularity": 2
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 543,
+  "fields": {
+    "director_id": 230360,
+    "director_name": "Kwon Soo-kyung",
+    "director_original_name": "Kwon Soo-kyung",
+    "director_popularity": 2
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 544,
+  "fields": {
+    "director_id": 38935,
+    "director_name": "Cho Keun-hyun",
+    "director_original_name": "Cho Keun-hyun",
+    "director_popularity": 2
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 545,
+  "fields": {
+    "director_id": 994253,
+    "director_name": "육상효",
+    "director_original_name": "육상효",
+    "director_popularity": 2
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 546,
+  "fields": {
+    "director_id": 100234,
+    "director_name": "Todor Chapkanov",
+    "director_original_name": "Todor Chapkanov",
+    "director_popularity": 6
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 547,
+  "fields": {
+    "director_id": 89796,
+    "director_name": "Si-myung Lee",
+    "director_original_name": "Si-myung Lee",
+    "director_popularity": 2
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 548,
+  "fields": {
+    "director_id": 577385,
+    "director_name": "Byun Seung-wook",
+    "director_original_name": "Byun Seung-wook",
+    "director_popularity": 1
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 549,
+  "fields": {
+    "director_id": 145376,
+    "director_name": "Lee Kyu-man",
+    "director_original_name": "Lee Kyu-man",
+    "director_popularity": 1
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 550,
+  "fields": {
+    "director_id": 936037,
+    "director_name": "Lee Jung-ho",
+    "director_original_name": "Lee Jung-ho",
+    "director_popularity": 3
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 551,
+  "fields": {
+    "director_id": 1062389,
+    "director_name": "이경미",
+    "director_original_name": "이경미",
+    "director_popularity": 5
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 552,
+  "fields": {
+    "director_id": 1457187,
+    "director_name": "한준희",
+    "director_original_name": "한준희",
+    "director_popularity": 11
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 553,
+  "fields": {
+    "director_id": 150127,
+    "director_name": "방은진",
+    "director_original_name": "방은진",
+    "director_popularity": 12
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 554,
+  "fields": {
+    "director_id": 1286104,
+    "director_name": "김기덕",
+    "director_original_name": "김기덕",
+    "director_popularity": 3
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 555,
+  "fields": {
+    "director_id": 24989,
+    "director_name": "김현석",
+    "director_original_name": "김현석",
+    "director_popularity": 11
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 556,
+  "fields": {
+    "director_id": 1995291,
+    "director_name": "김의석",
+    "director_original_name": "김의석",
+    "director_popularity": 5
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 557,
+  "fields": {
+    "director_id": 84722,
+    "director_name": "이윤기",
+    "director_original_name": "이윤기",
+    "director_popularity": 5
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 558,
+  "fields": {
+    "director_id": 1707304,
+    "director_name": "Choi Kook-hee",
+    "director_original_name": "Choi Kook-hee",
+    "director_popularity": 2
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 559,
+  "fields": {
+    "director_id": 1334911,
+    "director_name": "Lee Yeon-woo",
+    "director_original_name": "Lee Yeon-woo",
+    "director_popularity": 2
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 560,
+  "fields": {
+    "director_id": 65994,
+    "director_name": "유위강",
+    "director_original_name": "Andrew Lau Wai-Keung",
+    "director_popularity": 18
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 561,
+  "fields": {
+    "director_id": 90350,
+    "director_name": "장진",
+    "director_original_name": "장진",
+    "director_popularity": 13
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 562,
+  "fields": {
+    "director_id": 111411,
+    "director_name": "Ahn Sang-hoon",
+    "director_original_name": "Ahn Sang-hoon",
+    "director_popularity": 2
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 563,
+  "fields": {
+    "director_id": 113579,
+    "director_name": "정윤철",
+    "director_original_name": "정윤철",
+    "director_popularity": 5
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 564,
+  "fields": {
+    "director_id": 56739,
+    "director_name": "진가신",
+    "director_original_name": "Peter Chan",
+    "director_popularity": 10
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 565,
+  "fields": {
+    "director_id": 31039,
+    "director_name": "Nonzee Nimibutr",
+    "director_original_name": "Nonzee Nimibutr",
+    "director_popularity": 4
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 566,
+  "fields": {
+    "director_id": 568019,
+    "director_name": "박진표",
+    "director_original_name": "박진표",
+    "director_popularity": 9
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 567,
+  "fields": {
+    "director_id": 583175,
+    "director_name": "정용기",
+    "director_original_name": "정용기",
+    "director_popularity": 8
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 568,
+  "fields": {
+    "director_id": 228278,
+    "director_name": "Lee Sung-gang",
+    "director_original_name": "Lee Sung-gang",
+    "director_popularity": 2
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 569,
+  "fields": {
+    "director_id": 225240,
+    "director_name": "Lee Soo-youn",
+    "director_original_name": "Lee Soo-youn",
+    "director_popularity": 2
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 570,
+  "fields": {
+    "director_id": 1346916,
+    "director_name": "Oh In-chun",
+    "director_original_name": "Oh In-chun",
+    "director_popularity": 2
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 571,
+  "fields": {
+    "director_id": 229307,
+    "director_name": "우니 르콩트",
+    "director_original_name": "Ounie Lecomte",
+    "director_popularity": 1
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 572,
+  "fields": {
+    "director_id": 223179,
+    "director_name": "You Sun-dong",
+    "director_original_name": "You Sun-dong",
+    "director_popularity": 11
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 573,
+  "fields": {
+    "director_id": 2232175,
+    "director_name": "Son Sung-deuk",
+    "director_original_name": "Son Sung-deuk",
+    "director_popularity": 2
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 574,
+  "fields": {
+    "director_id": 939128,
+    "director_name": "김태용",
+    "director_original_name": "김태용",
+    "director_popularity": 11
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 575,
+  "fields": {
+    "director_id": 1294783,
+    "director_name": "Kim Byung-gon",
+    "director_original_name": "Kim Byung-gon",
+    "director_popularity": 0
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 576,
+  "fields": {
+    "director_id": 108538,
+    "director_name": "양익준",
+    "director_original_name": "양익준",
+    "director_popularity": 18
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 577,
+  "fields": {
+    "director_id": 87554,
+    "director_name": "임권택",
+    "director_original_name": "임권택",
+    "director_popularity": 14
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 578,
+  "fields": {
+    "director_id": 80450,
+    "director_name": "장윤현",
+    "director_original_name": "장윤현",
+    "director_popularity": 6
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 579,
+  "fields": {
+    "director_id": 123017,
+    "director_name": "안병기",
+    "director_original_name": "안병기",
+    "director_popularity": 9
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 580,
+  "fields": {
+    "director_id": 1004566,
+    "director_name": "라희찬",
+    "director_original_name": "라희찬",
+    "director_popularity": 4
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 581,
+  "fields": {
+    "director_id": 39255,
+    "director_name": "Lee Jong-yong",
+    "director_original_name": "Lee Jong-yong",
+    "director_popularity": 2
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 582,
+  "fields": {
+    "director_id": 548651,
+    "director_name": "Kwon Ho-young",
+    "director_original_name": "Kwon Ho-young",
+    "director_popularity": 1
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 583,
+  "fields": {
+    "director_id": 80651,
+    "director_name": "김상진",
+    "director_original_name": "김상진",
+    "director_popularity": 4
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 584,
+  "fields": {
+    "director_id": 1965064,
+    "director_name": "홍창표",
+    "director_original_name": "홍창표",
+    "director_popularity": 0
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 585,
+  "fields": {
+    "director_id": 90470,
+    "director_name": "Park Cheol-hee",
+    "director_original_name": "Park Cheol-hee",
+    "director_popularity": 1
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 586,
+  "fields": {
+    "director_id": 1021626,
+    "director_name": "Jo Dong-oh",
+    "director_original_name": "Jo Dong-oh",
+    "director_popularity": 0
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 587,
+  "fields": {
+    "director_id": 118712,
+    "director_name": "Kim Tae-kyung",
+    "director_original_name": "Kim Tae-kyung",
+    "director_popularity": 3
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 588,
+  "fields": {
+    "director_id": 548654,
+    "director_name": "김상만",
+    "director_original_name": "김상만",
+    "director_popularity": 5
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 589,
+  "fields": {
+    "director_id": 2329379,
+    "director_name": "홍의정",
+    "director_original_name": "홍의정",
+    "director_popularity": 0
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 590,
+  "fields": {
+    "director_id": 87780,
+    "director_name": "Cho Jin-gyu",
+    "director_original_name": "Cho Jin-gyu",
+    "director_popularity": 2
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 591,
+  "fields": {
+    "director_id": 1263929,
+    "director_name": "이수진",
+    "director_original_name": "이수진",
+    "director_popularity": 2
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 592,
+  "fields": {
+    "director_id": 127702,
+    "director_name": "Choi Equan",
+    "director_original_name": "Choi Equan",
+    "director_popularity": 4
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 593,
+  "fields": {
+    "director_id": 144410,
+    "director_name": "Won Tae-yeon",
+    "director_original_name": "Won Tae-yeon",
+    "director_popularity": 1
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 594,
+  "fields": {
+    "director_id": 589760,
+    "director_name": "Kwon Jong-kwan",
+    "director_original_name": "Kwon Jong-kwan",
+    "director_popularity": 2
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 595,
+  "fields": {
+    "director_id": 1354597,
+    "director_name": "Jo Beom-jin",
+    "director_original_name": "Jo Beom-jin",
+    "director_popularity": 1
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 596,
+  "fields": {
+    "director_id": 150416,
+    "director_name": "Kim Jin-young",
+    "director_original_name": "Kim Jin-young",
+    "director_popularity": 3
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 597,
+  "fields": {
+    "director_id": 1006867,
+    "director_name": "Kim Sung-ho",
+    "director_original_name": "Kim Sung-ho",
+    "director_popularity": 10
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 598,
+  "fields": {
+    "director_id": 94053,
+    "director_name": "이명세",
+    "director_original_name": "이명세",
+    "director_popularity": 8
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 599,
+  "fields": {
+    "director_id": 77063,
+    "director_name": "민병천",
+    "director_original_name": "민병천",
+    "director_popularity": 1
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 600,
+  "fields": {
+    "director_id": 1043185,
+    "director_name": "Park Ki-hyung",
+    "director_original_name": "Park Ki-hyung",
+    "director_popularity": 3
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 601,
+  "fields": {
+    "director_id": 557415,
+    "director_name": "Lee Woo-chul",
+    "director_original_name": "Lee Woo-chul",
+    "director_popularity": 0
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 602,
+  "fields": {
+    "director_id": 1372390,
+    "director_name": "Woo Kyung-min",
+    "director_original_name": "Woo Kyung-min",
+    "director_popularity": 1
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 603,
+  "fields": {
+    "director_id": 1179066,
+    "director_name": "웨스 볼",
+    "director_original_name": "Wes Ball",
+    "director_popularity": 25
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 604,
+  "fields": {
+    "director_id": 64151,
+    "director_name": "Mike Mitchell",
+    "director_original_name": "Mike Mitchell",
+    "director_popularity": 15
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 605,
+  "fields": {
+    "director_id": 40684,
+    "director_name": "David Leitch",
+    "director_original_name": "David Leitch",
+    "director_popularity": 18
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 606,
+  "fields": {
+    "director_id": 65429,
+    "director_name": "Kunihiko Yuyama",
+    "director_original_name": "Kunihiko Yuyama",
+    "director_popularity": 10
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 607,
+  "fields": {
+    "director_id": 1083154,
+    "director_name": "Cameron Cairnes",
+    "director_original_name": "Cameron Cairnes",
+    "director_popularity": 4
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 608,
+  "fields": {
+    "director_id": 1083156,
+    "director_name": "Colin Cairnes",
+    "director_original_name": "Colin Cairnes",
+    "director_popularity": 7
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 609,
+  "fields": {
+    "director_id": 1360022,
+    "director_name": "Michihito Fujii",
+    "director_original_name": "Michihito Fujii",
+    "director_popularity": 11
+  }
+},
+{
+  "model": "movie.director",
+  "pk": 610,
+  "fields": {
+    "director_id": 78160,
+    "director_name": "루카 구아다니노",
+    "director_original_name": "Luca Guadagnino",
+    "director_popularity": 20
+  }
 }
 ]

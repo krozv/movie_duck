@@ -1,14 +1,12 @@
 <template>
     <div>
         <h1>댓글</h1>
-        <CommentCreate :movie-id="movieId"/>
-        <CommentList />
+        <CommentList :movie-id="movieId"/>
     </div>
 </template>
 
 <script setup>
 import CommentList from '@/components/communities/CommentList.vue'
-import CommentCreate from '@/components/communities/CommentCreate.vue'
 
 defineProps({
     movieId: String
@@ -17,5 +15,7 @@ defineProps({
 </script>
 
 <style scoped>
-
+h1 {
+    margin-left: 50px;
+}
 </style>

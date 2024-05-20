@@ -16,6 +16,7 @@ import { useCounterStore } from '@/stores/userStore';
 
 const props = defineProps({
     movieId: String,
+    fetchComments: Function,
 })
 
 const store = useCounterStore()
@@ -36,6 +37,7 @@ const createComment = () => {
     .then((response) => {
       console.log('Comment created:', response.data)
       content.value = ''; // 폼 초기화
+      props.fetchComments()
     })
     .catch((error) => {
       console.log(error)
@@ -57,6 +59,7 @@ const createComment = () => {
     border: 1px solid gray;
     width: 1050px;
     height: 150px;
+    margin-left: 50px;
 }
 .submit {
     position: absolute;

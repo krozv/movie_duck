@@ -1,0 +1,152 @@
+[
+{
+  "model": "movie.boxoffice",
+  "pk": 3,
+  "fields": {
+    "period": "20240506~20240512",
+    "rank": 1,
+    "name": "범죄도시4",
+    "en_name": "THE ROUNDUP : PUNISHMENT",
+    "code": 20228797,
+    "acc_aud": 9737504,
+    "movie": [
+      2470
+    ]
+  }
+},
+{
+  "model": "movie.boxoffice",
+  "pk": 4,
+  "fields": {
+    "period": "20240506~20240512",
+    "rank": 2,
+    "name": "혹성탈출: 새로운 시대",
+    "en_name": "KINGDOM OF THE PLANET OF THE APES",
+    "code": 20247783,
+    "acc_aud": 415188,
+    "movie": [
+      2471
+    ]
+  }
+},
+{
+  "model": "movie.boxoffice",
+  "pk": 5,
+  "fields": {
+    "period": "20240506~20240512",
+    "rank": 3,
+    "name": "쿵푸팬더4",
+    "en_name": "Kung Fu Panda 4",
+    "code": 20236614,
+    "acc_aud": 1751471,
+    "movie": [
+      2476
+    ]
+  }
+},
+{
+  "model": "movie.boxoffice",
+  "pk": 6,
+  "fields": {
+    "period": "20240506~20240512",
+    "rank": 4,
+    "name": "스턴트맨",
+    "en_name": "The Fall Guy",
+    "code": 20235613,
+    "acc_aud": 203088,
+    "movie": [
+      2477
+    ]
+  }
+},
+{
+  "model": "movie.boxoffice",
+  "pk": 7,
+  "fields": {
+    "period": "20240506~20240512",
+    "rank": 5,
+    "name": "남은 인생 10년",
+    "en_name": "The Last 10 Years",
+    "code": 20231677,
+    "acc_aud": 512764,
+    "movie": [
+      2478
+    ]
+  }
+},
+{
+  "model": "movie.boxoffice",
+  "pk": 8,
+  "fields": {
+    "period": "20240506~20240512",
+    "rank": 6,
+    "name": "포켓몬스터: 성도지방 이야기, 최종장",
+    "en_name": "Pokémon: The Story of Johto Region, The Final Chapter",
+    "code": 20249313,
+    "acc_aud": 150858,
+    "movie": [
+      2479
+    ]
+  }
+},
+{
+  "model": "movie.boxoffice",
+  "pk": 9,
+  "fields": {
+    "period": "20240506~20240512",
+    "rank": 7,
+    "name": "악마와의 토크쇼",
+    "en_name": "Late Night with the Devil",
+    "code": 20249317,
+    "acc_aud": 43243,
+    "movie": [
+      2480
+    ]
+  }
+},
+{
+  "model": "movie.boxoffice",
+  "pk": 10,
+  "fields": {
+    "period": "20240506~20240512",
+    "rank": 8,
+    "name": "쇼생크 탈출",
+    "en_name": "The Shawshank Redemption",
+    "code": 19950084,
+    "acc_aud": 33803,
+    "movie": [
+      1546
+    ]
+  }
+},
+{
+  "model": "movie.boxoffice",
+  "pk": 11,
+  "fields": {
+    "period": "20240506~20240512",
+    "rank": 9,
+    "name": "파묘",
+    "en_name": "Exhuma",
+    "code": 20234675,
+    "acc_aud": 11898834,
+    "movie": [
+      2025
+    ]
+  }
+},
+{
+  "model": "movie.boxoffice",
+  "pk": 12,
+  "fields": {
+    "period": "20240506~20240512",
+    "rank": 10,
+    "name": "챌린저스",
+    "en_name": "Challengers",
+    "code": 20249318,
+    "acc_aud": 64634,
+    "movie": [
+      2481
+    ]
+  }
+}
+]

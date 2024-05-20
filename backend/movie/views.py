@@ -32,7 +32,7 @@ def movie_detail(request, movie_pk):
    
 @api_view(['POST'])
 def create_comment(request, movie_pk):
-  movie = get_object_or_404(Movie, pk=movie_pk)
+  movie = get_object_or_404(Movie, movie_id=movie_pk)
   content = request.data.get('content')
   comment = Comment.objects.create(
     movie=movie,
@@ -42,18 +42,29 @@ def create_comment(request, movie_pk):
   serializer = CommentSerializer(comment)
   return Response(serializer.data, status=status.HTTP_201_CREATED)
 
+# 댓글 조회(대댓글 포함)
+@api_view(['GET'])
+def comment_list(request, movie_pk):
+    movie = get_object_or_404(Movie, movie_id=movie_pk)
+    comments = movie.comments.all()  # 역참조를 통해 댓글들 가져오기
+    serializer = CommentReplySerializer(comments, many=True)
+    return Response(serializer.data, status=status.HTTP_200_OK)
+
 @api_view(['GET', 'PUT', 'DELETE', 'POST'])
+@permission_classes([IsAuthenticated])
 def comment(request, movie_pk, comment_pk):
   # 댓글 조회(대댓글 포함)
-  if request.method == 'GET':
-    comment = get_object_or_404(Comment, pk=comment_pk)
-    serializer = CommentReplySerializer(comment)
-    return Response(serializer.data, status=status.HTTP_200_OK)
+  # if request.method == 'GET':
+  #   comment = get_object_or_404(Comment, pk=comment_pk)
+  #   serializer = CommentReplySerializer(comment)
+  #   return Response(serializer.data, status=status.HTTP_200_OK)
   
   # 댓글 수정
   if request.method == 'PUT':
     comment = get_object_or_404(Comment, pk=comment_pk)
     serializer = CommentSerializer(comment, data=request.data, partial=True)
+    if request.user != comment.author:
+      return Response({"detail": "Permission denied."}, status=status.HTTP_403_FORBIDDEN)
     if serializer.is_valid(raise_exception=True):
       serializer.save()
       return Response(serializer.data, status=status.HTTP_202_ACCEPTED)
@@ -61,8 +72,18 @@ def comment(request, movie_pk, comment_pk):
   # 댓글 삭제
   if request.method == 'DELETE':
     comment = get_object_or_404(Comment, pk=comment_pk)
+    if request.user != comment.author:
+      return Response({"detail": "Permission denied."}, status=status.HTTP_403_FORBIDDEN)
     comment.delete()
     return Response(status=status.HTTP_204_NO_CONTENT)
+  
+  # 대댓글 조회
+  if request.method == 'GET':
+    print(comment_pk)
+    comment = get_object_or_404(Comment, pk=comment_pk)
+    replies = comment.replies.all()
+    serializer = ReplySerializer(replies, many=True)
+    return Response(serializer.data, status=status.HTTP_200_OK)
   
   # 대댓글 생성
   if request.method == 'POST':
@@ -98,3 +119,4 @@ def box_office(request):
     movies = Boxoffice.objects.all()
     serializer = BoxOfficeListSerializer(movies, many=True)
     return Response(serializer.data, status=status.HTTP_200_OK)
+  

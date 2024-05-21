@@ -5,19 +5,22 @@
             <hr>
         </div>
         <div v-for="comment in comments" :key="comment.id" class="comment">
-          <div>
-            </div>
-                <p>{{ comment.content }}</p>
+            <div class="comments">
+              <span>{{ comment.content }}</span>
+              <div class="btn">
                 <button @click="editComment(comment)">Edit</button>
-                <button @click="deleteComment(comment.id)">&ensp;Delete</button>
-                <hr>
+                <button @click="deleteComment(comment.id)">Delete</button>
+                <button @click="toggleReplies(comment.id)">대댓글</button> <!-- 대댓글 버튼 추가 -->
+              </div>
+            </div>
+            <hr>
+            <div v-if="showReplies[comment.id]" class="commentofcomment">
                 <CommentOfComment 
                 :movie-id="movieId"
                 :comment-id="comment.id"
                 />
-            <div>
-          </div>
-          <hr>
+                <hr>
+            </div>
         </div>
         <div>
             <CommentCreate 
@@ -29,7 +32,7 @@
 </template>
 
 <script setup>
-import { ref, onMounted } from 'vue'
+import { ref, reactive, onMounted } from 'vue'
 import { useCounterStore } from '@/stores/userStore'
 import axios from 'axios'
 import CommentOfComment from '@/components/communities/CommentOfComment.vue'
@@ -42,16 +45,24 @@ const props = defineProps({
 const store = useCounterStore()
 const token = store.token
 const comments = ref([])
+const showReplies = reactive({})
 
 const fetchComments = () => {
     axios.get(
         `${store.API_URL}/api/movie/${props.movieId}/comments/`)
         .then(response => {
             comments.value = response.data
+            response.data.forEach(comment => {
+                showReplies[comment.id] = false // 각 댓글에 대한 초기 상태 설정
+            })
         })
         .catch(error => {
             console.error('Failed to fetch comments:', error)
         })
+}
+
+const toggleReplies = (commentId) => {
+    showReplies[commentId] = !showReplies[commentId] // 댓글 상태 토글
 }
 
 const editComment = (comment) => {
@@ -84,7 +95,6 @@ const deleteComment = (commentId) => {
     }
 }
 
-
 onMounted(() => {
     fetchComments()
     store.fetchUserData()
@@ -93,12 +103,24 @@ onMounted(() => {
 
 <style scoped>
 .comment {
+    display: block;
     margin-left: 50px;
     width: 1050px;
 }
+
+.comments {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    margin-right: 10px;
+}
+
 .comments-each {
     width: 1050px;
     margin-top: 10px;
     margin-left: 50px
 }
+
 </style>

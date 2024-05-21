@@ -9,4 +9,5 @@ urlpatterns = [
     path('<int:movie_pk>/comment/<int:comment_pk>/', views.comment),
     path('<int:movie_pk>/comment/<int:comment_pk>/<int:reply_pk>/', views.reply),
     path('boxoffice/', views.box_office),
+    path('<int:movie_id>/review/wordcloud/', views.review_wordcloud),
 ]

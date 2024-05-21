@@ -1,14 +1,16 @@
 <template>
-    <div class="reply">
-        <div v-for="reply in replies" :key="reply.id">
-          <p>{{ reply.content }}</p>
-          <button @click="editReply(reply)">Edit</button>
-          <button @click="deleteReply(reply.id)">&ensp;Delete</button>
+    <div class="replies">
+        <div v-for="reply in replies" :key="reply.id" class="reply">
+          <span>{{ reply.content }}</span>
+          <div class="btn">
+            <button @click="editReply(reply)">Edit</button>
+            <button @click="deleteReply(reply.id)">&ensp;Delete</button>
+          </div>
+        </div>
         <hr>
-      </div>
       <form @submit.prevent="createReply">
         <textarea v-model.trim="newReplyContent"></textarea>
-        <button type="submit">대댓글 작성</button>
+        <button type="submit" class="reply-submit">대댓글 작성</button>
       </form>
     </div>
 </template>
@@ -101,9 +103,25 @@ textarea {
     height: 34px;
     margin-top: 10px;
     padding: 5px;
+    border: 1px solid gray;
+    overflow: hidden;
+    resize: none;
   }
 
-.reply {
+.replies {
     margin-left: 50px;
+    
+}
+.reply-submit {
+  margin-left: 20px;
+}
+
+.reply {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  margin-right: 62px;
 }
 </style>

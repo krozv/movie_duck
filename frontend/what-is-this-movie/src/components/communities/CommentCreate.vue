@@ -3,7 +3,7 @@
       <form @submit.prevent="createComment">
         <div>
           <textarea v-model.trim="content" id="content"></textarea>
-          <input type="submit" value="제출" class="submit">
+          <input type="submit" value="댓글쓰기" class="submit">
         </div>
       </form>
     </div>
@@ -51,7 +51,7 @@ const createComment = () => {
     width: 880px;
     height: 100px;
     margin: 20px;
-
+    resize: none;
 }
 
 .comment-card {
@@ -66,7 +66,5 @@ const createComment = () => {
     width: 100px;
     height: 100px;
     margin-top: 20px;
-    border: 1px solid gray;
-    
 }
 </style>

@@ -36,6 +36,7 @@ INSTALLED_APPS = [
     "recommendation",
     "rest_framework",
     "rest_framework.authtoken",
+    'krwordrank.word',
     'dj_rest_auth',
     'corsheaders',
     'django.contrib.sites',

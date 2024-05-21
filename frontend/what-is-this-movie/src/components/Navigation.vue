@@ -21,14 +21,14 @@
                 <div 
                     class="d-flex justify-end"
                     v-if="store.isLogin" style="height: 50px" >
-                    <v-btn>
+                    <v-btn v-tooltip:bottom="'Recommend'">
                     <router-link :to="{ name:'recommend'}">
                         <svg-icon type="mdi" :path="mdiMovieSearch"
                         color=black
                         class="m-1"></svg-icon>
                     </router-link>
                     </v-btn>
-                    <v-btn v-tooltip:bottom="'log out'" >
+                    <v-btn v-tooltip:bottom="'Log out'" >
                     <router-link :to="{ name:'LogOutView'}">
                         <svg-icon type="mdi" :path="mdiLogout"
                         color=black
@@ -36,7 +36,7 @@
                     </router-link>
                     </v-btn>
 
-                    <v-btn v-tooltip:bottom="'profile'">
+                    <v-btn v-tooltip:bottom="'Profile'">
                     <router-link :to="{ name:'Profile'}">
                         <svg-icon type="mdi" :path="mdiFaceMan"
                         color=black

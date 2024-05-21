@@ -33,7 +33,7 @@
             </div>
         <hr>
         <div>
-            <Comment />
+            <CommentList :movie-pk="moviePk"/>
         </div>
     </div>
     </main>
@@ -43,7 +43,7 @@
 import { ref, onMounted } from 'vue'
 import { useRoute } from 'vue-router'
 import { useMovieStore } from '@/stores/movies';
-import Comment from '@/components/communities/Comment.vue'
+import CommentList from '@/components/communities/CommentList.vue'
 import YoutubeComponent from '@/components/movies/YoutubeComponent.vue'
 const route = useRoute()
 const moviePk = route.params.moviePk

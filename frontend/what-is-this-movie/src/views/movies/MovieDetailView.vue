@@ -39,7 +39,7 @@
           title="YouTube video player"
           frameborder="0"
           allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen/>
+          allowfullscreen></iframe>
         <div class="modal-btn">
           <button @click="modalOpen">닫기</button>
           <button @click="modalOpen">확인</button>
@@ -48,7 +48,7 @@
     </div>
   </div>
   <div>
-      <Comment />
+      <CommentList :movie-pk="movie.pk"/>
   </div>
   </template>
     

@@ -31,7 +31,6 @@ const logIn = function() {
     password: password.value
   }
   store.logIn(payload)
-
 }
 </script>
 

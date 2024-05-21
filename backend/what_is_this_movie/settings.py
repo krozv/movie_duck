@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     "rest_framework",
     "rest_framework.authtoken",
     'krwordrank.word',
+    'tensorflow',
     'dj_rest_auth',
     'corsheaders',
     'django.contrib.sites',

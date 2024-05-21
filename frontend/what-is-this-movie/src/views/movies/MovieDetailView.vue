@@ -19,6 +19,12 @@
           </span>
         </p>
         <p>내용 : {{ movie.overview }}</p>
+        <div v-if="keywords">
+          <p>명사 키워드 : <span>{{ keywords.top_noun }}</span></p>
+          <p>동사 키워드 : <span>{{ keywords.top_verb }}</span></p>
+          <p>형용사 키워드 : <span>{{ keywords.top_adj }}</span></p>
+        </div>
+        <p v-else>로딩중 입니다 ~~</p>
       </div>
   </div>
   
@@ -55,9 +61,11 @@
   <script setup>
   import { useRoute } from 'vue-router'
   import { ref, onMounted, computed } from 'vue'
+  import { useCounterStore } from '@/stores/userStore'
   import Comment from '@/components/communities/Comment.vue'
   import axios from 'axios'
-  
+
+  const store = useCounterStore()
   const route = useRoute()
   const movieId = route.params.movieId
   
@@ -67,7 +75,7 @@
   
   const videoId = ref('')
   onMounted(() => {
-      
+      fetchKeywords()
   })
   axios({
         method: 'get',
@@ -111,6 +119,21 @@
   function modalOpen() {
       modalCheck.value = !modalCheck.value
   }
+
+  
+  const keywords = ref(null)
+
+  const fetchKeywords = () => {
+    axios.get(
+        `${store.API_URL}/api/movie/${movieId}/keywords/`)
+        .then(response => {
+          keywords.value = response.data
+        })
+        .catch(error => {
+            console.error('Failed to fetch comments:', error)
+        })
+}
+
   </script>
   
   <style scoped>

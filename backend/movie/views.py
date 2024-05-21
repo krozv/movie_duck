@@ -9,7 +9,7 @@ from django.shortcuts import get_object_or_404
 from pprint import pprint
 from crawling import crawling, kobis_crawling, model_save
 from rest_framework.permissions import IsAuthenticated
-from krwordrank.word import summarize_with_keywords
+from .utils import process_movie_descriptions
 
 
 @api_view(['GET', 'POST'])
@@ -122,25 +122,9 @@ def box_office(request):
     serializer = BoxOfficeListSerializer(movies, many=True)
     return Response(serializer.data, status=status.HTTP_200_OK)
   
-
+# movie/views.py
 @api_view(['GET'])
-def review_wordcloud(request, movie_id):
-    movie = Movie.objects.get(id=movie_id) 
-    all_reviews = movie.comments.all() # 해당 영화 모든 리뷰
-    texts = []
-    for review in all_reviews: # 데이터 전처리
-        texts.append(review.content) 
-    stopwords = {'영화', '관람객', '너무', '정말', '보고', '일부', '완전히'} # 불용어
-    keywords = summarize_with_keywords(texts, min_count=3, max_length=10, # NLP
-        beta=0.85, max_iter=10, stopwords=stopwords, verbose=True)
-    
-    wordlist = []
-    count = 0
-    for key, val in keywords.items(): # 다음 라이브러리를 위한 후처리
-        temp = {'name': key, 'value': int(val*100)}
-        wordlist.append(temp)
-        count += 1
-        if count >= 30: # 출력 수 제한
-            break
-
-    return Response(wordlist)
+def movie_keywords(request, movie_pk):
+    movie = Movie.objects.get(movie_id=movie_pk)
+    result = process_movie_descriptions([(movie.title, movie.overview)])
+    return Response(result)

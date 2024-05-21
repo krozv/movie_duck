@@ -10,7 +10,6 @@
         :key="boxoffice.movie[0].movie_id"
         v-slot="{ selectedClass }"
       >
-        
         <v-card
           :class="['ma-4', selectedClass]"
           @click="movieDetailPage(boxoffice.movie[0].pk)"

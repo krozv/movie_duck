@@ -41,12 +41,15 @@ def create_comment(request, movie_pk):
   serializer = CommentSerializer(comment)
   return Response(serializer.data, status=status.HTTP_201_CREATED)
 
+  
 @api_view(['GET', 'PUT', 'DELETE', 'POST'])
 def comment(request, movie_pk, comment_pk):
   # 댓글 조회(대댓글 포함)
   if request.method == 'GET':
+    print(request)
     comment = get_object_or_404(Comment, pk=comment_pk)
     serializer = CommentReplySerializer(comment)
+    pprint(serializer.data)
     return Response(serializer.data, status=status.HTTP_200_OK)
   
   # 댓글 수정

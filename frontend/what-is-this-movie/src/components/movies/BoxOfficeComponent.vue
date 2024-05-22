@@ -46,6 +46,8 @@ const movieDetailPage = function (moviePk) {
    }
  )
 }
+
+
 </script>
 
 <style scoped>

@@ -1,6 +1,5 @@
 <template>
   <BoxOfficeComponent />
-  <!-- <NowPlayingMovies /> -->
   <UpcomingComponent />
 </template>
 

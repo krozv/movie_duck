@@ -1,9 +1,10 @@
 <template>
-    <div style="height: 100%">
+    <div style="height: 100%; ">
         <img 
-            :src="'https://image.tmdb.org/t/p/w300' + posterPath" alt="poster-img" 
+            :src="'https://image.tmdb.org/t/p/w300' + posterPath" 
+            alt="poster-img" 
             class="movie-image"
-            style="height: 100%"
+            style="height: 100%; aspect-ratio: 0.7;"
             >
     </div>
 </template>

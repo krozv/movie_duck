@@ -98,6 +98,8 @@ const recommend = function (search) {
             const secondKey = Object.keys(res.data)[1]
             firstMovies.value = res.data[firstKey]
             secondMovies.value = res.data[secondKey]
+            localStorage.setItem(`first${option(search)}`, firstMovies.value[0]['recommend'])
+            localStorage.setItem(`second${option(search)}`, secondMovies.value[0]['recommend'])
             localStorage.setItem(`first${option(search)}Movies`, JSON.stringify(firstMovies.value))
             localStorage.setItem(`second${option(search)}Movies`, JSON.stringify(secondMovies.value))
         })

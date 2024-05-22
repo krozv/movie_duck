@@ -13,6 +13,16 @@
             <div class="col-md-6">
                 <h1>{{ store.movie.title }}</h1>
                 <p>{{ store.movie.overview }}</p>
+            
+            <hr>
+                <div>
+                    <KeyWords :movie-pk="moviePk"/>
+                </div>
+                <hr>
+                <div>
+                    <p>관객들의 영화 평가 :</p>
+                    <Sentiments :movie-pk="moviePk"/>
+                </div>
             </div>
         </div>
         <hr>
@@ -45,6 +55,9 @@ import { useRoute } from 'vue-router'
 import { useMovieStore } from '@/stores/movies';
 import CommentList from '@/components/communities/CommentList.vue'
 import YoutubeComponent from '@/components/movies/YoutubeComponent.vue'
+import Sentiments from '@/components/movies/Sentiments.vue';
+import KeyWords from '@/components/movies/KeyWords.vue';
+
 const route = useRoute()
 const moviePk = route.params.moviePk
 const store = useMovieStore()

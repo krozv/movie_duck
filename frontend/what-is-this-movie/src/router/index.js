@@ -87,10 +87,10 @@ router.beforeEach((to, from) => {
   // result에서 나갈 시 localStorage의 likedMovies 삭제
   if (from.name === 'recommend-result') {
     localStorage.removeItem('likedMovies')
-    localStorage.removeItem('firstGenreMovies')
-    localStorage.removeItem('secondGenreMovies')
-    localStorage.removeItem('firstActorMovies')
-    localStorage.removeItem('secondActorMovies')
+    // localStorage.removeItem('firstGenreMovies')
+    // localStorage.removeItem('secondGenreMovies')
+    // localStorage.removeItem('firstActorMovies')
+    // localStorage.removeItem('secondActorMovies')
   }
   // sign up view에서 나갈 시 profile 이미지 불러오기
   if (from.name === 'SignUpView') {

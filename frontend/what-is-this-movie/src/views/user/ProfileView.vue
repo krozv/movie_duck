@@ -1,7 +1,12 @@
 <template>
-    <div v-if="userStore.userData" class="pa-4">
-        <ProfileImage :image-path="userStore.userData.user_profile"/>
-        <h2 v-if="userStore.userData">안녕하세요, {{ userStore.userData.username }}님.</h2>
+    <div v-if="userStore.userData" class="pa-4 d-flex">
+        <ProfileImage :first-genre="firstGenre"/>
+        <div class="align-self-center">
+            <h2 v-if="userStore.userData" class="align-self-center">
+                {{ userStore.userData.username }} 
+            </h2>
+            <p class="m-0">{{ firstGenre }} {{ secondGenre }}</p>
+        </div>
     </div>
     <hr>
     <div class="pa-4">
@@ -44,10 +49,14 @@ import Poster from '@/components/movies/Poster.vue'
 import ProfileImage from '@/components/ProfileImage.vue'
 
 const userStore = useCounterStore()
+const firstGenre = ref(null)
+const secondGenre = ref(null)
 onMounted(() => {
     if (!userStore.userData) {
         userStore.fetchUserData()
     }
+    firstGenre.value = localStorage.getItem('firstGenre')
+    secondGenre.value = localStorage.getItem('secondGenre')
 })
 
 const router = useRouter()

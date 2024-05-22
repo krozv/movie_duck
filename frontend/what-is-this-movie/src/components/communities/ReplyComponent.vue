@@ -1,6 +1,6 @@
 <template>
   <v-dialog v-model="deleteAlert" width="auto" @keyup.enter="[deleteAlert = false, deleteReply()]">
-    <v-card max-width="400" :prepend-icon="mdiAlert" text="🦆정말 삭제할거야?" title="warning">
+    <v-card max-width="400" :prepend-icon="mdiAlert" text="🦆정말 삭제할거야? 꽥" title="warning">
       <template v-slot:actions>
         <v-btn text="아닝" @click="[deleteAlert = false]"></v-btn>
         <v-btn class="ms-auto" text="삭제" @click="[deleteAlert = false, deleteReply()]" color="warning"></v-btn>

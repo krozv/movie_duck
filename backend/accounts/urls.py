@@ -6,4 +6,4 @@ from django.conf.urls.static import static
 urlpatterns = [
     path('', views.UserListView.as_view()),
     path('signout/', views.SignOutView.as_view(), name='account-signout'),
-] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+]

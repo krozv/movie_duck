@@ -1,16 +1,7 @@
 <template>
-    <div class="pa-4">
-       <div v-if="userStore.userData">
-        test
-        {{ userStore.userData.user_profile }}
-        <v-img
-        width="100"
-        aspect-ratio="1/1"
-        cover
-        :scr="`${API_URL}+${userStore.userData.user_profile}`"
-       ></v-img>
-    </div>
-    <h2 v-if="userStore.userData">안녕하세요, {{ userStore.userData.username }}님.</h2>
+    <div v-if="userStore.userData" class="pa-4">
+        <ProfileImage :image-path="userStore.userData.user_profile"/>
+        <h2 v-if="userStore.userData">안녕하세요, {{ userStore.userData.username }}님.</h2>
     </div>
     <hr>
     <div class="pa-4">
@@ -50,9 +41,9 @@ import { useCounterStore } from '@/stores/userStore';
 import { useRouter } from 'vue-router'
 import { onMounted, ref } from 'vue'
 import Poster from '@/components/movies/Poster.vue'
+import ProfileImage from '@/components/ProfileImage.vue'
 
 const userStore = useCounterStore()
-const API_URL = userStore.API_URL
 onMounted(() => {
     if (!userStore.userData) {
         userStore.fetchUserData()

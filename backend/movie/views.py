@@ -10,6 +10,15 @@ from pprint import pprint
 from crawling import crawling, kobis_crawling, model_save
 from rest_framework.permissions import IsAuthenticated
 
+from django.http import JsonResponse
+from django.views.decorators.http import require_GET
+
+@require_GET
+def test_cors(request):
+    response = JsonResponse({"message": "CORS is working!"})
+    response['Access-Control-Allow-Origin'] = '*'
+    return response
+  
 @api_view(['GET', 'POST'])
 def movie_main(request):
   if request.method == 'GET':

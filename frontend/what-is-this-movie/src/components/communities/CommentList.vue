@@ -1,20 +1,15 @@
 <template>
-    <h1>댓글</h1>
-    <div class="comments-each">
-        <h4>총 {{ comments.length }}개</h4>
+    <h1>댓글 ({{ comments ? comments.length : 0 }})</h1>
         <hr>
-    </div>
     <div v-for="comment in comments" :key="comment.id" class="comment">
         <CommentComponent :movie-pk="moviePk" :comment="comment" @delete-event="callback"/>
     </div>
     <div>
         <CommentCreate 
         :movie-pk="moviePk"
-        :fetch-comments="fetchComments"
+        @fetch-comments="callback"
         />
     </div>
-
-    
 
 </template>
 
@@ -31,7 +26,7 @@ const props = defineProps({
 
 const store = useCounterStore()
 const token = store.token
-const comments = ref([])
+const comments = ref(null)
 
 // 댓글 삭제 시 reload
 const callback = function() {
@@ -40,10 +35,12 @@ const callback = function() {
 }
 
 const fetchComments = () => {
+    console.log('fetch comment')
     axios.get(
         `${store.API_URL}/api/movie/${props.moviePk}/`,
         { headers: { Authorization: `Token ${token}`}})
         .then(response => {
+            console.log(response.data.comments)
             comments.value = response.data.comments
         })
         .catch(error => {

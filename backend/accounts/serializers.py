@@ -1,10 +1,11 @@
 from rest_framework import serializers
 from .models import User
+from movie.serializers import BoxOfficeMovieSerializer
 
 class UserSerializer(serializers.ModelSerializer):
-    password = serializers.CharField(write_only=True)  # 비밀번호 필드를 입력만 가능하도록 설정
-
+    user_liked_movie = BoxOfficeMovieSerializer(many=True, read_only=True)
+    
     class Meta:
         model = User
-        fields = ('username', 'password', 'email',)  # Serializer에 포함할 필드 지정
+        fields = ('username', 'user_liked_movie', 'user_profile')  # Serializer에 포함할 필드 지정
 

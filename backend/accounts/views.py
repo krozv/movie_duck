@@ -3,20 +3,35 @@ from django.http import JsonResponse
 from rest_framework.views import APIView
 from rest_framework.permissions import IsAuthenticated
 from rest_framework.authtoken.models import Token
-from rest_framework.decorators import api_view, permission_classes
+from rest_framework.generics import RetrieveAPIView
+from . serializers import UserSerializer
+from rest_framework.response import Response
+from rest_framework import status
 
 User = get_user_model()
+
 
 class SignOutView(APIView):
     permission_classes = [IsAuthenticated]
 
     def delete(self, request, *args, **kwargs):
-        print(request)
         user = request.user
         Token.objects.filter(user=user).delete()
         user.delete()
         request.session.flush()
         return JsonResponse({"message": "회원탈퇴 성공"})
+
+
+class UserListView(APIView):
+    permission_classes = [IsAuthenticated]
+    
+    def get(self, request, *args, **kwargs):
+        user = request.user
+        serializer = UserSerializer(user)
+        return Response(serializer.data, status=status.HTTP_200_OK)
+        
+
+
 
 # from allauth.socialaccount.providers.google.views import GoogleOAuth2Adapter
 # from allauth.socialaccount.providers.oauth2.client import OAuth2Client

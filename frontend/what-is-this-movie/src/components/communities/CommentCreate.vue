@@ -22,7 +22,7 @@
   </v-dialog>
 
   <v-card elevation="0" class="px-1 pt-2" color="">
-      <v-form v-if="test" 
+      <v-form
       @keyup.enter.prevent = "createComment" 
       @submit.prevent="createComment">
         <v-textarea
@@ -59,15 +59,14 @@ import { mdiCheck, mdiAlert, mdiComment  } from '@mdi/js'
 
 const props = defineProps({
     moviePk: String,
-    fetchComments: Function,
 })
 
 const store = useCounterStore()
 const content = ref('')
 const moviePk = ref(props.moviePk)
 const warning = ref(false)
+const emits = defineEmits(['fetch-comments'])
 const createComment = () => {
-  // console.log(content)
   if ( content.value ) {  
   axios({
     method: 'post',
@@ -81,7 +80,7 @@ const createComment = () => {
   })
     .then((response) => {
       content.value = ''; // 폼 초기화
-      props.fetchComments()
+      emits('fetch-comments')
     })
     .catch((error) => {
       console.log(error)
@@ -90,8 +89,6 @@ const createComment = () => {
     warning.value = true
   }
 }
-
-const test = true
 
 const editWarning = computed(() => {
   return content.value.length > 300 ? true : false

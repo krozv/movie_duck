@@ -39,7 +39,6 @@ onMounted(() => {
 })
 const router = useRouter()
 const movieDetailPage = function (moviePk) {
- console.log(moviePk)
  router.push(
    { 
      name: 'boxoffice-detail',

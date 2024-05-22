@@ -3,8 +3,8 @@
         <v-app-bar :elevation="0" rounded style="height: 50px">
             <!-- 반응형 추가하기 -->
             <v-row>
-                <v-col cols="4" offset="4" class="p-1">
-                <div class="d-flex justify-center">
+                <v-col cols-md="4" offset-md="4" class="p-1">
+                <div class="d-flex justify-content-md-center px-1">
                     <router-link :to="{ name:'home'}">
                         <button>
                         <img 
@@ -25,14 +25,14 @@
                     <router-link :to="{ name:'recommend'}">
                         <svg-icon type="mdi" :path="mdiMovieSearch"
                         color=black
-                        class="m-1"></svg-icon>
+                        class=""></svg-icon>
                     </router-link>
                     </v-btn>
                     <v-btn v-tooltip:bottom="'Log out'" >
                     <router-link :to="{ name:'LogOutView'}">
                         <svg-icon type="mdi" :path="mdiLogout"
                         color=black
-                        class="m-1"></svg-icon>
+                        class=""></svg-icon>
                     </router-link>
                     </v-btn>
 
@@ -40,7 +40,7 @@
                     <router-link :to="{ name:'Profile'}">
                         <svg-icon type="mdi" :path="mdiFaceMan"
                         color=black
-                        class="m-1" 
+                        class="" 
                         ></svg-icon>
                     </router-link>
                     </v-btn>

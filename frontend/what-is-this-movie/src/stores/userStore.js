@@ -76,7 +76,6 @@ export const useCounterStore = defineStore('counter', () => {
     })
       .then((response) => {
         console.log('로그인 완료')
-        console.log(response.data.key)
         // 3. 로그인 성공 후 응답 받은 토큰 저장
         token.value = response.data.key
         localStorage.setItem('token', token.value)
@@ -101,7 +100,7 @@ export const useCounterStore = defineStore('counter', () => {
     // console.log(token.value)
     axios({
       method: 'get',
-      url: `${API_URL}/accounts/user/`,
+      url: `${API_URL}/accounts/users/`,
       headers: {
         Authorization: `Token ${token.value}`
       }

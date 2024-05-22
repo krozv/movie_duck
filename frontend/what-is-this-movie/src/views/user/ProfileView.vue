@@ -1,6 +1,15 @@
 <template>
-    
     <div class="pa-4">
+       <div v-if="userStore.userData">
+        test
+        {{ userStore.userData.user_profile }}
+        <v-img
+        width="100"
+        aspect-ratio="1/1"
+        cover
+        :scr="`${API_URL}+${userStore.userData.user_profile}`"
+       ></v-img>
+    </div>
     <h2 v-if="userStore.userData">안녕하세요, {{ userStore.userData.username }}님.</h2>
     </div>
     <hr>
@@ -8,13 +17,14 @@
     <h3>좋아요한 영화 목록</h3>
     </div>
     <v-slide-group
+        v-if="userStore.userData"
         class="pa-4"
         selected-class="bg-success"
         show-arrows
         
     >
         <v-slide-group-item
-            v-for="movie in likeMovies" 
+            v-for="movie in userStore.userData.user_liked_movie" 
             :key = movie.id
             v-slot="{ isSelected }"
             
@@ -24,6 +34,7 @@
                 hover
                 height="200"
                 weight="100"
+                @click="movieDetailPage(movie.pk)"
             >
                 <Poster
                     :poster-path="movie.poster_path"
@@ -36,40 +47,27 @@
 
 <script setup>
 import { useCounterStore } from '@/stores/userStore';
-import { useBackendStore } from '@/stores/backend';
-import axios from 'axios';
+import { useRouter } from 'vue-router'
 import { onMounted, ref } from 'vue'
 import Poster from '@/components/movies/Poster.vue'
 
 const userStore = useCounterStore()
-const store = useBackendStore()
-const likeMovies = ref(null)
-
+const API_URL = userStore.API_URL
 onMounted(() => {
-    console.log(userStore.userData)
     if (!userStore.userData) {
         userStore.fetchUserData()
     }
 })
 
-const userLikeMovies = function () {
-    axios({
-        method: 'get',
-        url: `${store.API_URL}/api/recommend/likemovie/`,
-        headers: {
-            Authorization: `Token ${userStore.token}`
-        },
-    })
-    .then((res) => {
-        console.log(res)
-        likeMovies.value = res.data
-    })
-    .catch((err) => {
-        console.log(err)
-    })
+const router = useRouter()
+const movieDetailPage = function (moviePk) {
+ router.push(
+   { 
+     name: 'boxoffice-detail',
+     params: { moviePk : moviePk }
+   }
+ )
 }
-
-userLikeMovies()
 
 </script>
 

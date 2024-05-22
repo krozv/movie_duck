@@ -19,12 +19,19 @@
           </span>
         </p>
         <p>내용 : {{ movie.overview }}</p>
+        <!-- movie.overview를 기반으로 키워드 추출 -->
         <div v-if="keywords">
           <p>명사 키워드 : <span>{{ keywords.top_noun }}</span></p>
           <p>동사 키워드 : <span>{{ keywords.top_verb }}</span></p>
           <p>형용사 키워드 : <span>{{ keywords.top_adj }}</span></p>
         </div>
-        <p v-else>로딩중 입니다 ~~</p>
+        <!-- 영화 감정 평가 -->
+        <p v-if="sentiments">
+          {{ sentiments }}
+        </p>
+        <p v-else>
+          감정 평가 로딩중...
+        </p>
       </div>
   </div>
   
@@ -76,6 +83,7 @@
   const videoId = ref('')
   onMounted(() => {
       fetchKeywords()
+      fetchSentiments()
   })
   axios({
         method: 'get',
@@ -133,7 +141,18 @@
             console.error('Failed to fetch comments:', error)
         })
 }
+  const sentiments = ref(null)
 
+  const fetchSentiments = () => {
+    axios.get(
+      `${store.API_URL}/api/movie/${movieId}/sentiments/`)
+      .then(response => {
+        sentiments.value = response.data
+      })
+      .catch(error => {
+        console.error('Failed to fetch sentiments:', error)
+      })
+  }
   </script>
   
   <style scoped>

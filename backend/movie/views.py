@@ -128,3 +128,29 @@ def movie_keywords(request, movie_pk):
     movie = Movie.objects.get(movie_id=movie_pk)
     result = process_movie_descriptions([(movie.title, movie.overview)])
     return Response(result)
+
+
+import re
+from tensorflow.keras.models import load_model
+import pickle
+from .sentiments import sentiment_predict
+
+# 학습시킨 딥러닝 모델 load
+loaded_model = load_model('review_model.keras')
+# 토크나이저한 값 load
+with open('tokenizer.pickle', 'rb') as handle:
+    tokenizer = pickle.load(handle)
+
+@api_view(['GET'])
+def sentiments(request, movie_pk):
+    movie = get_object_or_404(Movie, movie_id=movie_pk)
+    comments = movie.comments.all()  # 역참조를 통해 댓글들 가져오기
+    score = 0
+    for comment in comments:
+      score += sentiment_predict(comment.content)['score']
+    score = score / len(comments)
+    if(score > 0.5):
+      return Response("{:.2f}% 확률로 재밌는 영화입니다.\n".format(score * 100))
+    else:
+      return Response("{:.2f}% 확률로 재미없는 영화입니다.\n".format((1 - score) * 100))
+      

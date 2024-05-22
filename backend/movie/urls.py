@@ -9,4 +9,6 @@ urlpatterns = [
     path('<int:movie_pk>/comment/<int:comment_pk>/<int:reply_pk>/', views.reply),
     path('boxoffice/', views.box_office),
     path('popular/', views.popular),
+    path('<int:movie_pk>/keywords/', views.movie_keywords), # keywords 추출 views
+    path('<int:movie_pk>/sentiments/', views.sentiments), # 감정 평가
 ]

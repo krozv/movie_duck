@@ -1,5 +1,5 @@
 <template>
-  <h2 class="pa-4 mx-14 my-0">Box Office 순위</h2>
+  <h2 class="pt-4 px-4 mx-14 my-0">Box Office 순위</h2>
   <v-slide-group
       class="px-2"
       selected-class="bg-success"

@@ -1,8 +1,16 @@
 <template>
-    <div v-if="keywordsNoun && keywordsVerb && keywordsAdj">
-      <p>명사 키워드: {{ keywordsNoun.join(', ') }}</p>
-      <p>동사 키워드: {{ keywordsVerb.join(', ') }}</p>
-      <p>형용사 키워드: {{ keywordsAdj.join(', ') }}</p>
+    <div v-if="keywordsNoun">
+      <!-- <p>명사 키워드: {{ keywordsNoun.join(', ') }}</p> -->
+      <!-- <p>동사 키워드: {{ keywordsVerb.join(', ') }}</p>
+      <p>형용사 키워드: {{ keywordsAdj.join(', ') }}</p> -->
+      <v-chip-group class="mt-3" column>
+          <v-chip
+            v-for="keyword in keywordsNoun"
+            :key="keyword"
+            :text="keyword"
+            :value="keyword"
+          ></v-chip>
+        </v-chip-group>
     </div>
     <p v-else>Loading...</p>
 </template>

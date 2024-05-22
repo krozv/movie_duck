@@ -1,6 +1,7 @@
 <template>
+    <div class="px-4 mx-14">
     <div v-if="userStore.userData" class="pa-4 d-flex">
-        <ProfileImage :first-genre="firstGenre"/>
+        <ProfileImage :genre="firstGenre"/>
         <div class="align-self-center">
             <h2 v-if="userStore.userData" class="align-self-center">
                 {{ userStore.userData.username }} 
@@ -9,12 +10,12 @@
         </div>
     </div>
     <hr>
-    <div class="pa-4">
+    <div class="px-4">
     <h3>좋아요한 영화 목록</h3>
     </div>
     <v-slide-group
         v-if="userStore.userData"
-        class="pa-4"
+        class="px-4 pb-4"
         selected-class="bg-success"
         show-arrows
         
@@ -39,6 +40,7 @@
             </v-card>
         </v-slide-group-item>
     </v-slide-group>
+    </div>
 </template>
 
 <script setup>

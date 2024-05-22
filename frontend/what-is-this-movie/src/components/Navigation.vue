@@ -5,15 +5,14 @@
             <v-row>
                 <v-col cols-md="4" offset-md="4" class="p-1">
                 <div class="d-flex justify-content-md-center px-1">
-                    <router-link :to="{ name:'home'}">
-                        <button>
-                        <img 
+                    <!-- <router-link :to="{ name:'home'}"> -->
+                        <div v-tooltip:bottom="'Home'" @click="goHome">
+                        <img
+                        class="home"
                         src="../assets/logo_size.png" 
                         alt="logo"
                         height="50px">
-                        </button>
-                        <!-- <span>test</span> -->
-                    </router-link>
+                        </div>
                 </div>
                 </v-col>
                 <v-col>
@@ -99,8 +98,16 @@ const searchMovie = () => {
         searchTerm.value = '';
     }
 };
+
+const goHome = function () {
+    router.push({ name: 'home'})
+}
 </script>
 
 <style scoped>
-
+.home:hover {
+    background-color:#ededed;
+    transition: 0.7s;
+    border-radius: 100% 100%;
+}
 </style>

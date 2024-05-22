@@ -1,6 +1,6 @@
 <template>
-    <div class="container">
-        <h1>영화 선택 창</h1>
+    <div class="px-4 mx-14">
+        <h3 class="py-2">영화 선택 창</h3>
         <p>영화를 10개 이상 골라주세요.</p>
         <p>{{ count }}개를 골랐습니다.</p>
         <div class="row">
@@ -12,8 +12,10 @@
                 :movie-poster-path="movie.poster_path"/>
             </div>
         </div>
-        <button class="btn btn-primary">다른 영화</button>
-        <button @click="goResult" v-show="moveToResult" class="btn btn-primary">선택 완료</button>
+        <div class="d-flex py-4 justify-content-center">
+        <button @click="reset" class="btn btn-warning">다른 영화</button>
+        <button @click="goResult" v-show="moveToResult" class="btn btn-warning ml-4">선택 완료</button>
+        </div>
 
     </div>
 </template>
@@ -78,6 +80,9 @@ const storeMovie = function(movieId) {
         store.userLikeMovies.pop(movieId)
     }
     localStorage.setItem('likedMovies', JSON.stringify(store.userLikeMovies))
+}
+const reset = function () {
+    window.location.reload()
 }
 const router = useRouter()
 const goResult = function () {

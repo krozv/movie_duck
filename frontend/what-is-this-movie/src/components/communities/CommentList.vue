@@ -1,5 +1,5 @@
 <template>
-    <h1>댓글 ({{ comments ? comments.length : 0 }})</h1>
+    <h4>댓글 ({{ comments ? comments.length : 0 }})</h4>
         <hr>
     <div v-for="comment in comments" :key="comment.id" class="comment">
         <CommentComponent :movie-pk="moviePk" :comment="comment" @delete-event="callback"/>

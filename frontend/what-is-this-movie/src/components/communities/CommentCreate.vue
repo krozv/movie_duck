@@ -1,10 +1,9 @@
 <template>
-
   <v-dialog v-model="warning" width="auto">
     <v-card
       max-width="400"
       :prepend-icon="mdiAlert"
-      text="댓글을 작성해주세요."
+      text="댓글을 작성해주세요"
       title="warning"
     >
       <template v-slot:actions>
@@ -23,9 +22,9 @@
 
   <v-card elevation="0" class="px-1 pt-2" color="">
       <v-form
-      @keyup.enter.prevent = "createComment" 
-      @submit.prevent="createComment">
-        <v-textarea
+      @keyup.enter = "createComment($event)" 
+      >
+      <v-textarea
           v-model="content"
           class="mx-2"
           label="댓글을 작성해주세요."
@@ -39,7 +38,8 @@
         <v-spacer></v-spacer>
         {{ content.length }} / 300
         <v-btn 
-          type="submit" outlined small> 
+        @click="createComment($event)" 
+        outlined small> 
           <svg-icon type="mdi" :path="mdiCheck "
             color=black
             class="mr-1" 
@@ -66,8 +66,18 @@ const content = ref('')
 const moviePk = ref(props.moviePk)
 const warning = ref(false)
 const emits = defineEmits(['fetch-comments'])
-const createComment = () => {
+const createComment = (event) => {
+  console.log('댓글 create')
   if ( content.value ) {  
+    console.log('댓글을 만들어야지')
+    requestComment()
+  } else {
+    console.log('경고')
+    warning.value = true
+  }
+}
+
+const requestComment = function () {
   axios({
     method: 'post',
     url: `${store.API_URL}/api/movie/${moviePk.value}/comment/`,
@@ -85,11 +95,7 @@ const createComment = () => {
     .catch((error) => {
       console.log(error)
     })
-  } else {
-    warning.value = true
-  }
 }
-
 const editWarning = computed(() => {
   return content.value.length > 300 ? true : false
 })

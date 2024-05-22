@@ -21,7 +21,12 @@
                 <hr>
                 <div>
                     <p>관객들의 영화 평가 :</p>
-                    <Sentiments :movie-pk="moviePk"/>
+                    <Sentiments 
+                        v-if="store.movie.comments && store.movie.comments.length > 0"
+                    :movie-pk="moviePk"/>
+                    <div v-else>
+                        작성된 댓글이 없어서 예측을 할 수 없습니다.
+                    </div>
                 </div>
             </div>
         </div>
@@ -30,11 +35,15 @@
             <div class="container">
                 <div v-if="store.movie.video && store.movie.video.length > 0">
                     <div class="row">
-                    <YoutubeComponent
-                        v-for="video in store.movie.video"
-                        :video-id="video.video_id"
-                        :video-key="video.video_key"
-                        :video-site="video.video_site"/>
+                        <v-slide-group
+                        show-arrows>
+                            <v-slide-group-item v-for="video in store.movie.video">
+                                <YoutubeComponent
+                        class="ma-4"
+                        :video-key="video.video_key"/>
+                            </v-slide-group-item>
+                        </v-slide-group>
+                    
                     </div>
                 </div>
                 <div v-else>

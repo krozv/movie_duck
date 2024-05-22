@@ -1,9 +1,6 @@
 <template>
-    <div v-if="sentiments">
+    <div>
         {{ sentiments }}
-    </div>
-    <div v-else>
-        작성된 댓글이 없어서 예측을 할 수 없습니다.
     </div>
 </template>
 

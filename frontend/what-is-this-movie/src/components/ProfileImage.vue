@@ -10,16 +10,16 @@
 </template>
 
 <script setup>
-import { ref, computed } from 'vue'
+import { computed } from 'vue'
 
 const props = defineProps({
-  firstGenre: String,
+  Genre: String,
 })
 
 
 const profileImg = computed (() => {
-  if ( props.firstGenre ) {
-    return new URL(`../assets/duck/${props.firstGenre}.png`, import.meta.url).href
+  if ( props.Genre ) {
+    return new URL(`../assets/duck/${props.Genre}.png`, import.meta.url).href
   } else {
     return new URL(`../assets/duck/default.png`, import.meta.url).href
   }

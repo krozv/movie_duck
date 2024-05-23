@@ -21,7 +21,7 @@ class RecommendListSerializer(serializers.ModelSerializer):
 class UserCommentSerializer(serializers.ModelSerializer):
     class Meta:
         model = User
-        fields = ['username']
+        fields = ['username','user_profile']
         
 class CommentSerializer(serializers.ModelSerializer):
     author = UserCommentSerializer(read_only=True)

@@ -153287,6 +153287,61 @@
   }
 },
 {
+  "model": "movie.comment",
+  "pk": 213,
+  "fields": {
+    "movie": 2470,
+    "author": 6,
+    "content": "재밌어용ㅎㅎ 추천합니당",
+    "created_at": "2024-05-23T01:10:40.713Z",
+    "updated_at": "2024-05-23T01:14:34.320Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 214,
+  "fields": {
+    "movie": 2048,
+    "author": 10,
+    "content": "기대됩니다\n",
+    "created_at": "2024-05-23T02:53:30.831Z",
+    "updated_at": "2024-05-23T02:53:30.831Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 215,
+  "fields": {
+    "movie": 2484,
+    "author": 10,
+    "content": "기대됩니당\n",
+    "created_at": "2024-05-23T02:59:30.959Z",
+    "updated_at": "2024-05-23T02:59:30.959Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 216,
+  "fields": {
+    "movie": 2484,
+    "author": 10,
+    "content": "승희다\n",
+    "created_at": "2024-05-23T02:59:39.768Z",
+    "updated_at": "2024-05-23T02:59:39.768Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 220,
+  "fields": {
+    "movie": 1525,
+    "author": 10,
+    "content": "어? 상무다!\n",
+    "created_at": "2024-05-23T04:14:23.158Z",
+    "updated_at": "2024-05-23T04:14:23.158Z"
+  }
+},
+{
   "model": "movie.reply",
   "pk": 10,
   "fields": {
@@ -153369,9 +153424,9 @@
   "fields": {
     "comment": 6,
     "author": 1,
-    "content": "왜 말을 그렇게 하세요",
+    "content": "왜 말을 그렇게 하세요 ㅎㅎ",
     "created_at": "2024-05-22T23:45:36.358Z",
-    "updated_at": "2024-05-22T23:45:36.359Z"
+    "updated_at": "2024-05-23T01:06:36.615Z"
   }
 },
 {
@@ -153394,6 +153449,61 @@
     "content": "응 니 생각~",
     "created_at": "2024-05-22T23:45:50.686Z",
     "updated_at": "2024-05-22T23:45:53.841Z"
+  }
+},
+{
+  "model": "movie.reply",
+  "pk": 36,
+  "fields": {
+    "comment": 6,
+    "author": 6,
+    "content": "볼 게 없으면 보지마세여",
+    "created_at": "2024-05-23T01:15:40.399Z",
+    "updated_at": "2024-05-23T01:15:40.399Z"
+  }
+},
+{
+  "model": "movie.reply",
+  "pk": 37,
+  "fields": {
+    "comment": 5,
+    "author": 2,
+    "content": "어쩌라구",
+    "created_at": "2024-05-23T01:36:54.727Z",
+    "updated_at": "2024-05-23T01:36:54.727Z"
+  }
+},
+{
+  "model": "movie.reply",
+  "pk": 41,
+  "fields": {
+    "comment": 213,
+    "author": 10,
+    "content": "나두 추천222",
+    "created_at": "2024-05-23T03:14:16.607Z",
+    "updated_at": "2024-05-23T03:17:55.167Z"
+  }
+},
+{
+  "model": "movie.reply",
+  "pk": 42,
+  "fields": {
+    "comment": 213,
+    "author": 10,
+    "content": "이거 진짜 재밌음",
+    "created_at": "2024-05-23T03:17:51.487Z",
+    "updated_at": "2024-05-23T03:17:51.487Z"
+  }
+},
+{
+  "model": "movie.reply",
+  "pk": 44,
+  "fields": {
+    "comment": 4,
+    "author": 10,
+    "content": "나는 3편이 더 재밌었는데",
+    "created_at": "2024-05-23T03:19:35.751Z",
+    "updated_at": "2024-05-23T03:19:35.751Z"
   }
 },
 {

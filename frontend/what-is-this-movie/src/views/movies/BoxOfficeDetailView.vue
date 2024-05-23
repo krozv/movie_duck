@@ -36,12 +36,12 @@
                 <hr>
                 <div>
                     <p>관객들의 영화 평가 :</p>
-                    <!-- <Sentiments 
+                    <Sentiments 
                         v-if="store.movie.comments && store.movie.comments.length > 0"
                     :movie-pk="moviePk"/>
                     <div v-else>
                         작성된 댓글이 없어서 예측을 할 수 없습니다.
-                    </div> -->
+                    </div>
                 </div>
             </div>
         </div>

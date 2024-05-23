@@ -129,7 +129,7 @@ export const useCounterStore = defineStore('counter', () => {
   const likeStateKey = 'likeState';
   
   // 좋아요 상태 저장
-  const likeState = JSON.parse(localStorage.getItem(likeStateKey)) || {}
+  let likeState = JSON.parse(localStorage.getItem(likeStateKey)) || {}
   
   watch(preLiked, (newVal) => {
     if (preLiked.value) {

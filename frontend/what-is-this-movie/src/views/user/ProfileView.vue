@@ -1,7 +1,9 @@
 <template>
     <div class="px-4 mx-14">
     <div v-if="userStore.userData" class="pa-4 d-flex">
-        <ProfileImage :genre="firstGenre"/>
+        <ProfileImage 
+        style="width: 5rem; height: 5rem; margin-right: 1rem;"
+        :genre="firstGenre"/>
         <div class="align-self-center">
             <h2 v-if="userStore.userData" class="align-self-center">
                 {{ userStore.userData.username }} 

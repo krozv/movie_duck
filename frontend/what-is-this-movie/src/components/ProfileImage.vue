@@ -1,7 +1,7 @@
 <template>
   <div>
     <img
-    width="100"
+    width="100%"
     :aspect-ratio="1"
     :src="profileImg"
     class="img-setting mr-5"

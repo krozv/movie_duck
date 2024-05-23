@@ -1,5 +1,4 @@
 <template>
-  
   <v-dialog v-model="deleteAlert" width="auto" @keyup.enter="[deleteAlert = false, deleteComment()]">
     <v-card max-width="400" :prepend-icon="mdiAlert" text="정말 댓글을 삭제하시겠습니까?" title="warning">
       <template v-slot:actions>
@@ -16,8 +15,14 @@
       </template>
     </v-card>
   </v-dialog>
-
+  <v-row class="m-1">
+  <ProfileImage 
+  style="width: 50px; height: 50px;"
+  :genre="comment.author.user_profile"/>
+  <div class="d-flex ml-2 align-items-center">
   {{ comment.author.username }}
+  </div>
+  </v-row>  
   <v-container>
     
     <v-row>
@@ -75,6 +80,7 @@ import SvgIcon from '@jamescoyle/vue-icon'
 import { mdiAlert, mdiCommentEditOutline, mdiCommentCheckOutline, mdiCommentRemoveOutline, mdiCommentMultipleOutline  } from '@mdi/js'
 import ReplyComponent from './ReplyComponent.vue'
 import ReplyCreate from '@/components/communities/ReplyCreate.vue'
+import ProfileImage from '../ProfileImage.vue'
 const props = defineProps({
   moviePk: String,
   comment: Object,

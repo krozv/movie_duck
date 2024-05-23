@@ -31,7 +31,6 @@ const searchMovie = () => {
     emit("searchEmit", searchTerm.value)
     // 검색어가 비어 있지 않으면 검색 페이지로 이동
     router.push({ name: 'movie-search', params: { search: searchTerm.value } });
-    
     // 검색 후 검색창 비우기
     searchTerm.value = '';
   }

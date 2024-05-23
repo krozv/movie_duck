@@ -4,7 +4,7 @@
   "pk": 1,
   "fields": {
     "password": "pbkdf2_sha256$600000$iR74qbaZTvqUNi8vxHh6Zi$hm/POX5lHhdwnoOWqodJlAw+CcVnv1z8LK0DJmW2G9E=",
-    "last_login": "2024-05-23T21:13:04.955Z",
+    "last_login": "2024-05-23T07:45:43.994Z",
     "is_superuser": false,
     "username": "juyeon",
     "first_name": "",
@@ -13,32 +13,10 @@
     "is_staff": false,
     "is_active": true,
     "date_joined": "2024-05-23T01:00:35.499Z",
-    "user_profile": "액션",
+    "user_profile": "",
     "groups": [],
     "user_permissions": [],
-    "user_liked_movie": [
-      1533,
-      1554,
-      1573,
-      1582,
-      1641,
-      1748,
-      1835,
-      1847,
-      1878,
-      1975,
-      2063,
-      2105,
-      2165,
-      2231,
-      2293,
-      2305,
-      2321,
-      2340,
-      2381,
-      2424,
-      2456
-    ]
+    "user_liked_movie": []
   }
 },
 {
@@ -46,7 +24,7 @@
   "pk": 2,
   "fields": {
     "password": "pbkdf2_sha256$600000$DbJZnroQ0kcKI9Bd5BxsTZ$YK1MeJow0jqUkEuVAg2t6HfmIGRbn+INzCgzctq1D/g=",
-    "last_login": "2024-05-23T21:14:27.401Z",
+    "last_login": "2024-05-23T07:45:55.588Z",
     "is_superuser": false,
     "username": "sangmu",
     "first_name": "",
@@ -308,38 +286,6 @@
       2471,
       2486,
       2487
-    ]
-  }
-},
-{
-  "model": "accounts.user",
-  "pk": 11,
-  "fields": {
-    "password": "pbkdf2_sha256$600000$lNiPgxNMtS4cbr9STNoBqC$y0UUgdO6vZPFXmgwWd2+zQUZmzSwaZ9j4b7RehXnwP8=",
-    "last_login": "2024-05-23T20:13:46.114Z",
-    "is_superuser": false,
-    "username": "jiny",
-    "first_name": "",
-    "last_name": "",
-    "email": "",
-    "is_staff": false,
-    "is_active": true,
-    "date_joined": "2024-05-23T20:10:01.177Z",
-    "user_profile": "드라마",
-    "groups": [],
-    "user_permissions": [],
-    "user_liked_movie": [
-      1709,
-      1730,
-      1920,
-      2001,
-      2018,
-      2157,
-      2186,
-      2434,
-      2443,
-      2452,
-      2470
     ]
   }
 }

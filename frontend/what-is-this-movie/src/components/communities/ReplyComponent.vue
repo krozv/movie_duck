@@ -19,11 +19,11 @@
   <v-container style="display: flex; width: 100%;">
       <v-row  class="justify-space-between">
         <div v-if="!editAlert" class="text-caption pl-4">
-          <span>{{ reply.content }}</span>
+          └ <span>{{ reply.author.username }} : {{ reply.content }}</span>
         </div>
         <div v-else style="width: 70%;" class="pl-4">
           <v-text-field 
-            @keyup.enter="[editAlert = !editAlert, editReply()]" 
+            @keyup.enter="confirmEdit" 
             v-model="reply.content" 
             rows="2"
             type="input"
@@ -33,13 +33,13 @@
         <div class="d-flex flex-row">
           <div class="text-caption"><span>{{ reply.content.length }} / 300</span>  &nbsp;</div>
           <div v-if="!editAlert">
-            <svg-icon v-tooltip:bottom="'Edit'" v-if="!editAlert" @click="editAlert = !editAlert" type="mdi"
+            <svg-icon v-tooltip:bottom="'Edit'" v-if="store.userData.username == reply.author.username" @click="editAlert = !editAlert" type="mdi"
               :path="mdiCommentEditOutline" class="mx-1"></svg-icon>
-            <svg-icon v-tooltip:bottom="'Delete'" v-if="!editAlert" @click="deleteAlert = true" type="mdi"
+            <svg-icon v-tooltip:bottom="'Delete'" v-if="store.userData.username == reply.author.username" @click="deleteAlert = true" type="mdi"
               :path="mdiCommentRemoveOutline" class="mx-1"></svg-icon>
           </div>
           <div v-else>
-            <svg-icon v-tooltip:bottom="'Done'" @click="[editAlert = !editAlert, editReply()]" type="mdi"
+            <svg-icon v-tooltip:bottom="'Done'" @click="confirmEdit" type="mdi"
               :path="mdiCommentCheckOutline" class="mx-1"></svg-icon>
           </div>
       </div>
@@ -69,6 +69,14 @@ const editAlert = ref(false)
 const editWarning = computed(() => {
   return props.reply.content.length > 300 ? true : false
 })
+const confirmEdit = () => {
+  if (props.reply.content.length > 300) {
+    editWarning.value = true
+  } else {
+    editAlert.value = false
+    editReply()
+  }
+}
 
 const sliceWord = function() {
   props.reply.content = props.reply.content.slice(0, 300)

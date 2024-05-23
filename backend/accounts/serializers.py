@@ -7,5 +7,5 @@ class UserSerializer(serializers.ModelSerializer):
     
     class Meta:
         model = User
-        fields = ('username', 'user_liked_movie', 'user_profile')  # Serializer에 포함할 필드 지정
+        fields = ('pk', 'username', 'user_liked_movie', 'user_profile')  # Serializer에 포함할 필드 지정
 

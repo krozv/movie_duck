@@ -151054,6 +151054,2349 @@
   }
 },
 {
+  "model": "movie.comment",
+  "pk": 4,
+  "fields": {
+    "movie": 2470,
+    "author": 1,
+    "content": "3편보다 나은 4편,,,",
+    "created_at": "2024-05-22T06:15:48.931Z",
+    "updated_at": "2024-05-22T07:16:44.984Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 5,
+  "fields": {
+    "movie": 2470,
+    "author": 1,
+    "content": "그냥저냥 가볍게 보기좋음.현실과의 괴리감 은 잠시 접어두고봐야죠.시기는 잘탄듯.요즘 진짜볼거없을때 개봉잘했네요.\n",
+    "created_at": "2024-05-22T06:15:53.169Z",
+    "updated_at": "2024-05-22T06:15:53.169Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 6,
+  "fields": {
+    "movie": 2470,
+    "author": 1,
+    "content": "유치하고 뻔하지만 볼게없어서 봤네요.전편보다 나은 속편은 없는건지아쉽네요.\n",
+    "created_at": "2024-05-22T06:15:57.329Z",
+    "updated_at": "2024-05-22T06:15:57.329Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 7,
+  "fields": {
+    "movie": 2470,
+    "author": 1,
+    "content": " 범죄자들을 처단하는 모습을 영화속에서라도 속시원히 풀어서 대리만족을 느꼈고 실화를 바탕으로 해 더욱 경각심을 느낄 수 있었던 것 같다.\n",
+    "created_at": "2024-05-22T06:16:00.680Z",
+    "updated_at": "2024-05-22T06:16:00.680Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 8,
+  "fields": {
+    "movie": 2470,
+    "author": 1,
+    "content": "장이수 하드캐리!! 다음에도 나왔으면 좋겠어욬ㅋ\n",
+    "created_at": "2024-05-22T06:16:04.609Z",
+    "updated_at": "2024-05-22T06:16:04.609Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 9,
+  "fields": {
+    "movie": 2470,
+    "author": 1,
+    "content": " 시원시원한 액션이 좋았다\n",
+    "created_at": "2024-05-22T06:16:10.513Z",
+    "updated_at": "2024-05-22T06:16:10.513Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 10,
+  "fields": {
+    "movie": 2470,
+    "author": 1,
+    "content": "장이수 캐릭터는 한결같이 매력적이다.\n",
+    "created_at": "2024-05-22T06:16:13.962Z",
+    "updated_at": "2024-05-22T06:16:13.962Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 11,
+  "fields": {
+    "movie": 2470,
+    "author": 1,
+    "content": "3편보다는 확실히 좋고 1,2편 보다는 아쉽네요. 그래도 재밌게 봤습니다\n",
+    "created_at": "2024-05-22T06:16:17.578Z",
+    "updated_at": "2024-05-22T06:16:17.578Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 12,
+  "fields": {
+    "movie": 2470,
+    "author": 1,
+    "content": "아쉽긴 하지만 잘 봤습니다\n",
+    "created_at": "2024-05-22T06:16:21.497Z",
+    "updated_at": "2024-05-22T06:16:21.497Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 13,
+  "fields": {
+    "movie": 2470,
+    "author": 1,
+    "content": "기억에 남는건 마석도 주먹 소리뿐\n",
+    "created_at": "2024-05-22T06:16:25.321Z",
+    "updated_at": "2024-05-22T06:16:25.321Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 14,
+  "fields": {
+    "movie": 2476,
+    "author": 1,
+    "content": "좋아요\n",
+    "created_at": "2024-05-22T08:41:16.168Z",
+    "updated_at": "2024-05-22T08:41:16.168Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 15,
+  "fields": {
+    "movie": 2485,
+    "author": 1,
+    "content": "재밌어요 !",
+    "created_at": "2024-05-22T06:50:49.604Z",
+    "updated_at": "2024-05-22T06:50:49.604Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 16,
+  "fields": {
+    "movie": 2485,
+    "author": 1,
+    "content": "개노잼\n",
+    "created_at": "2024-05-22T07:02:37.329Z",
+    "updated_at": "2024-05-22T07:02:37.329Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 18,
+  "fields": {
+    "movie": 2471,
+    "author": 1,
+    "content": "꿀잼 ㅋㅋ\n",
+    "created_at": "2024-05-22T07:18:18.770Z",
+    "updated_at": "2024-05-22T07:18:18.770Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 19,
+  "fields": {
+    "movie": 2470,
+    "author": 1,
+    "content": "노잼\n",
+    "created_at": "2024-05-22T07:45:22.750Z",
+    "updated_at": "2024-05-22T07:45:22.750Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 20,
+  "fields": {
+    "movie": 2470,
+    "author": 1,
+    "content": "개인적으로는 3편보단 재밌었음\n",
+    "created_at": "2024-05-22T22:59:13.477Z",
+    "updated_at": "2024-05-22T22:59:13.477Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 21,
+  "fields": {
+    "movie": 2470,
+    "author": 1,
+    "content": "장이수 넘 웃겨요. ㅋㅋㅋ 이번에도 천만관객 영화 될 것 같아요. '뭔가 이유가 있지 않겠냐?' (평점 낮은 건 다 댓글부대 때문임)\n",
+    "created_at": "2024-05-22T22:59:16.970Z",
+    "updated_at": "2024-05-22T22:59:16.970Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 22,
+  "fields": {
+    "movie": 2470,
+    "author": 1,
+    "content": " 장이수가 최고다!!! 첫타임으로 보기 잘했네 ㅋㅋ\n",
+    "created_at": "2024-05-22T22:59:19.945Z",
+    "updated_at": "2024-05-22T22:59:19.945Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 23,
+  "fields": {
+    "movie": 2470,
+    "author": 1,
+    "content": " 범죄도시 시리즈는 먹어도 먹어도 질리지가 않음 김무열이 이렇게 몸 잘쓰는 사람일줄 몰랐음 스트레스 잘 풀고 왔다뤼\n",
+    "created_at": "2024-05-22T22:59:25.225Z",
+    "updated_at": "2024-05-22T22:59:25.225Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 24,
+  "fields": {
+    "movie": 2470,
+    "author": 1,
+    "content": " 1편은 절때 못이길듯 그냥 19로 가는게 나을듯 15로 연령대 줄이니 내용이 너무 똑같음 4는 유머도 내용도 없고 ㅠㅠㅠ 보다가 지루하기는 이번이 처음 장이수 없었음 어쩔뻔 이범수 진짜 별로 1,2 팀들이 훨씬 팀워크 좋음 5는 이제 집에서 보는걸로 만족 할께요 ..\n",
+    "created_at": "2024-05-22T22:59:29.770Z",
+    "updated_at": "2024-05-22T22:59:29.770Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 25,
+  "fields": {
+    "movie": 2470,
+    "author": 1,
+    "content": " 이 시리즈는 이제 대한민국 영화의 전설이 되었다. 벌써 다음편들이 기다려진다.\n",
+    "created_at": "2024-05-22T22:59:35.665Z",
+    "updated_at": "2024-05-22T22:59:35.665Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 26,
+  "fields": {
+    "movie": 2470,
+    "author": 1,
+    "content": "범죄도시의 진주인공은 장이수임 ㅋㅋㅋ\n",
+    "created_at": "2024-05-22T22:59:39.961Z",
+    "updated_at": "2024-05-22T22:59:39.961Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 27,
+  "fields": {
+    "movie": 2470,
+    "author": 1,
+    "content": "남들 얘기 듣기 전에 내눈으로 먼저 달려가서 봤다. 걱정은 내려놔도 됨\n",
+    "created_at": "2024-05-22T22:59:43.354Z",
+    "updated_at": "2024-05-22T22:59:43.354Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 28,
+  "fields": {
+    "movie": 2470,
+    "author": 1,
+    "content": " 손석구가 진짜 1편을 뛰어넘는 그 어려운걸 해냈던게 맞구나 싶었다. 다음 빌런은..감옥에서 탈옥한 장첸과 강해상...이 두놈 잡는걸 해야되지 않을까?\n",
+    "created_at": "2024-05-22T22:59:46.401Z",
+    "updated_at": "2024-05-22T22:59:46.401Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 29,
+  "fields": {
+    "movie": 2471,
+    "author": 1,
+    "content": "영화 보는 내내 시저가 그리웠습니다\n",
+    "created_at": "2024-05-22T23:00:02.722Z",
+    "updated_at": "2024-05-22T23:00:02.722Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 30,
+  "fields": {
+    "movie": 2471,
+    "author": 1,
+    "content": "1시간 반이면 끝낼 분량을 너무 늘렸다\n",
+    "created_at": "2024-05-22T23:00:06.929Z",
+    "updated_at": "2024-05-22T23:00:06.929Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 31,
+  "fields": {
+    "movie": 2471,
+    "author": 1,
+    "content": " 초반과 중반이 다소 지루하고 후반과 최후반은 쌩뚱맞다. 프록시무스는 매력적인데 인간 설정이 개연성이 없다.\n",
+    "created_at": "2024-05-22T23:00:09.441Z",
+    "updated_at": "2024-05-22T23:00:09.441Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 32,
+  "fields": {
+    "movie": 2471,
+    "author": 1,
+    "content": "보다가 잠. 전개가 너무 노멀하게 흘러가는 데다가 이걸 길게 늘리니 굉장히 지루함\n",
+    "created_at": "2024-05-22T23:00:14.681Z",
+    "updated_at": "2024-05-22T23:00:14.681Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 33,
+  "fields": {
+    "movie": 2471,
+    "author": 1,
+    "content": "이게 모람...시저가 죽은 뒤 시리즈도 죽었다\n",
+    "created_at": "2024-05-22T23:00:18.514Z",
+    "updated_at": "2024-05-22T23:00:18.514Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 34,
+  "fields": {
+    "movie": 2471,
+    "author": 1,
+    "content": "시저의 유산을 지키려는 유인원의 이야기 재밌어요\n",
+    "created_at": "2024-05-22T23:00:25.705Z",
+    "updated_at": "2024-05-22T23:00:25.705Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 35,
+  "fields": {
+    "movie": 2471,
+    "author": 1,
+    "content": " 진짜.. 진짜 원숭이 같음... 진짜로.... 기술력에 감탄\n",
+    "created_at": "2024-05-22T23:00:30.945Z",
+    "updated_at": "2024-05-22T23:00:30.945Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 36,
+  "fields": {
+    "movie": 2471,
+    "author": 1,
+    "content": "주인공도 감독도 바뀌었는데 레전드급 서사를 보여주네요 이미 할만큼 다 한 얘기라고 생각했는데 아직도 할 얘기가 많이 남은 혹성탈출의 세계라니 . . . 지능을 얻은 유인원들의 사회 등이 진짜 와 . . . 이건 꼭 극장가서 보십쇼\n",
+    "created_at": "2024-05-22T23:00:34.977Z",
+    "updated_at": "2024-05-22T23:00:34.977Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 37,
+  "fields": {
+    "movie": 2471,
+    "author": 1,
+    "content": " 혹성탈출 좋아해서 개큰기대 갖고 봤는데... 실망시키지 않았음 ㅠ 명불허전 극장에서 꼭 보세요... 진짜... 꼭... 안보면 개큰후회... 작은 화면으로 봐선 그 감동이 안온다고...\n",
+    "created_at": "2024-05-22T23:00:39.138Z",
+    "updated_at": "2024-05-22T23:00:39.138Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 38,
+  "fields": {
+    "movie": 2471,
+    "author": 1,
+    "content": "이런 디스토피아 어쩐지 있을 것 같다\n",
+    "created_at": "2024-05-22T23:00:41.706Z",
+    "updated_at": "2024-05-22T23:00:41.707Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 39,
+  "fields": {
+    "movie": 2471,
+    "author": 1,
+    "content": " 와 너무 졸림.. 진짜 버티기 힘들었음\n",
+    "created_at": "2024-05-22T23:00:45.217Z",
+    "updated_at": "2024-05-22T23:00:45.217Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 40,
+  "fields": {
+    "movie": 2471,
+    "author": 1,
+    "content": "부족한 서사와 뒤죽박죽 스토리, 산만하고 지루한 구성과 전개, 전반적으로 어색한 연기, 흡입력과 매력이 떨어지는 캐릭터들, 후속편 제작을 위한 모호한 결말. 과연 이걸 시리즈로 이어나갈 수 있을까요?\n",
+    "created_at": "2024-05-22T23:00:47.826Z",
+    "updated_at": "2024-05-22T23:00:47.826Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 41,
+  "fields": {
+    "movie": 2471,
+    "author": 1,
+    "content": " 짤라내서 줄였으면 좋았을듯 졸았네요시간보는 사람들 정말많아요\n",
+    "created_at": "2024-05-22T23:00:52.490Z",
+    "updated_at": "2024-05-22T23:00:52.490Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 42,
+  "fields": {
+    "movie": 2471,
+    "author": 1,
+    "content": "마지막에 인간 정뚝떨~\n",
+    "created_at": "2024-05-22T23:00:55.026Z",
+    "updated_at": "2024-05-22T23:00:55.026Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 43,
+  "fields": {
+    "movie": 2471,
+    "author": 1,
+    "content": " 고급 횟감을 구이로 요리한거 같네\n",
+    "created_at": "2024-05-22T23:00:58.409Z",
+    "updated_at": "2024-05-22T23:00:58.409Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 44,
+  "fields": {
+    "movie": 2471,
+    "author": 1,
+    "content": "근원적인 질문에 대한 답변. 왜 인간이 세상의 지배자가 될수있는가를 유인원들을 통해보여준 작품",
+    "created_at": "2024-05-22T23:01:01.675Z",
+    "updated_at": "2024-05-22T23:01:01.675Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 45,
+  "fields": {
+    "movie": 2471,
+    "author": 1,
+    "content": " 혹성탈출 1,2,3 정말 재밌게봤는데 4는 너무 지루했어요 ㅠㅠㅠ 졸려서 죽는줄... 4는 뭔가 잠시 쉬어가는 타임같았어요 5는 재밌게 나오길..\n",
+    "created_at": "2024-05-22T23:01:04.561Z",
+    "updated_at": "2024-05-22T23:01:04.561Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 46,
+  "fields": {
+    "movie": 2471,
+    "author": 1,
+    "content": " 시저의 공백이 너무 크게 느껴진다\n",
+    "created_at": "2024-05-22T23:01:13.785Z",
+    "updated_at": "2024-05-22T23:01:13.785Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 47,
+  "fields": {
+    "movie": 2471,
+    "author": 1,
+    "content": "이딴걸 왜 돈주고보는지 전편이랑 무관하고 내용이 개 지루함 살면서 본 영화중에 제일 재미없음\n",
+    "created_at": "2024-05-22T23:01:16.016Z",
+    "updated_at": "2024-05-22T23:01:16.016Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 48,
+  "fields": {
+    "movie": 2476,
+    "author": 1,
+    "content": "노잼 포를 오랜만에 봐서 좋긴한데 5인방은 나오지도 않고 빌런은 센척하더니만 순식간에 증발됨 돈벌려고 4 억지로 만든 것 같음\n",
+    "created_at": "2024-05-22T23:01:34.667Z",
+    "updated_at": "2024-05-22T23:01:34.667Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 49,
+  "fields": {
+    "movie": 2476,
+    "author": 1,
+    "content": " 큰거 한방 나오려나 기를 잔뜩 모으다가 뀐 피식방구.\n",
+    "created_at": "2024-05-22T23:01:37.833Z",
+    "updated_at": "2024-05-22T23:01:37.833Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 50,
+  "fields": {
+    "movie": 2476,
+    "author": 1,
+    "content": "무난하게 재밌음그렇지만 무난함, 꼭 봐야될 정도는 아닌..\n",
+    "created_at": "2024-05-22T23:01:41.154Z",
+    "updated_at": "2024-05-22T23:01:41.154Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 51,
+  "fields": {
+    "movie": 2476,
+    "author": 1,
+    "content": " 몇년째 나와도 재밌다.\n",
+    "created_at": "2024-05-22T23:01:44.090Z",
+    "updated_at": "2024-05-22T23:01:44.090Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 52,
+  "fields": {
+    "movie": 2476,
+    "author": 1,
+    "content": " 훔...쿵푸팬더는 꼭 챙겨봤는데.. 이번엔 처음으로 잠이 왔어요ㅜㅜ\n",
+    "created_at": "2024-05-22T23:01:46.497Z",
+    "updated_at": "2024-05-22T23:01:46.497Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 53,
+  "fields": {
+    "movie": 2476,
+    "author": 1,
+    "content": "이전 캐릭터들에 비해 여우캐릭터 디자인이 한참 부족한 느낌이에요.\n",
+    "created_at": "2024-05-22T23:01:50.177Z",
+    "updated_at": "2024-05-22T23:01:50.177Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 54,
+  "fields": {
+    "movie": 2476,
+    "author": 1,
+    "content": " 4편의 악당은 전작들의 악당에 비하면 임팩트는 너무 없어요 아무래도 포가 이미 쿵푸 정점을 찍다보니 포보다는 신캐 활약 비중이 많아보이더라고요\n",
+    "created_at": "2024-05-22T23:01:53.690Z",
+    "updated_at": "2024-05-22T23:01:53.690Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 55,
+  "fields": {
+    "movie": 2476,
+    "author": 1,
+    "content": " 이제는 여기까지만하자\n",
+    "created_at": "2024-05-22T23:01:56.865Z",
+    "updated_at": "2024-05-22T23:01:56.865Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 56,
+  "fields": {
+    "movie": 2476,
+    "author": 1,
+    "content": " 판다야 너가 귀여운거 다해\n",
+    "created_at": "2024-05-22T23:02:01.369Z",
+    "updated_at": "2024-05-22T23:02:01.369Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 57,
+  "fields": {
+    "movie": 2476,
+    "author": 1,
+    "content": "전작들에 비해 많이 지루하네요",
+    "created_at": "2024-05-22T23:02:04.586Z",
+    "updated_at": "2024-05-22T23:02:04.586Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 58,
+  "fields": {
+    "movie": 2476,
+    "author": 1,
+    "content": "이것도 3편으로 끝내는게 맞는거 같은데 '쿵푸팬더' 라는 돈벌이가 되는 캐릭터를 버릴 수 없으니 어떻게든 시리즈를 이어가려고 내 놓은게 너무 느껴졌던 작품. 특히나 기존 시리즈물의 핵심 조연이었던 5인방을 이렇게 완전 제외시킬 거라곤.. 8년만에 선보이는 속편이 이 정도라니 실망스러웠음.\n",
+    "created_at": "2024-05-22T23:02:07.979Z",
+    "updated_at": "2024-05-22T23:02:07.979Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 59,
+  "fields": {
+    "movie": 2476,
+    "author": 1,
+    "content": "중간에 잤어요 개연성이 없고 지루합니다 쿵푸팬더 팬들만 보세요\n",
+    "created_at": "2024-05-22T23:02:12.234Z",
+    "updated_at": "2024-05-22T23:02:12.234Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 60,
+  "fields": {
+    "movie": 2476,
+    "author": 1,
+    "content": "너무 뻔하고 스토리도 별로고 옛 좋았던 기억으로 그냥 저냥 봤습니다",
+    "created_at": "2024-05-22T23:02:14.706Z",
+    "updated_at": "2024-05-22T23:02:14.706Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 61,
+  "fields": {
+    "movie": 2476,
+    "author": 1,
+    "content": "빌런이 너무 무매력. 강해 보이지도 않고 뭔가 후다닥 마무리 되는 느낌. 스토리도 그냥저냥. 그래도 팝콘무비로 볼만은 하다.\n",
+    "created_at": "2024-05-22T23:02:17.795Z",
+    "updated_at": "2024-05-22T23:02:17.795Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 62,
+  "fields": {
+    "movie": 2476,
+    "author": 1,
+    "content": "장점보다 단점이 더 부각되는건 기분탓인가…\n",
+    "created_at": "2024-05-22T23:02:21.138Z",
+    "updated_at": "2024-05-22T23:02:21.138Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 63,
+  "fields": {
+    "movie": 2476,
+    "author": 1,
+    "content": "스토리는 급전개지만 여전히 재밌는 시리즈\n",
+    "created_at": "2024-05-22T23:02:24.401Z",
+    "updated_at": "2024-05-22T23:02:24.401Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 64,
+  "fields": {
+    "movie": 2476,
+    "author": 1,
+    "content": "이전 작들에 비해서 나아진 게 없는 속편\n",
+    "created_at": "2024-05-22T23:02:27.170Z",
+    "updated_at": "2024-05-22T23:02:27.170Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 65,
+  "fields": {
+    "movie": 2476,
+    "author": 1,
+    "content": " 영화는 별론데 시리즈의 광팬이라 이성적인 판단이 안된다\n",
+    "created_at": "2024-05-22T23:02:33.579Z",
+    "updated_at": "2024-05-22T23:02:33.579Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 66,
+  "fields": {
+    "movie": 2476,
+    "author": 1,
+    "content": " 포는 좋지만 내용은 노잼!\n",
+    "created_at": "2024-05-22T23:02:36.090Z",
+    "updated_at": "2024-05-22T23:02:36.090Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 68,
+  "fields": {
+    "movie": 2476,
+    "author": 1,
+    "content": " 역시 아는 맛이 제일 맛있음\n",
+    "created_at": "2024-05-22T23:02:44.585Z",
+    "updated_at": "2024-05-22T23:02:44.586Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 69,
+  "fields": {
+    "movie": 2477,
+    "author": 1,
+    "content": "스턴트맨출신감독이어서인지 스턴트맨들에게 보내는 러브레터같음\n",
+    "created_at": "2024-05-22T23:03:06.708Z",
+    "updated_at": "2024-05-22T23:03:06.708Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 70,
+  "fields": {
+    "movie": 2477,
+    "author": 1,
+    "content": "재미있어요 진짜.걍 보면 됨 평점 8점중반대는 가는 영화임.\n",
+    "created_at": "2024-05-22T23:03:09.401Z",
+    "updated_at": "2024-05-22T23:03:09.401Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 71,
+  "fields": {
+    "movie": 2477,
+    "author": 1,
+    "content": " B급 감성과 미국조크를 좋아하는 시네필 분들에겐 최고의 선택의 될거라 생각됩니다.\n",
+    "created_at": "2024-05-22T23:03:11.465Z",
+    "updated_at": "2024-05-22T23:03:11.465Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 72,
+  "fields": {
+    "movie": 2477,
+    "author": 1,
+    "content": "방금 보고나왔는데 마지막 씬 전체가 다 너무좋습니다 중간에 살짝 루즈할때가 있는데 막씬으로 다 커버가 될 정도\n",
+    "created_at": "2024-05-22T23:03:15.337Z",
+    "updated_at": "2024-05-22T23:03:15.337Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 73,
+  "fields": {
+    "movie": 2477,
+    "author": 1,
+    "content": " 오스카상에는 없는 스턴트맨들을 위한 위대한 헌정 영화 거대한 메이킹 영상! 울리고 웃기고 핵감동 종합선물세트 thumbs up ♥?",
+    "created_at": "2024-05-22T23:03:18.722Z",
+    "updated_at": "2024-05-22T23:03:18.722Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 74,
+  "fields": {
+    "movie": 2477,
+    "author": 1,
+    "content": "아무생각없이 보러 갔다가 의외로 재밌어서 깜짝 놀랐습니다. 돌비시네마나 아이맥스로 보실 수 있으면 보세요 진짜 귀는 호강합니다\n",
+    "created_at": "2024-05-22T23:03:22.378Z",
+    "updated_at": "2024-05-22T23:03:22.378Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 75,
+  "fields": {
+    "movie": 2477,
+    "author": 1,
+    "content": " 사랑에 있어서는 스턴트맨도 주연이 될 수 있다.\n",
+    "created_at": "2024-05-22T23:03:29.146Z",
+    "updated_at": "2024-05-22T23:03:29.146Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 76,
+  "fields": {
+    "movie": 2477,
+    "author": 1,
+    "content": " 액션으로 포장한 멜로? 멜로로 포장한 액션? 거기에 서스펜스 한 스푼",
+    "created_at": "2024-05-22T23:03:32.890Z",
+    "updated_at": "2024-05-22T23:03:32.891Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 77,
+  "fields": {
+    "movie": 2477,
+    "author": 1,
+    "content": "개봉 첫날 조조로 유쾌하게 보고 옴",
+    "created_at": "2024-05-22T23:03:35.027Z",
+    "updated_at": "2024-05-22T23:03:35.027Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 78,
+  "fields": {
+    "movie": 2477,
+    "author": 1,
+    "content": " 잔잔하게 웃기고 매력적이다.\n",
+    "created_at": "2024-05-22T23:03:38.650Z",
+    "updated_at": "2024-05-22T23:03:38.650Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 79,
+  "fields": {
+    "movie": 2477,
+    "author": 1,
+    "content": " 영화를 위해 기꺼이 몸을 던지는 스크린 뒤의 마술사들에게 바치는 헌사\n",
+    "created_at": "2024-05-22T23:03:41.481Z",
+    "updated_at": "2024-05-22T23:03:41.481Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 80,
+  "fields": {
+    "movie": 2477,
+    "author": 1,
+    "content": "범죄도시4만 아니었으면 무난하게 보러갈만한 영화인데 하필 지금 개봉해서...",
+    "created_at": "2024-05-22T23:03:45.762Z",
+    "updated_at": "2024-05-22T23:03:45.762Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 81,
+  "fields": {
+    "movie": 2477,
+    "author": 1,
+    "content": " 라이언고슬링이 운전하면 항상 명장면이 나온다\n",
+    "created_at": "2024-05-22T23:03:48.489Z",
+    "updated_at": "2024-05-22T23:03:48.489Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 82,
+  "fields": {
+    "movie": 2477,
+    "author": 1,
+    "content": " 음악을 잘 쓴 것 같아요.\n",
+    "created_at": "2024-05-22T23:03:50.770Z",
+    "updated_at": "2024-05-22T23:03:50.770Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 83,
+  "fields": {
+    "movie": 2477,
+    "author": 1,
+    "content": "빛나지 않아도 묵묵히 뒤에서 살신성인해온 스턴트맨들을 대변하는 영화",
+    "created_at": "2024-05-22T23:03:53.826Z",
+    "updated_at": "2024-05-22T23:03:53.826Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 84,
+  "fields": {
+    "movie": 2477,
+    "author": 1,
+    "content": " 영화의 큰 스토리는 단순한데 교차되면서 연출되는 영상미나 노래 그리고 스턴트 액션이 다 좋았습니다. 이걸 잘 섞어주기 위해선 단순한 스토리가 필수 아니었나 싶고 설정 자체도 찰떡이었습니다. 특히 마지막이 제일 좋았고 간간히 멜로도 좋았음. 기대 안하고 봤는데 끝까지 재밌게 봄\n",
+    "created_at": "2024-05-22T23:03:58.314Z",
+    "updated_at": "2024-05-22T23:03:58.314Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 85,
+  "fields": {
+    "movie": 2477,
+    "author": 1,
+    "content": " 뻔한 영화이긴 한데 걍 재밌음 ㅋㅋ",
+    "created_at": "2024-05-22T23:04:00.817Z",
+    "updated_at": "2024-05-22T23:04:00.817Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 86,
+  "fields": {
+    "movie": 2477,
+    "author": 1,
+    "content": "스턴트맨 출신 감독의 모든 스턴트맨을 위한 영화\n",
+    "created_at": "2024-05-22T23:04:03.690Z",
+    "updated_at": "2024-05-22T23:04:03.690Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 87,
+  "fields": {
+    "movie": 2477,
+    "author": 1,
+    "content": " 순도 높은 오락, 스턴트 액션에 대한 헌사와 배우들의 케미가 어우러진 수작 블록버스터 영화. 스토리가 조금 약하지만 유머와 음악 듣는 맛이 좋음.\n",
+    "created_at": "2024-05-22T23:04:07.873Z",
+    "updated_at": "2024-05-22T23:04:07.873Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 88,
+  "fields": {
+    "movie": 2477,
+    "author": 1,
+    "content": "속도가 빠르고 깔끔합니다. 스토리가 담백합니다. 액션도 많고 블록버스터급 폭발력이 있습니다. 사운드가 빵빵한 곳에서 보면 더 좋습니다. 라이언고슬링과 에밀리블런트, 남신 여신의 아름다움이 그냥 황홀하게 합니다. 영화관의 빌런들, 의자 차는 사람과 쉴새없이 웃어대고 시끄럽게 수다떠는 사람이 없어지는 날이 오면 좋겠습니다.\n",
+    "created_at": "2024-05-22T23:04:11.490Z",
+    "updated_at": "2024-05-22T23:04:11.490Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 89,
+  "fields": {
+    "movie": 2478,
+    "author": 1,
+    "content": " 바라만 볼 수밖에 없는 부모의 모습이 가장 눈물 남..\n",
+    "created_at": "2024-05-22T23:04:49.074Z",
+    "updated_at": "2024-05-22T23:04:49.074Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 90,
+  "fields": {
+    "movie": 2478,
+    "author": 1,
+    "content": " 펑펑 울려고 갔는데 눈물은 안나고 죄송하지만 지루했어요\n",
+    "created_at": "2024-05-22T23:04:52.577Z",
+    "updated_at": "2024-05-22T23:04:52.577Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 91,
+  "fields": {
+    "movie": 2478,
+    "author": 1,
+    "content": "영상미랑 고마츠 나나 특유의 감성이 진짜 영화보는내내 잔잔하게 남음\n",
+    "created_at": "2024-05-22T23:04:57.049Z",
+    "updated_at": "2024-05-22T23:04:57.049Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 92,
+  "fields": {
+    "movie": 2478,
+    "author": 1,
+    "content": "영화관에서 엄청 울었네요 ㅠㅠ 배우들 연기도 잘하고 너무 재밌게봤습니다\n",
+    "created_at": "2024-05-22T23:04:59.514Z",
+    "updated_at": "2024-05-22T23:04:59.514Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 93,
+  "fields": {
+    "movie": 2478,
+    "author": 1,
+    "content": "강력하게 몰아치지는 않지만 잔잔하게 스며들어와 잠기게 만드는 감정선\n",
+    "created_at": "2024-05-22T23:05:03.170Z",
+    "updated_at": "2024-05-22T23:05:03.170Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 94,
+  "fields": {
+    "movie": 2478,
+    "author": 1,
+    "content": "전체적으로 너무 클리셰적이라는 게 문제",
+    "created_at": "2024-05-22T23:05:06.347Z",
+    "updated_at": "2024-05-22T23:05:06.347Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 95,
+  "fields": {
+    "movie": 2478,
+    "author": 1,
+    "content": " 그냥 딱 일본스러운 영화\n",
+    "created_at": "2024-05-22T23:05:09.011Z",
+    "updated_at": "2024-05-22T23:05:09.011Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 96,
+  "fields": {
+    "movie": 2478,
+    "author": 1,
+    "content": "남은 인생, 남은 시간의 소중함을 상기시켜주는 영화입니다. 한동안 여운이 남을 거 같습니다.\n",
+    "created_at": "2024-05-22T23:05:11.515Z",
+    "updated_at": "2024-05-22T23:05:11.515Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 97,
+  "fields": {
+    "movie": 2478,
+    "author": 1,
+    "content": " 재밌었어요 나나 진짜 예쁨..\n",
+    "created_at": "2024-05-22T23:05:13.914Z",
+    "updated_at": "2024-05-22T23:05:13.914Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 98,
+  "fields": {
+    "movie": 2478,
+    "author": 1,
+    "content": " 광어공주를 보고 내상입은 날 치유해준 고마츠나나. 내가 왜 내 돈내면서 못생김을 아름다움으로 강요당하며 스트레스 받아야하나. 이런게 영화지. 일단 눈이 힐링된다.\n",
+    "created_at": "2024-05-22T23:05:17.195Z",
+    "updated_at": "2024-05-22T23:05:17.195Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 99,
+  "fields": {
+    "movie": 2478,
+    "author": 1,
+    "content": " 기대가 커서 그런가 좀 실망스러웠음.\n",
+    "created_at": "2024-05-22T23:05:19.689Z",
+    "updated_at": "2024-05-22T23:05:19.689Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 100,
+  "fields": {
+    "movie": 2478,
+    "author": 1,
+    "content": "펑펑 울면서 보고 나왔어요\n",
+    "created_at": "2024-05-22T23:05:22.873Z",
+    "updated_at": "2024-05-22T23:05:22.873Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 101,
+  "fields": {
+    "movie": 2478,
+    "author": 1,
+    "content": " 제목에서 느껴지듯이 불치병이라는 소재를 이미 전면에 내세우고 뻔한 스토리가 진행될것 같지만 영화를 관람하면 뻔한것이 다가 아니라서 이 영화가 더 대단했습니다.",
+    "created_at": "2024-05-22T23:05:26.449Z",
+    "updated_at": "2024-05-22T23:05:26.449Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 102,
+  "fields": {
+    "movie": 2478,
+    "author": 1,
+    "content": "고마츠 나나의 얼굴이 곧 완성도\n",
+    "created_at": "2024-05-22T23:05:29.522Z",
+    "updated_at": "2024-05-22T23:05:29.522Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 103,
+  "fields": {
+    "movie": 2478,
+    "author": 1,
+    "content": "감동적이고 출연배우분들의 연기가 좋아요\n",
+    "created_at": "2024-05-22T23:05:32.705Z",
+    "updated_at": "2024-05-22T23:05:32.705Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 104,
+  "fields": {
+    "movie": 2478,
+    "author": 1,
+    "content": "분명 내용이 특별하거나 반전이 있는 영화는 아닙니다. 하지만 카즈토와 마츠리가 서로를 구원하고, 구원 받는 따뜻한 영화입니다. <오늘 밤, 세상에서 이 사랑이 사라진다면>이나 <너의 췌장을 먹고 싶어>와 결은 비슷하지만 연출이나 영상미 면에서 훨씬 뛰어났습니다. 정말 잘 만든 영화입니다. 특히 배우들의 연기가 너무 뛰어나 이입이 안 되는 순간이 없었습니다. 마츠리에게 나를 대입해보기도 하면서 내 인생에 대해 생각해볼 수 있는 경험을 가질 수 있었습니다. 꼭 영화관에서 보세요!\n",
+    "created_at": "2024-05-22T23:05:37.201Z",
+    "updated_at": "2024-05-22T23:05:37.201Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 105,
+  "fields": {
+    "movie": 2478,
+    "author": 1,
+    "content": " 노잼 클리셰 덩어리 너무 진부함\n",
+    "created_at": "2024-05-22T23:05:42.289Z",
+    "updated_at": "2024-05-22T23:05:42.289Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 106,
+  "fields": {
+    "movie": 2478,
+    "author": 1,
+    "content": "잔잔하고 좋았어요.. 뻔하긴 했어도 영화에 담긴 감성과 분위기는 정말 좋았어요\n",
+    "created_at": "2024-05-22T23:05:45.232Z",
+    "updated_at": "2024-05-22T23:05:45.232Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 107,
+  "fields": {
+    "movie": 2478,
+    "author": 1,
+    "content": "뻔한이야기지만 삶의 소중함과 사랑에 감동받은영화",
+    "created_at": "2024-05-22T23:05:52.179Z",
+    "updated_at": "2024-05-22T23:05:52.179Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 108,
+  "fields": {
+    "movie": 2478,
+    "author": 1,
+    "content": "사랑하는 이의 마지막 부탁을 들었을 때, 알았어라고 우리는 답할 수 있을까... 남은 인생 동안 그 약속을 지킬 수 있을까...",
+    "created_at": "2024-05-22T23:05:54.315Z",
+    "updated_at": "2024-05-22T23:05:54.315Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 109,
+  "fields": {
+    "movie": 2479,
+    "author": 1,
+    "content": "와.. 이건 돈받고 봐도 힘들꺼 같음!첨엔 화질과 화면비율에 내눈을 의심하고 전혀 연관성 없는 스토리 이거 뭐 짜집기래도 제대로 하던가!!! 어린이날이라고 예매한 내가 한심스러움.한줄평 : 돈과 시간 추억을 동시에 박살내는 역작!\n",
+    "created_at": "2024-05-22T23:06:37.506Z",
+    "updated_at": "2024-05-22T23:06:37.506Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 110,
+  "fields": {
+    "movie": 2479,
+    "author": 1,
+    "content": "함께 성장한 친구 지우 안녕\n",
+    "created_at": "2024-05-22T23:06:41.617Z",
+    "updated_at": "2024-05-22T23:06:41.617Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 111,
+  "fields": {
+    "movie": 2479,
+    "author": 1,
+    "content": "영화관람비용 엄청아까움ㅋㅋㅋ티비로 배틀하는것만 틀어주는데 이걸왜 돈주고보지?느낌ㅋㅋㅋㅋ우리애도 하품하고 지루해하고 돈버리고왔음 집에서 배틀하는것만 보여줄껄ㅡㅡ 왜 다른극장판에비해 예고편이 짧은지알겠음 누가보여주더라도 헐돈아깝고 지루함 그자체임\n",
+    "created_at": "2024-05-22T23:06:45.601Z",
+    "updated_at": "2024-05-22T23:06:45.601Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 112,
+  "fields": {
+    "movie": 2479,
+    "author": 1,
+    "content": " 추억 소환하기엔 그 시절 화질,음질 고역을 이겨내야함\n",
+    "created_at": "2024-05-22T23:06:49.682Z",
+    "updated_at": "2024-05-22T23:06:49.682Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 113,
+  "fields": {
+    "movie": 2479,
+    "author": 1,
+    "content": "지금까지 아이와 본 포켓몬영화중에가장최악!화질.스토리 다 엉망 ~진심 돈주고본 내가 실수ㅜㅜ\n",
+    "created_at": "2024-05-22T23:06:52.962Z",
+    "updated_at": "2024-05-22T23:06:52.962Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 114,
+  "fields": {
+    "movie": 2479,
+    "author": 1,
+    "content": "아주 잠깐이지만...어릴적 추억을 되돌아보는 기분이었고지우, 피카츄, 웅이, 이슬이를 다시보니 왠지 반가웠네요..ㅋㅋ\n",
+    "created_at": "2024-05-22T23:06:57.009Z",
+    "updated_at": "2024-05-22T23:06:57.009Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 115,
+  "fields": {
+    "movie": 2479,
+    "author": 1,
+    "content": " 전개도.. 없고 성의없는 스토리구성.. 뭐죠?\n",
+    "created_at": "2024-05-22T23:07:00.682Z",
+    "updated_at": "2024-05-22T23:07:00.682Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 116,
+  "fields": {
+    "movie": 2479,
+    "author": 1,
+    "content": " 이거 왜 봤냐 나 자신 돈날리고 시간 날리고 화질 쌍팔년이네그리고 감상포인트 선택하기 싫은데왜 선택안하면 등록못함\n",
+    "created_at": "2024-05-22T23:07:03.961Z",
+    "updated_at": "2024-05-22T23:07:03.961Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 117,
+  "fields": {
+    "movie": 2479,
+    "author": 1,
+    "content": "최종장이라기엔 주요장면이 좀 빠진듯\n",
+    "created_at": "2024-05-22T23:07:06.530Z",
+    "updated_at": "2024-05-22T23:07:06.530Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 118,
+  "fields": {
+    "movie": 2479,
+    "author": 1,
+    "content": " 추억용으로 보긴 했는데 애당초 티비방영했었으면 좋았을걸 싶은\n",
+    "created_at": "2024-05-22T23:07:09.793Z",
+    "updated_at": "2024-05-22T23:07:09.793Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 119,
+  "fields": {
+    "movie": 2479,
+    "author": 1,
+    "content": " 이럴거면 정식 극장판이라도 만들어주지\n",
+    "created_at": "2024-05-22T23:07:12.473Z",
+    "updated_at": "2024-05-22T23:07:12.473Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 120,
+  "fields": {
+    "movie": 2479,
+    "author": 1,
+    "content": " 추억 회상에는 좋았지만 짜깁기는 역시나 아쉽네요.\n",
+    "created_at": "2024-05-22T23:07:15.051Z",
+    "updated_at": "2024-05-22T23:07:15.051Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 121,
+  "fields": {
+    "movie": 2479,
+    "author": 1,
+    "content": " 끝까지 안 보고 나왔습니다\n",
+    "created_at": "2024-05-22T23:07:17.682Z",
+    "updated_at": "2024-05-22T23:07:17.682Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 122,
+  "fields": {
+    "movie": 2479,
+    "author": 1,
+    "content": "무인편 좋아했던 사람들은 눈물나는데 아니면 이게 뭐임... 하고 나올 법함 그냥 정말 그때 그 시절의 포켓몬 팬들을 위한 편집본 영화 지우는 그렇다쳐도 히로인들이나 바람이 성우는 맞춰주지 싶은 아쉬움이 남는다\n",
+    "created_at": "2024-05-22T23:07:22.186Z",
+    "updated_at": "2024-05-22T23:07:22.186Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 123,
+  "fields": {
+    "movie": 2479,
+    "author": 1,
+    "content": "미공개 에피소드를 공개해주는건 좋은데, 굳이 극장이었어야 했을까?\n",
+    "created_at": "2024-05-22T23:07:26.105Z",
+    "updated_at": "2024-05-22T23:07:26.105Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 124,
+  "fields": {
+    "movie": 2479,
+    "author": 1,
+    "content": " 굿.굿.굿.굿.굿.",
+    "created_at": "2024-05-22T23:07:31.993Z",
+    "updated_at": "2024-05-22T23:07:31.993Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 125,
+  "fields": {
+    "movie": 2479,
+    "author": 1,
+    "content": " 혹평들 보고 걸렀으면 많이 아쉬울 뻔한 영화였습니다. 옛날 포켓몬 애니를 챙겨본 사람이 아닌데도 찡한 부분이 있더라고요. 그시절 화면비와 화질을 지금 극장에서 추억 여행할 수 있어서 아주 좋았습니다.\n",
+    "created_at": "2024-05-22T23:07:34.505Z",
+    "updated_at": "2024-05-22T23:07:34.506Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 126,
+  "fields": {
+    "movie": 2479,
+    "author": 1,
+    "content": " 구우웃구우웃구우우웃",
+    "created_at": "2024-05-22T23:07:37.089Z",
+    "updated_at": "2024-05-22T23:07:37.089Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 127,
+  "fields": {
+    "movie": 2479,
+    "author": 1,
+    "content": "조카들이 재밌게 보긴했음\n",
+    "created_at": "2024-05-22T23:07:40.633Z",
+    "updated_at": "2024-05-22T23:07:40.633Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 128,
+  "fields": {
+    "movie": 2479,
+    "author": 1,
+    "content": "과거로 돌아간듯한 기분이 드는 포켓몬스터\n",
+    "created_at": "2024-05-22T23:07:46.384Z",
+    "updated_at": "2024-05-22T23:07:46.384Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 129,
+  "fields": {
+    "movie": 2480,
+    "author": 1,
+    "content": "엄마 손 꼭 잡고 봤습니다. 최고의 효도 영화\n",
+    "created_at": "2024-05-22T23:08:06.458Z",
+    "updated_at": "2024-05-22T23:08:06.459Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 130,
+  "fields": {
+    "movie": 2480,
+    "author": 1,
+    "content": "끝까지 몰입감있게 잘 만들었는데 후반부에 제가 뭘 본건지 어질어질 하네요. 그래도 오컬트 장르 좋아하시는 분들에게 추천합니다\n",
+    "created_at": "2024-05-22T23:08:09.369Z",
+    "updated_at": "2024-05-22T23:08:09.369Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 131,
+  "fields": {
+    "movie": 2480,
+    "author": 1,
+    "content": " 70년대 토크쇼 형식을 빌려 오컬트를 영리하게 풀어낸다\n",
+    "created_at": "2024-05-22T23:08:13.609Z",
+    "updated_at": "2024-05-22T23:08:13.609Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 132,
+  "fields": {
+    "movie": 2480,
+    "author": 1,
+    "content": "악마와 함께하는 토크쇼 그러나 그 악마가 누구인지는 생각해 볼 문제\n",
+    "created_at": "2024-05-22T23:08:17.098Z",
+    "updated_at": "2024-05-22T23:08:17.098Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 133,
+  "fields": {
+    "movie": 2480,
+    "author": 1,
+    "content": "놀람포인트가 예상치 못한 곳에서 나와 쫄깃하다.\n",
+    "created_at": "2024-05-22T23:08:19.851Z",
+    "updated_at": "2024-05-22T23:08:19.851Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 134,
+  "fields": {
+    "movie": 2480,
+    "author": 1,
+    "content": "상영관에서 코고시는 분이 있어 정말 집에서 티비로 토크쇼보는 기분으로 봤어요.. 참 별난 영화. 딱히 무섭지도 않은데 분위기 잡기는 1등이었던 영화.\n",
+    "created_at": "2024-05-22T23:08:23.225Z",
+    "updated_at": "2024-05-22T23:08:23.225Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 135,
+  "fields": {
+    "movie": 2480,
+    "author": 1,
+    "content": "훌륭한 연기 연출 70년대에 맞춘 분위기까지 좋았습니다 다만 호불호는 확실할거같네요\n",
+    "created_at": "2024-05-22T23:08:25.561Z",
+    "updated_at": "2024-05-22T23:08:25.561Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 136,
+  "fields": {
+    "movie": 2480,
+    "author": 1,
+    "content": "중간중간 광고타임은 왜 이렇게 많을까.\n",
+    "created_at": "2024-05-22T23:08:28.652Z",
+    "updated_at": "2024-05-22T23:08:28.652Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 137,
+  "fields": {
+    "movie": 2480,
+    "author": 1,
+    "content": "연출 좋았다 러닝타임을 더 늘렸으면 어땟을까\n",
+    "created_at": "2024-05-22T23:08:31.555Z",
+    "updated_at": "2024-05-22T23:08:31.555Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 138,
+  "fields": {
+    "movie": 2480,
+    "author": 1,
+    "content": "생각보다 강하게 나온 이야기.\n",
+    "created_at": "2024-05-22T23:08:34.290Z",
+    "updated_at": "2024-05-22T23:08:34.290Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 139,
+  "fields": {
+    "movie": 2480,
+    "author": 1,
+    "content": "정말 이렇게 만족감이 높은 공포영화는 오랫만입니다!!완전 강추!!개인적으로 두번보면 떡밥 횟수하고 이해하는 재미가 완전할 것 같아서 2회차도 생각중이에요!! 엔딩의 여운이 엄청나네요!\n",
+    "created_at": "2024-05-22T23:08:37.754Z",
+    "updated_at": "2024-05-22T23:08:37.754Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 140,
+  "fields": {
+    "movie": 2480,
+    "author": 1,
+    "content": "헐(진짜 다 보고 한 말)\n",
+    "created_at": "2024-05-22T23:08:41.369Z",
+    "updated_at": "2024-05-22T23:08:41.369Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 141,
+  "fields": {
+    "movie": 2480,
+    "author": 1,
+    "content": " 신선한 공포영화는 언제나 환영!\n",
+    "created_at": "2024-05-22T23:08:44.986Z",
+    "updated_at": "2024-05-22T23:08:44.986Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 142,
+  "fields": {
+    "movie": 2480,
+    "author": 1,
+    "content": "지금까지 보기 힘들었던 스타일의 호러영화.\n",
+    "created_at": "2024-05-22T23:08:47.666Z",
+    "updated_at": "2024-05-22T23:08:47.666Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 143,
+  "fields": {
+    "movie": 2480,
+    "author": 1,
+    "content": "좀 더 막나갔으면 더 재밌었을듯",
+    "created_at": "2024-05-22T23:08:52.930Z",
+    "updated_at": "2024-05-22T23:08:52.930Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 144,
+  "fields": {
+    "movie": 2480,
+    "author": 1,
+    "content": "70년대 토크쇼 세트장에 오컬트 장르를 대입시켜 롤러코스터처럼 시원하게 달린다.\n",
+    "created_at": "2024-05-22T23:08:55.003Z",
+    "updated_at": "2024-05-22T23:08:55.003Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 145,
+  "fields": {
+    "movie": 2480,
+    "author": 1,
+    "content": " 진짜 재미있게 봤습니다 악마와의 토크쇼 n차 해야겠어요\n",
+    "created_at": "2024-05-22T23:08:57.306Z",
+    "updated_at": "2024-05-22T23:08:57.306Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 146,
+  "fields": {
+    "movie": 2480,
+    "author": 1,
+    "content": " 토크쇼를 보고 나니 시청률이 왜 떨어졌는지 알 것 같다\n",
+    "created_at": "2024-05-22T23:09:00.273Z",
+    "updated_at": "2024-05-22T23:09:00.273Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 147,
+  "fields": {
+    "movie": 2480,
+    "author": 1,
+    "content": " 실제 토크쇼를 보는 듯한 느낌은 좋았으나 기대한거 치고는 너무 밍숭맹숭함\n",
+    "created_at": "2024-05-22T23:09:06.769Z",
+    "updated_at": "2024-05-22T23:09:06.769Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 148,
+  "fields": {
+    "movie": 2480,
+    "author": 1,
+    "content": "이야기 전개는 독특하지만 B급감성에 고어함 때문에 호불호 엄청 갈릴듯\n",
+    "created_at": "2024-05-22T23:09:09.986Z",
+    "updated_at": "2024-05-22T23:09:09.986Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 149,
+  "fields": {
+    "movie": 2025,
+    "author": 1,
+    "content": "사무라이 형님 등장하시기 전까진 재밌었음..\n",
+    "created_at": "2024-05-22T23:09:45.019Z",
+    "updated_at": "2024-05-22T23:09:45.019Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 150,
+  "fields": {
+    "movie": 2025,
+    "author": 1,
+    "content": "죽어서도 끊나지 않은 영혼의 한일전\n",
+    "created_at": "2024-05-22T23:09:47.762Z",
+    "updated_at": "2024-05-22T23:09:47.762Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 151,
+  "fields": {
+    "movie": 2025,
+    "author": 1,
+    "content": "극장에서 떠들고 휴대폰 불빛쏘는 것들을 저 묫자리에 파묻고 싶다\n",
+    "created_at": "2024-05-22T23:09:52.377Z",
+    "updated_at": "2024-05-22T23:09:52.377Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 152,
+  "fields": {
+    "movie": 2025,
+    "author": 1,
+    "content": " 초중반의 꽤 높은몰입도, 후반으로 갈 수록 산으로 가는 전개\n",
+    "created_at": "2024-05-22T23:09:57.634Z",
+    "updated_at": "2024-05-22T23:09:57.634Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 153,
+  "fields": {
+    "movie": 2025,
+    "author": 1,
+    "content": " 배우들 연기가 진짜 미쳤음!! 특히 김고은 연기... 와 선배 배우들이 왜 칭찬했는지 알거 같음\n",
+    "created_at": "2024-05-22T23:10:01.219Z",
+    "updated_at": "2024-05-22T23:10:01.219Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 154,
+  "fields": {
+    "movie": 2025,
+    "author": 1,
+    "content": "김고은 연기 진짜 완벽함\n",
+    "created_at": "2024-05-22T23:10:03.561Z",
+    "updated_at": "2024-05-22T23:10:03.562Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 155,
+  "fields": {
+    "movie": 2025,
+    "author": 1,
+    "content": "존잼이다 오컬트 영환데 ㄹㅇ힙함 파묘 보고 김고은과 이도현을 사랑하게 됨ㅠㅠ\n",
+    "created_at": "2024-05-22T23:10:07.434Z",
+    "updated_at": "2024-05-22T23:10:07.434Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 156,
+  "fields": {
+    "movie": 2025,
+    "author": 1,
+    "content": "단순한 공포 영화가 아닙니다…!\n",
+    "created_at": "2024-05-22T23:10:10.489Z",
+    "updated_at": "2024-05-22T23:10:10.489Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 157,
+  "fields": {
+    "movie": 2025,
+    "author": 1,
+    "content": "벌써부터차기작을 기대하게만든다. 메니아층이있는 오컬트물을 대중영화까지 끌어올릴수있는 유일한감독인거같다.\n",
+    "created_at": "2024-05-22T23:10:14.442Z",
+    "updated_at": "2024-05-22T23:10:14.442Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 158,
+  "fields": {
+    "movie": 2025,
+    "author": 1,
+    "content": "연기는 잘하는데 일본산 도깨비는 선넘었지\n",
+    "created_at": "2024-05-22T23:10:17.209Z",
+    "updated_at": "2024-05-22T23:10:17.209Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 159,
+  "fields": {
+    "movie": 2025,
+    "author": 1,
+    "content": " 번호판의 1945 와 0815는 의도 하신거겠죠?앞으로 오컬트 외길 쭉 걸어주세요\n",
+    "created_at": "2024-05-22T23:10:21.442Z",
+    "updated_at": "2024-05-22T23:10:21.442Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 160,
+  "fields": {
+    "movie": 2025,
+    "author": 1,
+    "content": "갑자기 구척장신 일본무사로 주인공이 바뀜",
+    "created_at": "2024-05-22T23:10:25.154Z",
+    "updated_at": "2024-05-22T23:10:25.154Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 161,
+  "fields": {
+    "movie": 2025,
+    "author": 1,
+    "content": " 역시 믿고 보는 한국영화계에서 몇 안되는 K-오컬트 영화계의 장인! 믿고 보는 K-오컬트 영화계의 장인이 선사하는 가장 압도적이고 미친 앙상블!\n",
+    "created_at": "2024-05-22T23:10:28.322Z",
+    "updated_at": "2024-05-22T23:10:28.322Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 162,
+  "fields": {
+    "movie": 2025,
+    "author": 1,
+    "content": " 왜.. 후반부 진격의 거인같은 일본 장수 귀신이...하... 와닿지도 않고 무섭지도 않음. 초반에 할배귀신이 더무섭.\n",
+    "created_at": "2024-05-22T23:10:31.529Z",
+    "updated_at": "2024-05-22T23:10:31.529Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 163,
+  "fields": {
+    "movie": 2025,
+    "author": 1,
+    "content": "이렇게 평점이 높다고? 제가 이상한건가요...?ㅠㅠ 저는 어이없어서 피식피식 웃으면서 봤습니다 ㅎㅎ\n",
+    "created_at": "2024-05-22T23:10:35.610Z",
+    "updated_at": "2024-05-22T23:10:35.610Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 164,
+  "fields": {
+    "movie": 2025,
+    "author": 1,
+    "content": " 영화룰 반으로 잘라서 평가하면 전반부는 정말 잘 만들었는데 후반부는 실망스럽다 다만 그래서 후반을 어떻게 해야 하냐고 물어본다면 흠 더 나은 방법이 있을까 싶다\n",
+    "created_at": "2024-05-22T23:10:39.562Z",
+    "updated_at": "2024-05-22T23:10:39.562Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 165,
+  "fields": {
+    "movie": 2025,
+    "author": 1,
+    "content": " 이게 뭔가요...중간부터 이게 뭔가요.\n",
+    "created_at": "2024-05-22T23:10:46.938Z",
+    "updated_at": "2024-05-22T23:10:46.938Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 166,
+  "fields": {
+    "movie": 2025,
+    "author": 1,
+    "content": " 딱 중간까지는 흥미진진한 오컬트에서 갑자기...",
+    "created_at": "2024-05-22T23:10:50.171Z",
+    "updated_at": "2024-05-22T23:10:50.171Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 167,
+  "fields": {
+    "movie": 2025,
+    "author": 1,
+    "content": " 첫느낌과 전반부는 몰입과 흡입력 너무 좋았습니다.그런데!! 사무라이 등잔씬부터는 영구와땡칠이를 고퀄리티로 만든듯한 느낌적인 느낌이었습니다ㅜㅜ아쉽습니다...ㅜㅜ\n",
+    "created_at": "2024-05-22T23:10:55.387Z",
+    "updated_at": "2024-05-22T23:10:55.387Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 168,
+  "fields": {
+    "movie": 2025,
+    "author": 1,
+    "content": "와~ 그냥무섭기만 한것보다 의도있는연출이 기막히고 보이지않는것의공포를 넘어서는 창초적인시도가 넘 보기좋아 별다섯개박습니다 배우분들의 연기는 너무 기막히고요 조연들까지 대박입니다.\n",
+    "created_at": "2024-05-22T23:10:58.203Z",
+    "updated_at": "2024-05-22T23:10:58.203Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 169,
+  "fields": {
+    "movie": 2481,
+    "author": 1,
+    "content": "이런 영화가 범죄도시 때문에 묻히다니...\n",
+    "created_at": "2024-05-22T23:11:33.291Z",
+    "updated_at": "2024-05-22T23:11:33.291Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 170,
+  "fields": {
+    "movie": 2481,
+    "author": 1,
+    "content": " 이걸 아이맥스랑 돌비로 안틀어주고 전혀 그럴 필요 없는 영화를 아맥이랑 돌비 상영해주는 게 안믿긴다ㅡㅡ\n",
+    "created_at": "2024-05-22T23:11:35.945Z",
+    "updated_at": "2024-05-22T23:11:35.945Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 171,
+  "fields": {
+    "movie": 2481,
+    "author": 1,
+    "content": "사운드트랙이 영화랑 너무 잘 어울린다 힙함 그 자체\n",
+    "created_at": "2024-05-22T23:11:38.697Z",
+    "updated_at": "2024-05-22T23:11:38.697Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 172,
+  "fields": {
+    "movie": 2481,
+    "author": 1,
+    "content": " 이게 15세가 진짜 맞아요..!?\n",
+    "created_at": "2024-05-22T23:11:41.730Z",
+    "updated_at": "2024-05-22T23:11:41.730Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 173,
+  "fields": {
+    "movie": 2481,
+    "author": 1,
+    "content": " 과연 타시가 정말 사랑한건 누구였을까?\n",
+    "created_at": "2024-05-22T23:11:44.114Z",
+    "updated_at": "2024-05-22T23:11:44.114Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 174,
+  "fields": {
+    "movie": 2481,
+    "author": 1,
+    "content": "캐릭터에 공감이 안된다면 정상이다. 주인공 세사람도 서로를 이해 못해서 싸우니까.\n",
+    "created_at": "2024-05-22T23:11:47.426Z",
+    "updated_at": "2024-05-22T23:11:47.426Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 175,
+  "fields": {
+    "movie": 2481,
+    "author": 1,
+    "content": " 젠데이아 매력이 넘쳐 흐르는 영화. 도파민 터지는 영화. ost도 좋고 사운드도 좋아서 영화관에서 보기 좋은 영화. 이게 15금이어도 되는 건지 의문이 드는 영화.\n",
+    "created_at": "2024-05-22T23:11:50.361Z",
+    "updated_at": "2024-05-22T23:11:50.361Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 176,
+  "fields": {
+    "movie": 2481,
+    "author": 1,
+    "content": "힙하다는 말이 딱이다 재미있다\n",
+    "created_at": "2024-05-22T23:11:52.625Z",
+    "updated_at": "2024-05-22T23:11:52.625Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 177,
+  "fields": {
+    "movie": 2481,
+    "author": 1,
+    "content": " 아트가 츄러스 양 손에 들고 걸어오는데 패트릭이 의자 발로 슥 당기는거 보고 기절함\n",
+    "created_at": "2024-05-22T23:11:55.851Z",
+    "updated_at": "2024-05-22T23:11:55.851Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 179,
+  "fields": {
+    "movie": 2481,
+    "author": 1,
+    "content": "젠데이아가 위대한 쇼맨 이후 가장 매력적으로 나오는 영화\n",
+    "created_at": "2024-05-22T23:12:01.834Z",
+    "updated_at": "2024-05-22T23:12:01.834Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 180,
+  "fields": {
+    "movie": 2481,
+    "author": 1,
+    "content": " 우정이라는 단어 만든 사람 누구냐. 사랑의 관계에 서열을 두려고 만든단어같네\n",
+    "created_at": "2024-05-22T23:12:04.713Z",
+    "updated_at": "2024-05-22T23:12:04.713Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 182,
+  "fields": {
+    "movie": 2481,
+    "author": 1,
+    "content": " 복잡한 상황 속에서 결국 관계를 완성시키는 것은 테니스를 치는 둘이다.\n",
+    "created_at": "2024-05-22T23:12:10.490Z",
+    "updated_at": "2024-05-22T23:12:10.490Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 183,
+  "fields": {
+    "movie": 2481,
+    "author": 1,
+    "content": "근 몇년동안 본 영화중 가장 세련된 영화 엔딩이 겁나 매력적 ㅎㅎ 이 느낌 아는 사람만 만족 할것 같고 범죄도시4에 별5 주는 분들은이 영화에 별1줄지도 ...상영 시간이 하루 한 타임 뿐이고 범죄도시4는 온 죙일 하는군 ...\n",
+    "created_at": "2024-05-22T23:12:13.545Z",
+    "updated_at": "2024-05-22T23:12:13.545Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 184,
+  "fields": {
+    "movie": 2481,
+    "author": 1,
+    "content": " 테니스에 미친 몽상가들\n",
+    "created_at": "2024-05-22T23:12:16.914Z",
+    "updated_at": "2024-05-22T23:12:16.914Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 185,
+  "fields": {
+    "movie": 2481,
+    "author": 1,
+    "content": " 너네 둘이 사랑했으면 모두가 행복했을텐데..\n",
+    "created_at": "2024-05-22T23:12:19.249Z",
+    "updated_at": "2024-05-22T23:12:19.249Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 186,
+  "fields": {
+    "movie": 2481,
+    "author": 1,
+    "content": " 근래 봤던 영화 중 가장 섹시한 걸작\n",
+    "created_at": "2024-05-22T23:12:21.977Z",
+    "updated_at": "2024-05-22T23:12:21.977Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 189,
+  "fields": {
+    "movie": 2481,
+    "author": 1,
+    "content": "세련된 연출과 사운드 트랙 모든게 완벽했던 영화. 특히 마지막 랠리씬이 너무 좋아서 재관람하고싶다\n",
+    "created_at": "2024-05-22T23:12:30.193Z",
+    "updated_at": "2024-05-22T23:12:30.193Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 190,
+  "fields": {
+    "movie": 2481,
+    "author": 1,
+    "content": "경이로운 수준의 음악과 촬영 테크닉\n",
+    "created_at": "2024-05-22T23:13:01.449Z",
+    "updated_at": "2024-05-22T23:13:01.449Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 191,
+  "fields": {
+    "movie": 2481,
+    "author": 1,
+    "content": " 보는내내 테니스라는 스포츠를 잘 알고 봤다면 몇배는 더 재밌었겠다는 아쉬움이 남았던 영화. 경기중에 나오는 용어나 상황이 테니스를 잘 모르는 입장에서 많이 낯설어 눈치로 이해하면서 봤음. 근래 본 영화중 가장 인상적이고 완벽했던 결말과 비언어적인 표현으로 주인공들의 심리를 세련되게 잘 연출했음. 그래서 너무 힙하고 세련됬다는 느낌을 받았음.참고로 영화 보기 직전에 관람평 몇개 봤는데 이게 왜 15세냐는 평이 많아 수위가 높나보다하고 봤는데도 깜짝놀람. 예상했던 그런게 아니라서 보다가 화들짝 놀라는 사람들 꽤 될 듯.\n",
+    "created_at": "2024-05-22T23:13:13.058Z",
+    "updated_at": "2024-05-22T23:13:13.058Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 192,
+  "fields": {
+    "movie": 2481,
+    "author": 1,
+    "content": " 극장이 존재해야 하는 이유를 증명하는 영화 중 하나입니다. 꼭 극장에서 보세요. 도파민 폭발합니다\n",
+    "created_at": "2024-05-22T23:13:24.234Z",
+    "updated_at": "2024-05-22T23:13:24.234Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 193,
+  "fields": {
+    "movie": 2483,
+    "author": 1,
+    "content": " 방금 아이맥스로 봤습니다 돈 하나도 안아까움 이런게 1000만 가야지 당장보세요 퓨리오사!!! 코로나이후 대작 드디어 나옴 하 또보러가야지\n",
+    "created_at": "2024-05-22T23:14:06.555Z",
+    "updated_at": "2024-05-22T23:14:06.555Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 194,
+  "fields": {
+    "movie": 2483,
+    "author": 1,
+    "content": "9점인 이유는 매드맥스 분노의 도로가 10점이기 때문이다\n",
+    "created_at": "2024-05-22T23:14:11.562Z",
+    "updated_at": "2024-05-22T23:14:11.562Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 195,
+  "fields": {
+    "movie": 2483,
+    "author": 1,
+    "content": " 이 사막 액션이 그리웠다… 퓨리오사 매드맥스 사가를 볼 생각이 있다면 무조건 영화관에서 보시길.\n",
+    "created_at": "2024-05-22T23:14:14.377Z",
+    "updated_at": "2024-05-22T23:14:14.377Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 196,
+  "fields": {
+    "movie": 2483,
+    "author": 1,
+    "content": " 조지밀러의 머릿속을 엿본 기분이다. 감독님의 세계관과 액션 영원하길! 퓨리오사 역시 최고의 사령관.\n",
+    "created_at": "2024-05-22T23:14:17.306Z",
+    "updated_at": "2024-05-22T23:14:17.306Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 197,
+  "fields": {
+    "movie": 2483,
+    "author": 1,
+    "content": "기대하고 가도됨, 이번편도 홈런.\n",
+    "created_at": "2024-05-22T23:14:20.458Z",
+    "updated_at": "2024-05-22T23:14:20.458Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 198,
+  "fields": {
+    "movie": 2483,
+    "author": 1,
+    "content": "매드맥스 전편 극장 재개봉 할 듯\n",
+    "created_at": "2024-05-22T23:14:23.801Z",
+    "updated_at": "2024-05-22T23:14:23.801Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 199,
+  "fields": {
+    "movie": 2483,
+    "author": 1,
+    "content": " 모든걸 파괴하는 디멘터스와 그래도 미래를 만들려는 임모탄 그 사이에 퓨리오사\n",
+    "created_at": "2024-05-22T23:14:26.081Z",
+    "updated_at": "2024-05-22T23:14:26.081Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 200,
+  "fields": {
+    "movie": 2483,
+    "author": 1,
+    "content": " 연기, 서사, 액션 모두 만족합니다\n",
+    "created_at": "2024-05-22T23:14:29.052Z",
+    "updated_at": "2024-05-22T23:14:29.052Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 201,
+  "fields": {
+    "movie": 2483,
+    "author": 1,
+    "content": "인피니티 사가(saga)이후 최고의 사가(saga)\n",
+    "created_at": "2024-05-22T23:14:31.082Z",
+    "updated_at": "2024-05-22T23:14:31.082Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 202,
+  "fields": {
+    "movie": 2483,
+    "author": 1,
+    "content": " 매드맥스 세계관을 풍부하게 만들어주는 영화, 안야 연기 미쳤고 토르쉑도 잘 녹아듬.\n",
+    "created_at": "2024-05-22T23:14:34.530Z",
+    "updated_at": "2024-05-22T23:14:34.530Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 203,
+  "fields": {
+    "movie": 2483,
+    "author": 1,
+    "content": "조지밀러 감독님 만수무강하세요\n",
+    "created_at": "2024-05-22T23:14:37.346Z",
+    "updated_at": "2024-05-22T23:14:37.346Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 204,
+  "fields": {
+    "movie": 2483,
+    "author": 1,
+    "content": "보는 내내 입을 다물지 못했습니다 액션 연기 스토리 뭐 하나 빠지는 것 없이 기대한대로 명작입니다\n",
+    "created_at": "2024-05-22T23:14:40.385Z",
+    "updated_at": "2024-05-22T23:14:40.385Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 205,
+  "fields": {
+    "movie": 2483,
+    "author": 1,
+    "content": " 역시 실망시키지 않는 조지밀러 감독. 이번에도 굉장히 만족스러웠음 특히 중간중간 들어가는 롱 시퀀스 액션들의 퀄리티가 미쳤음 두번 보고싶은 화려한 영상미와 액션들의 향연\n",
+    "created_at": "2024-05-22T23:14:42.650Z",
+    "updated_at": "2024-05-22T23:14:42.650Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 206,
+  "fields": {
+    "movie": 2483,
+    "author": 1,
+    "content": " 이건 대놓고 특수 상영관 영화라서.. 돌비로 보고 나왔는데 첫회로 보길 잘했다 라는 생각이 드는 영화.이건 비싸더라도 돌비/아이맥스로 꼭 보세요! 제 영화 GOAT 리스트가 늘었네요 감독님 무병장수 기원합니다!\n",
+    "created_at": "2024-05-22T23:14:45.946Z",
+    "updated_at": "2024-05-22T23:14:45.946Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 207,
+  "fields": {
+    "movie": 2483,
+    "author": 1,
+    "content": "안야 연기도 너무 좋았고 액션도 너무 좋았습니다ㅠㅠㅠ무조건 돌비로 보세요ㅠㅠ",
+    "created_at": "2024-05-22T23:14:50.091Z",
+    "updated_at": "2024-05-22T23:14:50.091Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 208,
+  "fields": {
+    "movie": 2483,
+    "author": 1,
+    "content": " 분노의 도로 이후 9년만에 다시 제대로 미친 영화 탄생! 아드레날린이 더 솟구치는 148분!\n",
+    "created_at": "2024-05-22T23:14:53.361Z",
+    "updated_at": "2024-05-22T23:14:53.361Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 209,
+  "fields": {
+    "movie": 2483,
+    "author": 1,
+    "content": " 무조건 보세요 말이 필요없습니다\n",
+    "created_at": "2024-05-22T23:14:57.738Z",
+    "updated_at": "2024-05-22T23:14:57.738Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 210,
+  "fields": {
+    "movie": 2483,
+    "author": 1,
+    "content": "10점 만점에 10000점 영화 와.. 매드맥스1편 부터 다 봤는데 나올때마다 최고네\n",
+    "created_at": "2024-05-22T23:15:03.177Z",
+    "updated_at": "2024-05-22T23:15:03.177Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 211,
+  "fields": {
+    "movie": 2483,
+    "author": 1,
+    "content": "퓨리오사 연기 잘 했는데그래도 기존 퓨리오사가 넘사벽이었네요..매드맥스 다시 봐야겠다.",
+    "created_at": "2024-05-22T23:15:08.849Z",
+    "updated_at": "2024-05-22T23:15:08.849Z"
+  }
+},
+{
+  "model": "movie.comment",
+  "pk": 212,
+  "fields": {
+    "movie": 2483,
+    "author": 1,
+    "content": "매드맥스 사가 퓨리오사\n",
+    "created_at": "2024-05-22T23:15:12.506Z",
+    "updated_at": "2024-05-22T23:15:12.506Z"
+  }
+},
+{
+  "model": "movie.reply",
+  "pk": 10,
+  "fields": {
+    "comment": 4,
+    "author": 1,
+    "content": "test\n",
+    "created_at": "2024-05-22T01:48:56.055Z",
+    "updated_at": "2024-05-22T01:48:56.055Z"
+  }
+},
+{
+  "model": "movie.reply",
+  "pk": 11,
+  "fields": {
+    "comment": 4,
+    "author": 1,
+    "content": "test\n",
+    "created_at": "2024-05-22T01:49:05.198Z",
+    "updated_at": "2024-05-22T01:49:05.198Z"
+  }
+},
+{
+  "model": "movie.reply",
+  "pk": 27,
+  "fields": {
+    "comment": 5,
+    "author": 1,
+    "content": "굿굿굿",
+    "created_at": "2024-05-22T07:57:19.850Z",
+    "updated_at": "2024-05-22T07:57:35.346Z"
+  }
+},
+{
+  "model": "movie.reply",
+  "pk": 28,
+  "fields": {
+    "comment": 5,
+    "author": 1,
+    "content": "다 해결함ㅎㅎ",
+    "created_at": "2024-05-22T07:58:37.738Z",
+    "updated_at": "2024-05-22T07:58:41.564Z"
+  }
+},
+{
+  "model": "movie.reply",
+  "pk": 29,
+  "fields": {
+    "comment": 5,
+    "author": 1,
+    "content": "ㅎㅎㅎ",
+    "created_at": "2024-05-22T07:58:45.010Z",
+    "updated_at": "2024-05-22T07:58:45.010Z"
+  }
+},
+{
+  "model": "movie.reply",
+  "pk": 30,
+  "fields": {
+    "comment": 5,
+    "author": 1,
+    "content": "ㅎㅎㅎ",
+    "created_at": "2024-05-22T07:58:46.490Z",
+    "updated_at": "2024-05-22T07:58:46.490Z"
+  }
+},
+{
+  "model": "movie.reply",
+  "pk": 32,
+  "fields": {
+    "comment": 9,
+    "author": 1,
+    "content": "ㅎㅎㅎㅎ",
+    "created_at": "2024-05-22T08:41:47.520Z",
+    "updated_at": "2024-05-22T08:41:47.520Z"
+  }
+},
+{
+  "model": "movie.reply",
+  "pk": 33,
+  "fields": {
+    "comment": 6,
+    "author": 1,
+    "content": "왜 말을 그렇게 하세요",
+    "created_at": "2024-05-22T23:45:36.358Z",
+    "updated_at": "2024-05-22T23:45:36.359Z"
+  }
+},
+{
+  "model": "movie.reply",
+  "pk": 34,
+  "fields": {
+    "comment": 6,
+    "author": 1,
+    "content": "저는 재밌었거든요?",
+    "created_at": "2024-05-22T23:45:42.254Z",
+    "updated_at": "2024-05-22T23:45:42.254Z"
+  }
+},
+{
+  "model": "movie.reply",
+  "pk": 35,
+  "fields": {
+    "comment": 7,
+    "author": 1,
+    "content": "응 니 생각~",
+    "created_at": "2024-05-22T23:45:50.686Z",
+    "updated_at": "2024-05-22T23:45:53.841Z"
+  }
+},
+{
   "model": "movie.boxoffice",
   "pk": 3,
   "fields": {

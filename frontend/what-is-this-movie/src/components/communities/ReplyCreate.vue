@@ -1,4 +1,25 @@
 <template>
+  <v-dialog v-model="warning" width="auto">
+    <v-card
+      max-width="400"
+      :prepend-icon="mdiAlert"
+      text="댓글을 작성해주세요"
+      title="warning"
+    >
+      <template v-slot:actions>
+        <v-btn class="ms-auto" text="Ok" @click="warning = false"></v-btn>
+      </template>
+    </v-card>
+  </v-dialog>
+
+  <v-dialog v-model="editWarning" width="auto">
+    <v-card max-width="400" :prepend-icon="mdiAlert" text="300자 넘길 수 없음" title="warning">
+      <template v-slot:actions>
+        <v-btn class="ms-auto" text="Ok" @click="sliceWord"></v-btn>
+      </template>
+    </v-card>
+  </v-dialog>
+
   <v-container style="display: flex; width: 100%;">
     <v-row class="justify-space-between">
       <div style="width: 80%">
@@ -22,7 +43,7 @@
 </template>
 
 <script setup>
-import { ref } from 'vue'
+import { ref, computed } from 'vue'
 import axios from 'axios'
 import { useCounterStore } from '@/stores/userStore';
 import SvgIcon from '@jamescoyle/vue-icon'
@@ -34,7 +55,8 @@ const props = defineProps({
 })
 
 const store = useCounterStore()
-const content = ref(null)
+const content = ref('')
+const warning = ref(false)
 const emits = defineEmits(['fetch-replies'])
 
 const createReply = () => {
@@ -61,6 +83,13 @@ const createReply = () => {
   }
 }
 
+const editWarning = computed(() => {
+  return content.value.length > 300 ? true : false
+})
+
+const sliceWord = function() {
+  content.value = content.value.slice(0, 300)
+}
 </script>
 
 <style scoped>

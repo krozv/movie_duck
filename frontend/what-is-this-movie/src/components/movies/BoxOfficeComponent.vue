@@ -9,12 +9,13 @@
         v-for="boxoffice in store.boxOfficeMovies" 
         :key="boxoffice.movie[0].movie_id"
         v-slot="{ selectedClass }"
-      >
+      > 
         <v-card
           :class="['ma-4', selectedClass]"
           @click="movieDetailPage(boxoffice.movie[0].pk)"
           hover
         >
+        <span class="rank">{{ boxoffice.rank }}</span>
         <Poster 
           :poster-path="boxoffice.movie[0].poster_path"
         />
@@ -51,5 +52,13 @@ const movieDetailPage = function (moviePk) {
 </script>
 
 <style scoped>
-
+.rank {
+  position: absolute;
+  z-index: 2;
+  font-size: 12em;
+  font-family: Copperplate, fantasy;
+  line-height: 0.9;
+  padding-left: 10px;
+  text-shadow: 2px 2px rgb(187, 187, 187);
+}
 </style>

@@ -1,4 +1,4 @@
-import { ref, computed } from 'vue'
+import { ref, computed, watch } from 'vue'
 import { defineStore } from 'pinia'
 import { useRouter } from 'vue-router'
 import axios from 'axios'
@@ -89,11 +89,17 @@ export const useCounterStore = defineStore('counter', () => {
   // 로그아웃 구현
   const logout = () => {
     token.value = null
-    localStorage.removeItem("token");
-    window.localStorage.removeItem("userPk");
+    const deleteItem = ['token', 'firstActor', 'secondActor', 'firstActorMovies', 
+    'secondActorMovies', 'firstGenreMovies', 'secondGenreMovies', 'firstGenre', 
+    'secondGenre', 'likedMovies', 'likeState'
+  ]
+    deleteItem.forEach((item) => {
+      localStorage.removeItem(item)
+    })
     router.push({ name: "home" });
   };
-
+  
+  const preLiked = ref([])
   
   // 유저 정보 받아오기
   const fetchUserData = () =>{
@@ -106,7 +112,9 @@ export const useCounterStore = defineStore('counter', () => {
       }
     })
     .then((response) => {
+      // console.log(response.data)
       userData.value = response.data
+      preLiked.value = userData.value.user_liked_movie
     })
     .catch((error) => {
       console.log(error)
@@ -117,6 +125,45 @@ export const useCounterStore = defineStore('counter', () => {
     fetchUserData()
   }
   
-  const userProfile = ref(null)
-  return { userProfile, articles, API_URL, getArticles, signUp, logIn, token, isLogin, logout, userData, fetchUserData }
+  // 좋아요 관련
+  const likeStateKey = 'likeState';
+  
+  // 좋아요 상태 저장
+  const likeState = JSON.parse(localStorage.getItem(likeStateKey)) || {}
+  
+  watch(preLiked, (newVal) => {
+    if (preLiked.value) {
+      preLiked.value.forEach((movie) => {
+      likeState[movie.pk] = true;
+      saveLikeState()
+     })
+    } 
+  })
+  // 특정 영화의 좋아요 상태를 토글하는 함수
+  const toggleLike = (movieId) => {
+    // 해당 영화의 좋아요 상태를 토글
+    likeState[movieId] = !likeState[movieId];
+    // 로컬 스토리지에 업데이트된 좋아요 상태 저장
+    localStorage.setItem(likeStateKey, JSON.stringify(likeState));
+  }
+
+  // 특정 영화의 좋아요 상태를 가져오는 함수
+  const getLikeState = (movieId) => {
+    // 해당 영화의 좋아요 상태 반환
+    return likeState[movieId] || false;
+  }
+
+  const initializeLikeState = () => {
+    // 로컬 스토리지에서 좋아요 상태 초기화
+    const storedLikeState = JSON.parse(localStorage.getItem('likeState')) || {};
+    likeState = storedLikeState;
+  }
+
+  const saveLikeState = () => {
+    // 로컬 스토리지에 좋아요 상태 저장
+    localStorage.setItem('likeState', JSON.stringify(likeState));
+  }
+
+  return { articles, API_URL, getArticles, signUp, logIn, token, isLogin, logout, userData, fetchUserData,
+  toggleLike, getLikeState, initializeLikeState, saveLikeState }
 }, { persist: true })

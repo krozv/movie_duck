@@ -1,7 +1,7 @@
 <template>
     <hr>
     <div v-if="firstMovies && firstMovies.length > 0">
-        <h3><span class="bold-dark">{{ firstMovies[0]['recommend'] }}</span> {{ classification(search)}} 영화를 좋아하시네요</h3>
+        <h3><span class="bold-dark">{{ emoji[first] }}{{ firstMovies[0]['recommend'] }}</span> {{ classification(search)}} 좋아해?{{ emoji[first] }}</h3>
         <v-slide-group
             class="px-2"
             selected-class="bg-success"
@@ -27,7 +27,7 @@
     </div>
     <hr>
     <div v-if="secondMovies && secondMovies.length > 0">
-        <h3><span class="bold-dark">{{ secondMovies[0]['recommend'] }}</span> {{ classification(search)}} 영화를 추천드려요</h3>
+        <h3><span class="bold-dark">{{ emoji[second] }}{{ secondMovies[0]['recommend'] }}</span> {{ classification(search)}}를 추천드려요{{ emoji[second] }}</h3>
 
         <v-slide-group
             class="px-2"
@@ -102,6 +102,7 @@ const recommend = function (search) {
             localStorage.setItem(`second${option(search)}`, secondMovies.value[0]['recommend'])
             localStorage.setItem(`first${option(search)}Movies`, JSON.stringify(firstMovies.value))
             localStorage.setItem(`second${option(search)}Movies`, JSON.stringify(secondMovies.value))
+            saveProfile()
         })
         .catch((err) => {
             console.log(err)
@@ -118,11 +119,36 @@ const movieDetailPage = function (moviePk) {
     }
     )
 }
+
+const saveProfile = function () {
+    axios({
+        method: 'post',
+        url: `${store.API_URL}/accounts/users/profile/${userStore.userData.pk}/`,
+        headers: {
+            Authorization: `Token ${userStore.token}`
+        },
+        data: {
+            profile: localStorage.getItem('firstGenre'),
+        }
+    })
+        .then((res) => {
+            console.log(res)
+        })
+        .catch((err) => {
+            console.log(err)
+        })
+}
+
+const first = Math.floor(Math.random() * 11);
+const second = Math.floor(Math.random() * 11);
+const emoji = [
+'😎', '🤗', '😍', '😀', '🐤', '🐣', '🐹', '🐬', '🐼', '😺', '🐰'
+]
 </script>
 
 <style scoped>
 .bold-dark {
     font-weight: bold;
-    color: rgb(139, 50, 157); /* 어두운 색상 */
+    color: rgb(219, 159, 46); /* 어두운 색상 */
 }
 </style>

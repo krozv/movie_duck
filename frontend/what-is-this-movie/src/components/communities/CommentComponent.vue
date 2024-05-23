@@ -1,4 +1,5 @@
 <template>
+  
   <v-dialog v-model="deleteAlert" width="auto" @keyup.enter="[deleteAlert = false, deleteComment()]">
     <v-card max-width="400" :prepend-icon="mdiAlert" text="정말 댓글을 삭제하시겠습니까?" title="warning">
       <template v-slot:actions>
@@ -16,7 +17,9 @@
     </v-card>
   </v-dialog>
 
+  {{ comment.author.username }}
   <v-container>
+    
     <v-row>
       <div style="display: flex; width: 100%;">
         <div v-if="!editAlert" class="comment-content">
@@ -35,9 +38,9 @@
       <div v-if="!editAlert">
         <svg-icon v-tooltip:bottom="'Reply'" @click="toggleReplies" type="mdi"
           :path="mdiCommentMultipleOutline" class="mx-1"></svg-icon>
-        <svg-icon v-tooltip:bottom="'Edit'" v-if="!editAlert" @click="editAlert = true" type="mdi"
+        <svg-icon v-tooltip:bottom="'Edit'" v-if="store.userData.username == comment.author.username" @click="editAlert = true" type="mdi"
           :path="mdiCommentEditOutline" class="mx-1"></svg-icon>
-        <svg-icon v-tooltip:bottom="'Delete'" v-if="!editAlert" @click="deleteAlert = true" type="mdi"
+        <svg-icon v-tooltip:bottom="'Delete'" v-if="store.userData.username == comment.author.username" @click="deleteAlert = true" type="mdi"
           :path="mdiCommentRemoveOutline" class="mx-1"></svg-icon>
       </div>
       <div v-else>

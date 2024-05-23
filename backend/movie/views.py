@@ -46,7 +46,6 @@ def create_comment(request, movie_pk):
 def comment(request, movie_pk, comment_pk):
   # 댓글 조회(대댓글 포함)
   if request.method == 'GET':
-    print(request)
     comment = get_object_or_404(Comment, pk=comment_pk)
     serializer = CommentReplySerializer(comment)
     pprint(serializer.data)

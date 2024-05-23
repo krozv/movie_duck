@@ -12,34 +12,41 @@
     <hr>
     <div class="px-4">
     <h3>좋아요한 영화 목록</h3>
+    
     </div>
-    <v-slide-group
-        v-if="userStore.userData"
-        class="px-4 pb-4"
-        selected-class="bg-success"
-        show-arrows
-        
-    >
-        <v-slide-group-item
-            v-for="movie in userStore.userData.user_liked_movie" 
-            :key = movie.id
-            v-slot="{ isSelected }"
+    <div v-if="userStore.userData && userStore.userData.user_liked_movie.length > 0">
+        <v-slide-group
+            class="px-4 pb-4"
+            selected-class="bg-success"
+            show-arrows
             
         >
-            <v-card
-                :class="['ma-2', isSelected]"
-                hover
-                height="200"
-                weight="100"
-                @click="movieDetailPage(movie.pk)"
-            >
-                <Poster
-                    :poster-path="movie.poster_path"
-                />
+            <v-slide-group-item
+                v-for="movie in userStore.userData.user_liked_movie" 
+                :key = movie.id
+                v-slot="{ isSelected }"
                 
-            </v-card>
-        </v-slide-group-item>
-    </v-slide-group>
+            >
+                <v-card
+                    :class="['ma-2', isSelected]"
+                    hover
+                    height="200"
+                    weight="100"
+                    @click="movieDetailPage(movie.pk)"
+                >
+                    <Poster
+                        :poster-path="movie.poster_path"
+                    />
+                    
+                </v-card>
+            </v-slide-group-item>
+        </v-slide-group>
+    </div>
+    <div v-else>
+        <p class="px-4 pb-4">🐥: 영화 추천을 받아볼래?
+            <v-btn size="small" rounded="xl" @click="moveRecommend">웅><</v-btn>
+        </p>
+    </div>
     </div>
 </template>
 
@@ -71,6 +78,11 @@ const movieDetailPage = function (moviePk) {
  )
 }
 
+const moveRecommend = function () {
+    router.push(
+        {name: 'recommend'}
+    )
+}
 </script>
 
 <style scoped>

@@ -87,3 +87,43 @@ def director(request):
 def like_movie(request):
   serializer = MovieListSerializer(request.user.user_liked_movie, many=True)
   return Response(serializer.data, status=status.HTTP_200_OK)
+
+@api_view(['POST'])
+@permission_classes([IsAuthenticated])
+def like(request):
+  # print(request.query_params)
+  print(request.data)
+  if request.data.get('movie_pk'):
+    movie_pk = request.data.get('movie_pk')
+    movie = Movie.objects.get(pk=movie_pk)
+    user = request.user
+    
+    if movie in user.user_liked_movie.all():
+      user.user_liked_movie.remove(movie)
+      print('t')
+      print(user.user_liked_movie.all())
+    else:
+      user.user_liked_movie.add(movie)
+      print('a')
+      print(user.user_liked_movie.all())
+    return Response({'message': '성공'}, status=status.HTTP_200_OK)
+  return Response({'error': '지원되지 않는 메서드'}, status=status.HTTP_405_METHOD_NOT_ALLOWED)
+    # if request.method == 'GET':
+    #     movie_pk = request.query_params.get('movie_pk')  # Get 'movie_pk' from query parameters
+    #     if movie_pk:
+    #         try:
+    #             movie = Movie.objects.get(pk=movie_pk)
+    #         except Movie.DoesNotExist:
+    #             return Response({'error': 'Movie not found'}, status=status.HTTP_404_NOT_FOUND)
+
+    #         user = request.user
+    #         if movie in user.user_liked_movie.all():
+    #             user.user_liked_movie.remove(movie)
+    #             message = 'Movie unliked successfully'
+    #         else:
+    #             user.user_liked_movie.add(movie)
+    #             message = 'Movie liked successfully'
+            
+    #         return Response({'message': message}, status=status.HTTP_200_OK)
+    #     else:
+    #         return Response({'error': 'movie_pk parameter is required'}, status=status.HTTP_400_BAD_REQUEST)

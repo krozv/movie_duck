@@ -1,5 +1,6 @@
 from rest_framework import serializers
 from .models import Movie, Comment, Reply, Boxoffice, Genre, Provider, Video
+from accounts.models import User
 
 class MovieListSerializer(serializers.ModelSerializer):
     class Meta:
@@ -17,12 +18,19 @@ class RecommendListSerializer(serializers.ModelSerializer):
     def get_recommend(self, obj):
         return self.context.get('recommend', 'default')
 
+class UserCommentSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = User
+        fields = ['username']
+        
 class CommentSerializer(serializers.ModelSerializer):
+    author = UserCommentSerializer(read_only=True)
     class Meta:
         model = Comment
         fields = '__all__'
 
 class ReplySerializer(serializers.ModelSerializer):
+    author = UserCommentSerializer(read_only=True)
     class Meta:
         model = Reply
         fields = '__all__'
@@ -48,7 +56,10 @@ class MovieSerializer(serializers.ModelSerializer):
         fields = '__all__'
 
 # comment serializer
+
+        
 class CommentReplySerializer(serializers.ModelSerializer):
+    
     replies = ReplySerializer(many=True, read_only=True)
     class Meta:
         model = Comment

@@ -189,8 +189,8 @@ def sentiment_predict(new_sentence):
   pad_new = pad_sequences(encoded, maxlen = max_len) # 패딩
   score = loaded_model.predict(pad_new)[0] # 배열에서 하나의 값만 추출하여 할당
   score = float(score) # 추출한 값을 스칼라로 변환
-  if(score > 0.5):
-    print("{:.2f}% 확률로 긍정 리뷰입니다.\n".format(score * 100))
-  else:
-    print("{:.2f}% 확률로 부정 리뷰입니다.\n".format((1 - score) * 100))
+  # if(score > 0.5):
+  #   print("{:.2f}% 확률로 긍정 리뷰입니다.\n".format(score * 100))
+  # else:
+  #   print("{:.2f}% 확률로 부정 리뷰입니다.\n".format((1 - score) * 100))
   return {'score': score}

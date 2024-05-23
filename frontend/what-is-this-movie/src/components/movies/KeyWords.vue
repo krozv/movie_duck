@@ -12,7 +12,6 @@
           ></v-chip>
         </v-chip-group>
     </div>
-    <p v-else>Loading...</p>
 </template>
 
 <script setup>

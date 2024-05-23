@@ -3,10 +3,10 @@ from django.http import JsonResponse
 from rest_framework.views import APIView
 from rest_framework.permissions import IsAuthenticated
 from rest_framework.authtoken.models import Token
-from rest_framework.generics import RetrieveAPIView
 from . serializers import UserSerializer
 from rest_framework.response import Response
 from rest_framework import status
+from django.shortcuts import get_object_or_404
 
 User = get_user_model()
 
@@ -31,24 +31,17 @@ class UserListView(APIView):
         return Response(serializer.data, status=status.HTTP_200_OK)
         
 
-
-
-# from allauth.socialaccount.providers.google.views import GoogleOAuth2Adapter
-# from allauth.socialaccount.providers.oauth2.client import OAuth2Client
-# from dj_rest_auth.registration.views import SocialLoginView
-
-# class GoogleLogin(SocialLoginView): # if you want to use Authorization Code Grant, use this
-#     adapter_class = GoogleOAuth2Adapter
-#     callback_url = CALLBACK_URL_YOU_SET_ON_GOOGLE
-#     client_class = OAuth2Client
-
-# class GoogleLogin(SocialLoginView): # if you want to use Implicit Grant, use this
-#     adapter_class = GoogleOAuth2Adapter
-
-# from allauth.socialaccount.providers.github.views import GitHubOAuth2Adapter
-# from allauth.socialaccount.providers.oauth2.client import OAuth2Client
-
-# class GitHubLogin(SocialLoginView):
-#     adapter_class = GitHubOAuth2Adapter
-#     callback_url = CALLBACK_URL_YOU_SET_ON_GITHUB
-#     client_class = OAuth2Client
+class UserProfileview(APIView):
+    permission_classes = [IsAuthenticated]
+    
+    def post(self, request, user_pk, **kwargs):
+        User = get_user_model()
+        user = get_object_or_404(User, pk=user_pk)
+        # 'profile' 필드를 직접 저장하는 경우, 이는 User 모델에 'profile' 필드가 있어야 합니다.
+        # 또한, request.data.get('profile')가 올바른 형식이어야 합니다.
+        if request.data.get('profile'):
+            user.user_profile = request.data.get('profile')
+            user.save()
+            return Response({'message':'성공'}, status=status.HTTP_200_OK)
+        else:
+            return Response({'error': '프로필 정보가 필요합니다.'}, status=status.HTTP_400_BAD_REQUEST)

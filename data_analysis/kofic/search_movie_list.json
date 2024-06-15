@@ -1,0 +1,51 @@
+{
+    "movieListResult": {
+        "totCnt": 2,
+        "source": "영화진흥위원회",
+        "movieList": [
+            {
+                "movieCd": "20234675",
+                "movieNm": "파묘",
+                "movieNmEn": "Exhuma",
+                "prdtYear": "2024",
+                "openDt": "20240222",
+                "typeNm": "장편",
+                "prdtStatNm": "개봉",
+                "nationAlt": "한국",
+                "genreAlt": "미스터리,공포(호러)",
+                "repNationNm": "한국",
+                "repGenreNm": "미스터리",
+                "directors": [
+                    {
+                        "peopleNm": "장재현"
+                    }
+                ],
+                "companys": [
+                    {
+                        "companyCd": "20100103",
+                        "companyNm": "(주)쇼박스"
+                    },
+                    {
+                        "companyCd": "20124237",
+                        "companyNm": "(주)엠씨엠씨"
+                    }
+                ]
+            },
+            {
+                "movieCd": "20247608",
+                "movieNm": "파묘",
+                "movieNmEn": "At The Crack Of Dawn",
+                "prdtYear": "",
+                "openDt": "",
+                "typeNm": "단편",
+                "prdtStatNm": "기타",
+                "nationAlt": "한국",
+                "genreAlt": "드라마",
+                "repNationNm": "한국",
+                "repGenreNm": "드라마",
+                "directors": [],
+                "companys": []
+            }
+        ]
+    }
+}
